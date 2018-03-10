@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="tag" label="Rampa" icon="accesibilidad/rampa.png" />
+            <button type="tag" label="Obstáculo" icon="accesibilidad/obstaculo.png" />
+            <button type="tag" label="Semáforo aud" icon="accesibilidad/semaforo.png"/>
+        </row>
+        <row> 
+            <button type="tag" label="Acera Táctil Inicio" icon="accesibilidad/touch_inicio.png"/>
+            <button type="tag" label="Acera Táctil Fin" icon="accesibilidad/touch_fin.png"/>
+            <button type="tag" label="Baños" icon="accesibilidad/baños.png"/>
+        </row>
+        <row>
+            <button type="tag" label="-"/>
+            <button type="tag" label="-"/>
+            <button type="tag" label="-"/>
+        </row>
+    </layout>
+</layouts>
