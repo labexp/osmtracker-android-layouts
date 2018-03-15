@@ -6,6 +6,6 @@
 
 ## *Available Layouts:*
 + [Hidrantes.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/hidrantes/README.md)
-+ [Transporte público.]()
++ [Transporte público.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/transporte_publico/README.md)
 + [Accesibilidad.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/accesibilidad/README.md)
 + [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supplies/README.md)
