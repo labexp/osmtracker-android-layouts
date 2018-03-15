@@ -1,0 +1,3 @@
+<metadata>
+	<option iso = "es" name ="Hidrantes"> {Layout para el mapeo de hidrantes, con 3 posibles tipos de hidrantes y un botón para algún tipo que no se contemple en el layout.}</option>
+	<github username="labexp" repo="osmtracker-android-layouts" branch="master" />
