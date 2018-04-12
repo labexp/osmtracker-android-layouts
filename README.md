@@ -1,6 +1,5 @@
-# Index.
-+ Official repository for custom layouts to OSMTracker.
-+ Every user can push  her own custom layout.
+# OSMTracker Custom Layouts
++ This is OSMTracker's default repository for download custom layouts functionality. The layouts here hosted are created and maintained by OSMTracker community, new contributions are welcome.
 
 [Here](https://github.com/labexp/osmtracker-fork/wiki/Guide-to-create-Layouts) you can learn how contribute whit the community.
 
