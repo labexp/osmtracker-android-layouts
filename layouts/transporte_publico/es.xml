@@ -7,20 +7,20 @@
 			<button type="textnote" icon="text_32x32" />
 		</row>
 		<row>
-			<button type="tag" label="Parada de Bus - Tipo 1" icon="/icons/parada_bus_1.png" />
-			<button type="tag" label="Parada de Bus - Tipo 2" icon="/icons/parada_bus_2.png" />
-			<button type="tag" label="Parada de Bus - Tipo 3" icon="/icons/parada_bus_3.png" />
+			<button type="tag" label="Parada de Bus - Tipo 1" icon="/transporte_publico/parada_bus_1.png" />
+			<button type="tag" label="Parada de Bus - Tipo 2" icon="/transporte_publico/parada_bus_2.png" />
+			<button type="tag" label="Parada de Bus - Tipo 3" icon="/transporte_publico/parada_bus_3.png" />
 		</row>
 		<row>
-			<button type="tag" label="Terminal de buses" icon="/icons/bus_terminal.png" />
-			<button type="tag" label="Taxis" icon="/icons/taxi.png" />
-			<button type="tag" label="Estación Tren" icon="/icons/estacion_tren.png" />
+			<button type="tag" label="Terminal de buses" icon="/transporte_publico/bus_terminal.png" />
+			<button type="tag" label="Taxis" icon="/transporte_publico/taxi.png" />
+			<button type="tag" label="Estación Tren" icon="/transporte_publico/estacion_tren.png" />
 		</row>
 		<row>
-			<button type="tag" label="Alquiler Bicicletas" icon="/icons/alquiler.png" />
-			<button type="tag" label="CIclovía - Inicio" icon="/icons/ciclovia.png" />
-			<button type="tag" label="CIclovía - Fin" icon="/icons/ciclovia.png" />
-			<button type="tag" label="Parqueo Bicicleta" icon="/icons/parqueo_bici.png" />
+			<button type="tag" label="Alquiler Bicicletas" icon="/transporte_publico/alquiler.png" />
+			<button type="tag" label="CIclovía - Inicio" icon="/transporte_publico/ciclovia.png" />
+			<button type="tag" label="CIclovía - Fin" icon="/transporte_publico/ciclovia.png" />
+			<button type="tag" label="Parqueo Bicicleta" icon="/transporte_publico/parqueo_bici.png" />
 		</row>
 		
 	</layout>
