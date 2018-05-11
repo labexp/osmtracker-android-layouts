@@ -12,9 +12,9 @@
 		</row>
 		<!--Standar tag buttons for mapping different kinds of water supplies -->
 		<row>
-			<button type="tag" label="New water supply" icon="water_supply/new_water_supply.png"/>
-			<button type="tag" label="Actual used water supply" icon="water_supply/used_water_supply.png"/>
-			<button type="page" label="Contaminated water supply" icon="water_supply/contaminated_water_supply.png" targetlayout="contaminated"/>
+			<button type="tag" label="New water supply" icon="water_supply_icons/new_water_supply.png"/>
+			<button type="tag" label="Actual used water supply" icon="water_supply_icons/used_water_supply.png"/>
+			<button type="page" label="Contaminated water supply" icon="water_supply_icons/contaminated_water_supply.png" targetlayout="contaminated"/>
 		</row>
 		
 	</layout>
@@ -26,8 +26,8 @@
 			<!--Special action button to take a picture of the area-->
 			<button type="picture" icon="logo_camera"/>
 			<!--Standar tag buttons-->
-			<button type="tag" label="Signed water supply" icon="water_supply/signed.png" iconpos="top"/>
-			<button type="tag" label="Unsigned water supply" icon="water_supply/unsigned.png" iconpos="top"/>
+			<button type="tag" label="Signed water supply" icon="water_supply_icons/signed.png" iconpos="top"/>
+			<button type="tag" label="Unsigned water supply" icon="water_supply_icons/unsigned.png" iconpos="top"/>
 		</row>
 		
 	</layout>
