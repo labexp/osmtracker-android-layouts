@@ -10,9 +10,9 @@
 		</row>
 		<!--Botones estándares para mapear pozos de agua -->
 		<row>
-			<button type="tag" label="Nuevo pozo de agua" icon="water_supply/new_water_supply.png"/>
-			<button type="tag" label="Pozo de agua en uso" icon="water_supply/used_water_supply.png"/>
-			<button type="page" label="Pozo de agua contaminado" icon="water_supply/contaminated_water_supply.png" targetlayout="contaminated"/>
+			<button type="tag" label="Nuevo pozo de agua" icon="water_supply_icons/new_water_supply.png"/>
+			<button type="tag" label="Pozo de agua en uso" icon="water_supply_icons/used_water_supply.png"/>
+			<button type="page" label="Pozo de agua contaminado" icon="water_supply_icons/contaminated_water_supply.png" targetlayout="contaminated"/>
 		</row>
 		
 	</layout>
@@ -24,8 +24,8 @@
 			<!--Special action button to take a picture of the area-->
 			<button type="picture" icon="logo_camera"/>
 			<!--Standar tag buttons-->
-			<button type="tag" label="Pozo rotulado" icon="water_supply/signed.png" iconpos="top"/>
-			<button type="tag" label="Pozo sin rotular" icon="water_supply/unsigned.png" iconpos="top"/>
+			<button type="tag" label="Pozo rotulado" icon="water_supply_icons/signed.png" iconpos="top"/>
+			<button type="tag" label="Pozo sin rotular" icon="water_supply_icons/unsigned.png" iconpos="top"/>
 		</row>
 		
 	</layout>
