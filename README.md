@@ -8,4 +8,4 @@ This is OSMTracker's default repository for download custom layouts functionalit
 + [Hidrantes.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/hidrantes/README.md)
 + [Transporte público.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/transporte_publico/README.md)
 + [Accesibilidad.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/accesibilidad/README.md)
-+ [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supplies/README.md)
++ [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supply/README.md)
