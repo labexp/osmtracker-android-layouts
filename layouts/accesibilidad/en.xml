@@ -2,14 +2,14 @@
 <layouts>
     <layout name="root">
         <row>
-            <button type="tag" label="Ramp" icon="accesibilidad/rampa.png" />
-            <button type="tag" label="Obstacle" icon="accesibilidad/obstaculo.png" />
-            <button type="tag" label="Aud Traffic Light" icon="accesibilidad/semaforo.png"/>
+            <button type="tag" label="Ramp" icon="accesibilidad_icons/rampa.png" />
+            <button type="tag" label="Obstacle" icon="accesibilidad_icons/obstaculo.png" />
+            <button type="tag" label="Aud Traffic Light" icon="accesibilidad_icons/semaforo.png"/>
         </row>
         <row> 
-            <button type="tag" label="Tactile Sidewalk Start" icon="accesibilidad/touch_inicio.png"/>
-            <button type="tag" label="Tactile Sidewalk End" icon="accesibilidad/touch_fin.png"/>
-            <button type="tag" label="Bathrooms" icon="accesibilidad/baños.png"/>
+            <button type="tag" label="Tactile Sidewalk Start" icon="accesibilidad_icons/touch_inicio.png"/>
+            <button type="tag" label="Tactile Sidewalk End" icon="accesibilidad_icons/touch_fin.png"/>
+            <button type="tag" label="Bathrooms" icon="accesibilidad_icons/baños.png"/>
         </row>
         <row>
             <button type="tag" label="-"/>
