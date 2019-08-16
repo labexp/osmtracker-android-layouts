@@ -11,8 +11,8 @@
    <row>
    <!-- "link" to 3 sub pages -->
    <button type="page" label="Looks like" icon="walk_ride_detailed_icons/button_way.png" targetlayout="physical" />
-   <button type="page" label="Designation" icon="button_restriction.png" targetlayout="designation" />
-   <button type="page" label="Surface" icon="button_track_track.png" targetlayout="surface" />
+   <button type="page" label="Designation" icon="walk_ride_detailed_icons/button_amenity_library.png" targetlayout="designation" />
+   <button type="page" label="Surface" icon="walk_ride_detailed_icons/button_landuse.png" targetlayout="surface" />
   </row>
   <row>
    <!-- "link" to 3 sub pages -->
