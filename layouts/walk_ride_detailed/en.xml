@@ -38,21 +38,21 @@
  <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="footway" icon="button_restriction.png" />
- <button type="tag" label="bridleway" icon="button_restriction.png" />
- <button type="tag" label="cycleway" icon="button_restriction.png" />
+ <button type="tag" label="footway" icon="walk_ride_detailed_icons/button_track_pedestrian.png" />
+ <button type="tag" label="bridleway" icon="walk_ride_detailed_icons/button_track_bridleway.png" />
+ <button type="tag" label="cycleway" icon="walk_ride_detailed_icons/button_track_cycleway.png" />
  </row>
  <row>
- <button type="tag" label="track" icon="button_restriction.png" />
- <button type="tag" label="path" icon="button_restriction.png" />
- <button type="tag" label="road" icon="button_restriction.png" />
- <button type="tag" label="service" icon="button_restriction.png" />
+ <button type="tag" label="track" icon="walk_ride_detailed_icons/button_track_grade1.png" />
+ <button type="tag" label="path" icon="walk_ride_detailed_icons/button_track_footway.png" />
+ <button type="tag" label="road" icon="walk_ride_detailed_icons/button_way_residential.png" />
+ <button type="tag" label="service" icon="walk_ride_detailed_icons/button_way_service.png" />
  </row>
  <row>
- <button type="tag" label="steps" icon="button_restriction.png" />
- <button type="tag" label="bridge" icon="button_restriction.png" />
- <button type="tag" label="ford" icon="button_restriction.png" />
- <button type="tag" label="tunnel" icon="button_restriction.png" />
+ <button type="tag" label="steps" icon="walk_ride_detailed_icons/button_track_steps.png" />
+ <button type="tag" label="bridge" icon="walk_ride_detailed_icons/button_way_bridge.png" />
+ <button type="tag" label="ford" icon="walk_ride_detailed_icons/button_car.png" />
+ <button type="tag" label="tunnel" icon="walk_ride_detailed_icons/record_grey.png" />
  </row>
   </layout>
 
@@ -93,22 +93,22 @@
  <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="asphalt" icon="button_restriction.png" />
- <button type="tag" label="boardwalk" icon="button_restriction.png" />
- <button type="tag" label="brick" icon="button_restriction_one_way.png" />
- <button type="tag" label="concrete" icon="button_restriction_one_way.png" />
+ <button type="tag" label="Foot Y" icon="button_restriction.png" />
+ <button type="tag" label="Foot N" icon="button_restriction.png" />
+ <button type="tag" label="Bike Y" icon="button_restriction_one_way.png" />
+ <button type="tag" label="Bike N" icon="button_restriction_one_way.png" />
  </row>
  <row>
- <button type="tag" label="grass" icon="button_restriction.png" />
- <button type="tag" label="gravel" icon="button_car_speed_camera.png" />
- <button type="tag" label="ground" icon="button_restriction.png" />
- <button type="tag" label="mud" icon="button_restriction.png" />
+ <button type="tag" label="Horse Y" icon="button_restriction.png" />
+ <button type="tag" label="Horse N" icon="button_car_speed_camera.png" />
+ <button type="tag" label="Mcycle Y" icon="button_restriction.png" />
+ <button type="tag" label="Mcycle N" icon="button_restriction.png" />
  </row>
  <row>
- <button type="tag" label="ploughed" icon="button_restriction.png" />
- <button type="tag" label="paved" icon="button_restriction.png" />
- <button type="tag" label="stepping_stones" icon="button_restriction.png" />
- <button type="tag" label="wood" icon="button_restriction.png" />
+ <button type="tag" label="Car Y" icon="button_restriction.png" />
+ <button type="tag" label="Car N" icon="button_restriction.png" />
+ <button type="tag" label="Coach Y" icon="button_restriction.png" />
+ <button type="tag" label="Coach N" icon="button_restriction.png" />
  </row>
   </layout>
   <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
