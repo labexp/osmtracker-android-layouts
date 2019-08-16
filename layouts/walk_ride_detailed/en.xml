@@ -12,20 +12,20 @@
    <!-- "link" to 3 sub pages -->
    <button type="page" label="Looks like" icon="walk_ride_detailed_icons/button_way.png" targetlayout="physical" />
    <button type="page" label="Designation" icon="walk_ride_detailed_icons/button_amenity_library.png" targetlayout="designation" />
-   <button type="page" label="Access" icon="button_track_track.png" targetlayout="access" />
+   <button type="page" label="Access" icon="walk_ride_detailed_icons/button_restriction.png" targetlayout="access" />
   </row>
   <row>
    <!-- "link" to 3 sub pages -->
-   <button type="page" label="Barrier" icon="button_track_track.png" targetlayout="barrier" />
-   <button type="page" label="Dog and Lit" icon="button_restriction.svg" targetlayout="lit and dog" />
-   <button type="page" label="Width" icon="button_restriction.svg" targetlayout="width" />
+   <button type="page" label="Barrier" icon="walk_ride_detailed_icons/bollard.png" targetlayout="barrier" />
+   <button type="page" label="Dog and Lit" icon="walk_ride_detailed_icons/dog.png" targetlayout="lit and dog" />
+   <button type="page" label="Width" icon="walk_ride_detailed_icons/maxwidth.svg" targetlayout="width" />
   </row>  
   <row>
    <!-- "link" to 4 sub pages -->
-   <button type="page" label="Surface" icon="walk_ride_detailed_icons/button_landuse.png" targetlayout="surface" />
-   <button type="page" label="Wheelchair and Tracktype" icon="button_restriction.svg" targetlayout="tracktype" />
-   <button type="page" label="Smoothness" icon="button_restriction.svg" targetlayout="smoothness" />
-   <button type="page" label="Errors" icon="button_restriction.svg" targetlayout="errors" />
+   <button type="page" label="Surface" icon="walk_ride_detailed_icons/forest.png" targetlayout="surface" />
+   <button type="page" label="Wheelchair and Tracktype" icon="walk_ride_detailed_icons/handicapped.png" targetlayout="tracktype" />
+   <button type="page" label="Smoothness" icon="walk_ride_detailed_icons/cycling.png" targetlayout="smoothness" />
+   <button type="page" label="Errors" icon="walk_ride_detailed_icons/deprecated.png" targetlayout="errors" />
   </row>
  </layout>
 
