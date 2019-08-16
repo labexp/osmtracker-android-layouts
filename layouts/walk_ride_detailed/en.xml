@@ -16,16 +16,16 @@
   </row>
   <row>
    <!-- "link" to 4 sub pages -->
-   <button type="page" label="Barrier" icon="walk_ride_detailed_icons/bollard.png" targetlayout="barrier" />
-   <button type="page" label="Dog and Lit" icon="walk_ride_detailed_icons/dog.png" targetlayout="lit and dog" />
-   <button type="page" label="Width" icon="walk_ride_detailed_icons/maxwidth.svg" targetlayout="width" />
-   <button type="page" label="Errors" icon="walk_ride_detailed_icons/deprecated.png" targetlayout="errors" />
+   <button type="page" label="Barrier" icon="walk_ride_detailed_icons/button_misc_bollard.png" targetlayout="barrier" />
+   <button type="page" label="Various" icon="walk_ride_detailed_icons/button_tourism_monument.png" targetlayout="various" />
+   <button type="page" label="Width" icon="walk_ride_detailed_icons/button_tourism_cinema.png" targetlayout="width" />
+   <button type="page" label="Errors" icon="walk_ride_detailed_icons/theme_highcontrast_btn_pressed.9.png" targetlayout="errors" />
   </row>  
   <row>
    <!-- "link" to 3 sub pages -->
-   <button type="page" label="Surface" icon="walk_ride_detailed_icons/forest.png" targetlayout="surface" />
-   <button type="page" label="Wheelchair and Tracktype" icon="walk_ride_detailed_icons/handicapped.png" targetlayout="tracktype" />
-   <button type="page" label="Smoothness" icon="walk_ride_detailed_icons/cycling.png" targetlayout="smoothness" />
+   <button type="page" label="Surface" icon="walk_ride_detailed_icons/button_landuse_farm.png" targetlayout="surface" />
+   <button type="page" label="Tracktype" icon="walk_ride_detailed_icons/button_track_grade3.png" targetlayout="tracktype" />
+   <button type="page" label="Smoothness" icon="walk_ride_detailed_icons/button_track.png" targetlayout="smoothness" />
   </row>
  </layout>
 
@@ -165,8 +165,8 @@
  </row>
   </layout>
   
-<!-- Lit and dog layout, will be displayed when clicking on "Lit and dog" previous defined button -->
-	<layout name="lit and dog">
+<!-- Various layout, will be displayed when clicking on "Various" previous defined button -->
+	<layout name="various">
  <row>
  <button type="voicerec" icon="voice_32x32.png" />
  <button type="picture" icon="camera_32x32.png" />
