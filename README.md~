@@ -9,4 +9,4 @@ This is OSMTracker's default repository for download custom layouts functionalit
 + [Transporte público.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/transporte_publico/README.md)
 + [Accesibilidad.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/accesibilidad/README.md)
 + [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supply/README.md)
-+ [UK walk ride.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/UK-walk-ride/readme.md)
++ [UK walk ride.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/uk_walk_ride/readme.md)
