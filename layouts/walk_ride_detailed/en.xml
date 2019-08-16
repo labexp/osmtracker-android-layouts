@@ -12,7 +12,7 @@
    <!-- "link" to 3 sub pages -->
    <button type="page" label="Looks like" icon="walk_ride_detailed_icons/button_way.png" targetlayout="physical" />
    <button type="page" label="Designation" icon="walk_ride_detailed_icons/button_amenity_library.png" targetlayout="designation" />
-   <button type="page" label="Surface" icon="walk_ride_detailed_icons/button_landuse.png" targetlayout="surface" />
+   <button type="page" label="Access" icon="button_track_track.png" targetlayout="access" />
   </row>
   <row>
    <!-- "link" to 3 sub pages -->
@@ -21,7 +21,8 @@
    <button type="page" label="Width" icon="button_restriction.svg" targetlayout="width" />
   </row>  
   <row>
-   <!-- "link" to 3 sub pages -->
+   <!-- "link" to 4 sub pages -->
+   <button type="page" label="Surface" icon="walk_ride_detailed_icons/button_landuse.png" targetlayout="surface" />
    <button type="page" label="Wheelchair and Tracktype" icon="button_restriction.svg" targetlayout="tracktype" />
    <button type="page" label="Smoothness" icon="button_restriction.svg" targetlayout="smoothness" />
    <button type="page" label="Errors" icon="button_restriction.svg" targetlayout="errors" />
@@ -51,6 +52,7 @@
  <button type="tag" label="steps" icon="button_restriction.png" />
  <button type="tag" label="bridge" icon="button_restriction.png" />
  <button type="tag" label="ford" icon="button_restriction.png" />
+ <button type="tag" label="tunnel" icon="button_restriction.png" />
  </row>
   </layout>
 
@@ -83,6 +85,32 @@
  </row>
   </layout>
   
+ <!-- Access layout, will be displayed when clicking on "Access" previous defined button -->
+	<layout name="access">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="asphalt" icon="button_restriction.png" />
+ <button type="tag" label="boardwalk" icon="button_restriction.png" />
+ <button type="tag" label="brick" icon="button_restriction_one_way.png" />
+ <button type="tag" label="concrete" icon="button_restriction_one_way.png" />
+ </row>
+ <row>
+ <button type="tag" label="grass" icon="button_restriction.png" />
+ <button type="tag" label="gravel" icon="button_car_speed_camera.png" />
+ <button type="tag" label="ground" icon="button_restriction.png" />
+ <button type="tag" label="mud" icon="button_restriction.png" />
+ </row>
+ <row>
+ <button type="tag" label="ploughed" icon="button_restriction.png" />
+ <button type="tag" label="paved" icon="button_restriction.png" />
+ <button type="tag" label="stepping_stones" icon="button_restriction.png" />
+ <button type="tag" label="wood" icon="button_restriction.png" />
+ </row>
+  </layout>
   <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
 	<layout name="surface">
  <row>
