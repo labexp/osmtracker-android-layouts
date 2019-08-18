@@ -4,28 +4,28 @@
  <layout name="root">
   <row>
    <!-- 3 special action buttons -->
-   <button type="voicerec" label="Voice record"  "voice.png" />
-   <button type="picture" label="Take picture"  "camera.png" />
-   <button type="textnote" label="Text note"  "text.png" />
+   <button type="voicerec" label="Voice record" icon="voice.png" />
+   <button type="picture" label="Take picture" icon="camera.png" />
+   <button type="textnote" label="Text note" icon="text.png" />
   </row>
    <row>
    <!-- "link" to 3 sub pages -->
-   <button type="page" label="Looks like"  "walk_ride_detailed_icons/button_way.png" targetlayout="physical" />
-   <button type="page" label="Designation"  "walk_ride_detailed_icons/button_amenity_library.png" targetlayout="designation" />
-   <button type="page" label="Access"  "walk_ride_detailed_icons/button_restriction.png" targetlayout="access" />
+   <button type="page" label="Looks like" icon="walk_ride_detailed_no-icons_icons/button_way.png" targetlayout="physical" />
+   <button type="page" label="Designation" icon="walk_ride_detailed_no-icons_icons/button_amenity_library.png" targetlayout="designation" />
+   <button type="page" label="Access" icon="walk_ride_detailed_no-icons_icons/button_restriction.png" targetlayout="access" />
   </row>
   <row>
    <!-- "link" to 4 sub pages -->
-   <button type="page" label="Barrier"  "walk_ride_detailed_icons/button_misc_bollard.png" targetlayout="barrier" />
-   <button type="page" label="Various"  "walk_ride_detailed_icons/button_tourism_monument.png" targetlayout="various" />
-   <button type="page" label="Width"  "walk_ride_detailed_icons/button_tourism_cinema.png" targetlayout="width" />
-   <button type="page" label="Errors"  "walk_ride_detailed_icons/theme_highcontrast_btn_pressed.9.png" targetlayout="errors" />
+   <button type="page" label="Barrier" icon="walk_ride_detailed_no-icons_icons/button_misc_bollard.png" targetlayout="barrier" />
+   <button type="page" label="Various" icon="walk_ride_detailed_no-icons_icons/button_tourism_monument.png" targetlayout="various" />
+   <button type="page" label="Width" icon="walk_ride_detailed_no-icons_icons/button_tourism_cinema.png" targetlayout="width" />
+   <button type="page" label="Errors" icon="walk_ride_detailed_no-icons_icons/theme_highcontrast_btn_pressed.9.png" targetlayout="errors" />
   </row>  
   <row>
    <!-- "link" to 3 sub pages -->
-   <button type="page" label="Surface"  "walk_ride_detailed_icons/button_landuse_farm.png" targetlayout="surface" />
-   <button type="page" label="Tracktype"  "walk_ride_detailed_icons/button_track_grade3.png" targetlayout="tracktype" />
-   <button type="page" label="Smoothness"  "walk_ride_detailed_icons/button_track.png" targetlayout="smoothness" />
+   <button type="page" label="Surface" icon="walk_ride_detailed_no-icons_icons/button_landuse_farm.png" targetlayout="surface" />
+   <button type="page" label="Tracktype" icon="walk_ride_detailed_no-icons_icons/button_track_grade3.png" targetlayout="tracktype" />
+   <button type="page" label="Smoothness" icon="walk_ride_detailed_no-icons_icons/button_track.png" targetlayout="smoothness" />
   </row>
  </layout>
 
@@ -33,26 +33,26 @@
 	<layout name="physical">
  <row>
    <!-- 3 special action buttons -->
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="footway"  "walk_ride_detailed_icons/button_track_pedestrian.png" />
- <button type="tag" label="bridleway"  "walk_ride_detailed_icons/button_track_bridleway.png" />
- <button type="tag" label="cycleway"  "walk_ride_detailed_icons/button_track_cycleway.png" />
+ <button type="tag" label="footway" icon="walk_ride_detailed_no-icons_icons/button_track_pedestrian.png" />
+ <button type="tag" label="bridleway" icon="walk_ride_detailed_no-icons_icons/button_track_bridleway.png" />
+ <button type="tag" label="cycleway" icon="walk_ride_detailed_no-icons_icons/button_track_cycleway.png" />
  </row>
  <row>
- <button type="tag" label="track"  "walk_ride_detailed_icons/button_track_grade1.png" />
- <button type="tag" label="path"  "walk_ride_detailed_icons/button_track_footway.png" />
- <button type="tag" label="road"  "walk_ride_detailed_icons/button_way_residential.png" />
- <button type="tag" label="service"  "walk_ride_detailed_icons/button_way_service.png" />
+ <button type="tag" label="track" icon="walk_ride_detailed_no-icons_icons/button_track_grade1.png" />
+ <button type="tag" label="path" icon="walk_ride_detailed_no-icons_icons/button_track_footway.png" />
+ <button type="tag" label="road" icon="walk_ride_detailed_no-icons_icons/button_way_residential.png" />
+ <button type="tag" label="service" icon="walk_ride_detailed_no-icons_icons/button_way_service.png" />
  </row>
  <row>
- <button type="tag" label="steps"  "walk_ride_detailed_icons/button_track_steps.png" />
- <button type="tag" label="bridge"  "walk_ride_detailed_icons/button_way_bridge.png" />
- <button type="tag" label="ford"  "walk_ride_detailed_icons/button_car.png" />
- <button type="tag" label="tunnel"  "walk_ride_detailed_icons/record_grey.png" />
+ <button type="tag" label="steps" icon="walk_ride_detailed_no-icons_icons/button_track_steps.png" />
+ <button type="tag" label="bridge" icon="walk_ride_detailed_no-icons_icons/button_way_bridge.png" />
+ <button type="tag" label="ford" icon="walk_ride_detailed_no-icons_icons/button_car.png" />
+ <button type="tag" label="tunnel" icon="walk_ride_detailed_no-icons_icons/record_grey.png" />
  </row>
   </layout>
 
@@ -60,233 +60,233 @@
 	<layout name="designation">
  <row>
    <!-- 3 special action buttons -->
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
    <!-- 4 standard tag buttons -->
-   <button type="tag" label="public_footpath"  "button_way_service.png" />
-   <button type="tag" label="public_bridleway"  "button_way_residential.png" />
-   <button type="tag" label="restricted_byway"  "button_way_residential.png" />
-   <button type="tag" label="byway_open_to_all_traffic"  "button_way_residential.png" />
+   <button type="tag" label="public_footpath" icon="button_way_service.png" />
+   <button type="tag" label="public_bridleway" icon="button_way_residential.png" />
+   <button type="tag" label="restricted_byway" icon="button_way_residential.png" />
+   <button type="tag" label="byway_open_to_all_traffic" icon="button_way_residential.png" />
  </row>
  <row>
    <!-- 4 standard tag buttons -->
- <button type="tag" label="permissive_footpath"  "button_restriction.png" />
- <button type="tag" label="permissive_bridleway"  "button_restriction.png" />
- <button type="tag" label="permissive_cycleway"  "button_restriction.png" />
+ <button type="tag" label="permissive_footpath" icon="button_restriction.png" />
+ <button type="tag" label="permissive_bridleway" icon="button_restriction.png" />
+ <button type="tag" label="permissive_cycleway" icon="button_restriction.png" />
  </row>
  <row>
-  <button type="tag" label="customers_only"  "button_restriction.png" />
-  <button type="tag" label="residents_only"  "button_restriction.png" />
-  <button type="tag" label="motor_vehicle_private"  "button_restriction.png" />
-  <button type="tag" label="access_rights_unknown"  "button_restriction.png" />
+  <button type="tag" label="customers_only" icon="button_restriction.png" />
+  <button type="tag" label="residents_only" icon="button_restriction.png" />
+  <button type="tag" label="motor_vehicle_private" icon="button_restriction.png" />
+  <button type="tag" label="access_rights_unknown" icon="button_restriction.png" />
  </row>
   </layout>
   
  <!-- Access layout, will be displayed when clicking on "Access" previous defined button -->
 	<layout name="access">
  <row>
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="Foot Y"  "button_restriction.png" />
- <button type="tag" label="Foot N"  "button_restriction.png" />
- <button type="tag" label="Bike Y"  "button_restriction_one_way.png" />
- <button type="tag" label="Bike N"  "button_restriction_one_way.png" />
+ <button type="tag" label="Foot Y" icon="button_restriction.png" />
+ <button type="tag" label="Foot N" icon="button_restriction.png" />
+ <button type="tag" label="Bike Y" icon="button_restriction_one_way.png" />
+ <button type="tag" label="Bike N" icon="button_restriction_one_way.png" />
  </row>
  <row>
- <button type="tag" label="Horse Y"  "button_restriction.png" />
- <button type="tag" label="Horse N"  "button_car_speed_camera.png" />
- <button type="tag" label="Mcycle Y"  "button_restriction.png" />
- <button type="tag" label="Mcycle N"  "button_restriction.png" />
+ <button type="tag" label="Horse Y" icon="button_restriction.png" />
+ <button type="tag" label="Horse N" icon="button_car_speed_camera.png" />
+ <button type="tag" label="Mcycle Y" icon="button_restriction.png" />
+ <button type="tag" label="Mcycle N" icon="button_restriction.png" />
  </row>
  <row>
- <button type="tag" label="Car Y"  "button_restriction.png" />
- <button type="tag" label="Car N"  "button_restriction.png" />
- <button type="tag" label="Coach Y"  "button_restriction.png" />
- <button type="tag" label="Coach N"  "button_restriction.png" />
+ <button type="tag" label="Car Y" icon="button_restriction.png" />
+ <button type="tag" label="Car N" icon="button_restriction.png" />
+ <button type="tag" label="Coach Y" icon="button_restriction.png" />
+ <button type="tag" label="Coach N" icon="button_restriction.png" />
  </row>
   </layout>
   <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
 	<layout name="surface">
  <row>
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="asphalt"  "button_restriction.png" />
- <button type="tag" label="boardwalk"  "button_restriction.png" />
- <button type="tag" label="brick"  "button_restriction_one_way.png" />
- <button type="tag" label="concrete"  "button_restriction_one_way.png" />
+ <button type="tag" label="asphalt" icon="button_restriction.png" />
+ <button type="tag" label="boardwalk" icon="button_restriction.png" />
+ <button type="tag" label="brick" icon="button_restriction_one_way.png" />
+ <button type="tag" label="concrete" icon="button_restriction_one_way.png" />
  </row>
  <row>
- <button type="tag" label="grass"  "button_restriction.png" />
- <button type="tag" label="gravel"  "button_car_speed_camera.png" />
- <button type="tag" label="ground"  "button_restriction.png" />
- <button type="tag" label="mud"  "button_restriction.png" />
+ <button type="tag" label="grass" icon="button_restriction.png" />
+ <button type="tag" label="gravel" icon="button_car_speed_camera.png" />
+ <button type="tag" label="ground" icon="button_restriction.png" />
+ <button type="tag" label="mud" icon="button_restriction.png" />
  </row>
  <row>
- <button type="tag" label="ploughed"  "button_restriction.png" />
- <button type="tag" label="paved"  "button_restriction.png" />
- <button type="tag" label="stepping_stones"  "button_restriction.png" />
- <button type="tag" label="wood"  "button_restriction.png" />
+ <button type="tag" label="ploughed" icon="button_restriction.png" />
+ <button type="tag" label="paved" icon="button_restriction.png" />
+ <button type="tag" label="stepping_stones" icon="button_restriction.png" />
+ <button type="tag" label="wood" icon="button_restriction.png" />
  </row>
   </layout>
   
     <!-- Barrier layout, will be displayed when clicking on "Barrier" previous defined button -->
 	<layout name="barrier">
  <row>
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="stile Stepover"  "button_way_service.png" />
-   <button type="tag" label="stile Squeeze"  "button_way_service.png" />
-   <button type="tag" label="Stile ladder"  "button_restriction.png" />
+   <button type="tag" label="stile Stepover" icon="button_way_service.png" />
+   <button type="tag" label="stile Squeeze" icon="button_way_service.png" />
+   <button type="tag" label="Stile ladder" icon="button_restriction.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="kissing gate"  "button_way_residential.png" />
-   <button type="tag" label="gate"  "button_way_residential.png" />
-   <button type="tag" label="6' gate"  "button_restriction.png" />
+   <button type="tag" label="kissing gate" icon="button_way_residential.png" />
+   <button type="tag" label="gate" icon="button_way_residential.png" />
+   <button type="tag" label="6' gate" icon="button_restriction.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="cycle"  "button_restriction.png" />
-   <button type="tag" label="wood"  "button_car_speed_camera.png" />
-   <button type="tag" label="metal"  "button_restriction_one_way.png" />
+   <button type="tag" label="cycle" icon="button_restriction.png" />
+   <button type="tag" label="wood" icon="button_car_speed_camera.png" />
+   <button type="tag" label="metal" icon="button_restriction_one_way.png" />
  </row>
   </layout>
   
 <!-- Various layout, will be displayed when clicking on "Various" previous defined button -->
 	<layout name="various">
  <row>
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
    <!-- 2 standard tag buttons -->
- <button type="tag" label="Lit Yes"  "button_way_service.png" />
- <button type="tag" label="Lit No"  "button_way_residential.png" />
+ <button type="tag" label="Lit Yes" icon="button_way_service.png" />
+ <button type="tag" label="Lit No" icon="button_way_residential.png" />
   </row>
 <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Dog Poo"  "walk_ride_detailed_icons/excrement_bags.png" />
- <button type="tag" label="Dog Yes"  "button_way_residential.png" />
- <button type="tag" label="Dog No"  "button_way_residential.png" />
+ <button type="tag" label="Dog Poo" icon="walk_ride_detailed_no-icons_icons/excrement_bags.png" />
+ <button type="tag" label="Dog Yes" icon="button_way_residential.png" />
+ <button type="tag" label="Dog No" icon="button_way_residential.png" />
   </row>
   </layout>
   
    <!-- Width layout, will be displayed when clicking on "Width" previous defined button -->
 	<layout name="width">
  <row>
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="width 0.5"  "button_way_service.png" />
- <button type="tag" label="width 0.75"  "button_way_residential.png" />
- <button type="tag" label="width 1"  "button_way_residential.png" />
+ <button type="tag" label="width 0.5" icon="button_way_service.png" />
+ <button type="tag" label="width 0.75" icon="button_way_residential.png" />
+ <button type="tag" label="width 1" icon="button_way_residential.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="width 1.2"  "button_way_service.png" />
- <button type="tag" label="width 1.5"  "button_way_residential.png" />
- <button type="tag" label="width 1.7"  "button_way_residential.png" />
+ <button type="tag" label="width 1.2" icon="button_way_service.png" />
+ <button type="tag" label="width 1.5" icon="button_way_residential.png" />
+ <button type="tag" label="width 1.7" icon="button_way_residential.png" />
   </row>
   <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="width 2"  "button_way_service.png" />
- <button type="tag" label="width 2.5"  "button_way_residential.png" />
- <button type="tag" label="width 3"  "button_way_residential.png" />
+ <button type="tag" label="width 2" icon="button_way_service.png" />
+ <button type="tag" label="width 2.5" icon="button_way_residential.png" />
+ <button type="tag" label="width 3" icon="button_way_residential.png" />
   </row>
   </layout>
   
  <!-- Tracktype layout, will be displayed when clicking on "Wheelchair & Tracktype" previous defined button -->
 	<layout name="tracktype">
  <row>
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
    <!-- 2 standard tag buttons -->
- <button type="tag" label="wheelchair_yes"  "button_way_service.png" />
- <button type="tag" label="wheelchair_no"  "button_way_residential.png" />
+ <button type="tag" label="wheelchair_yes" icon="button_way_service.png" />
+ <button type="tag" label="wheelchair_no" icon="button_way_residential.png" />
  </row>
  <row>
    <!-- 2 standard tag buttons -->
- <button type="tag" label="grade 1  solid or paved"  "button_way_service.png" />
- <button type="tag" label="grade 2  solid gravel"  "button_way_residential.png" />
+ <button type="tag" label="grade 1  solid or paved" icon="button_way_service.png" />
+ <button type="tag" label="grade 2  solid gravel" icon="button_way_residential.png" />
   </row>
   <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="grade 3  mostly solid"  "button_way_service.png" />
- <button type="tag" label="grade 4  mostly soft"  "button_way_residential.png" />
- <button type="tag" label="grade 5  soft"  "button_way_residential.png" />
+ <button type="tag" label="grade 3  mostly solid" icon="button_way_service.png" />
+ <button type="tag" label="grade 4  mostly soft" icon="button_way_residential.png" />
+ <button type="tag" label="grade 5  soft" icon="button_way_residential.png" />
   </row>
   </layout>
     
  <!-- Smoothness layout, will be displayed when clicking on "Smoothness" previous defined button -->
 	<layout name="smoothness">
  <row>
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="excellent  skate board"  "button_way_service.png" />
- <button type="tag" label="good  racing bike"  "button_way_residential.png" />
- <button type="tag" label="intermediate  wheelchair"  "button_way_service.png" />
+ <button type="tag" label="excellent  skate board" icon="button_way_service.png" />
+ <button type="tag" label="good  racing bike" icon="button_way_residential.png" />
+ <button type="tag" label="intermediate  wheelchair" icon="button_way_service.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="bad  robust wheels"  "button_way_residential.png" />
- <button type="tag" label="very bad  high clearance"  "button_way_residential.png" />
- <button type="tag" label="horrible  off road wheels"  "button_way_residential.png" />
+ <button type="tag" label="bad  robust wheels" icon="button_way_residential.png" />
+ <button type="tag" label="very bad  high clearance" icon="button_way_residential.png" />
+ <button type="tag" label="horrible  off road wheels" icon="button_way_residential.png" />
   </row>
   <row>
    <!-- 2 standard tag buttons -->
- <button type="tag" label="very horrible  tractor"  "button_way_residential.png" />
- <button type="tag" label="impassable"  "button_way_residential.png" />
+ <button type="tag" label="very horrible  tractor" icon="button_way_residential.png" />
+ <button type="tag" label="impassable" icon="button_way_residential.png" />
   </row>
   </layout>   
     
  <!-- Errors layout, will be displayed when clicking on "Errors" previous defined button -->
 	<layout name="errors">
  <row>
- <button type="voicerec"  "voice_32x32.png" />
- <button type="picture"  "camera_32x32.png" />
- <button type="textnote"  "text_32x32.png" />
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Wrong_way"  "button_way_service.png" />
- <button type="tag" label="Ignore_last"  "button_way_residential.png" />
- <button type="tag" label="Spare_1"  "button_way_service.png" />
+ <button type="tag" label="Wrong_way" icon="button_way_service.png" />
+ <button type="tag" label="Ignore_last" icon="button_way_residential.png" />
+ <button type="tag" label="Spare_1" icon="button_way_service.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Spare_2"  "button_way_residential.png" />
- <button type="tag" label="Spare_3"  "button_way_residential.png" />
- <button type="tag" label="Spare_4"  "button_way_residential.png" />
+ <button type="tag" label="Spare_2" icon="button_way_residential.png" />
+ <button type="tag" label="Spare_3" icon="button_way_residential.png" />
+ <button type="tag" label="Spare_4" icon="button_way_residential.png" />
   </row>
   <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Spare_5"  "button_way_residential.png" />
- <button type="tag" label="Spare_6"  "button_way_residential.png" />
- <button type="tag" label="Spare_7"  "button_way_residential.png" />
+ <button type="tag" label="Spare_5" icon="button_way_residential.png" />
+ <button type="tag" label="Spare_6" icon="button_way_residential.png" />
+ <button type="tag" label="Spare_7" icon="button_way_residential.png" />
   </row>
   </layout> 
 </layouts>
