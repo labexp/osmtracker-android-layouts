@@ -10,22 +10,22 @@
   </row>
    <row>
    <!-- "link" to 3 sub pages -->
-   <button type="page" label="Looks like" icon="walk_ride_detailed_icons_300px/button_way.png" targetlayout="physical" />
-   <button type="page" label="Designation" icon="walk_ride_detailed_icons_300px/button_amenity_library.png" targetlayout="designation" />
-   <button type="page" label="Access" icon="walk_ride_detailed_icons_300px/button_restriction.png" targetlayout="access" />
+   <button type="page" label="Looks like" icon="walk_ride_detailed_300px_icons/button_way.png" targetlayout="physical" />
+   <button type="page" label="Designation" icon="walk_ride_detailed_300px_icons/button_amenity_library.png" targetlayout="designation" />
+   <button type="page" label="Access" icon="walk_ride_detailed_300px_icons/button_restriction.png" targetlayout="access" />
   </row>
   <row>
    <!-- "link" to 4 sub pages -->
-   <button type="page" label="Barrier" icon="walk_ride_detailed_icons_300px/button_misc_bollard.png" targetlayout="barrier" />
-   <button type="page" label="Various" icon="walk_ride_detailed_icons_300px/button_tourism_monument.png" targetlayout="various" />
-   <button type="page" label="Width" icon="walk_ride_detailed_icons_300px/button_tourism_cinema.png" targetlayout="width" />
-   <button type="page" label="Errors" icon="walk_ride_detailed_icons_300px/theme_highcontrast_btn_pressed.9.png" targetlayout="errors" />
+   <button type="page" label="Barrier" icon="walk_ride_detailed_300px_icons/button_misc_bollard.png" targetlayout="barrier" />
+   <button type="page" label="Various" icon="walk_ride_detailed_300px_icons/button_tourism_monument.png" targetlayout="various" />
+   <button type="page" label="Width" icon="walk_ride_detailed_300px_icons/button_tourism_cinema.png" targetlayout="width" />
+   <button type="page" label="Errors" icon="walk_ride_detailed_300px_icons/theme_highcontrast_btn_pressed.9.png" targetlayout="errors" />
   </row>  
   <row>
    <!-- "link" to 3 sub pages -->
-   <button type="page" label="Surface" icon="walk_ride_detailed_icons_300px/button_landuse_farm.png" targetlayout="surface" />
-   <button type="page" label="Tracktype" icon="walk_ride_detailed_icons_300px/button_track_grade3.png" targetlayout="tracktype" />
-   <button type="page" label="Smoothness" icon="walk_ride_detailed_icons_300px/button_track.png" targetlayout="smoothness" />
+   <button type="page" label="Surface" icon="walk_ride_detailed_300px_icons/button_landuse_farm.png" targetlayout="surface" />
+   <button type="page" label="Tracktype" icon="walk_ride_detailed_300px_icons/button_track_grade3.png" targetlayout="tracktype" />
+   <button type="page" label="Smoothness" icon="walk_ride_detailed_300px_icons/button_track.png" targetlayout="smoothness" />
   </row>
  </layout>
 
@@ -38,21 +38,21 @@
  <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="footway" icon="walk_ride_detailed_icons_300px/button_track_pedestrian.png" />
- <button type="tag" label="bridleway" icon="walk_ride_detailed_icons_300px/button_track_bridleway.png" />
- <button type="tag" label="cycleway" icon="walk_ride_detailed_icons_300px/button_track_cycleway.png" />
+ <button type="tag" label="footway" icon="walk_ride_detailed_300px_icons/button_track_pedestrian.png" />
+ <button type="tag" label="bridleway" icon="walk_ride_detailed_300px_icons/button_track_bridleway.png" />
+ <button type="tag" label="cycleway" icon="walk_ride_detailed_300px_icons/button_track_cycleway.png" />
  </row>
  <row>
- <button type="tag" label="track" icon="walk_ride_detailed_icons_300px/button_track_grade1.png" />
- <button type="tag" label="path" icon="walk_ride_detailed_icons_300px/button_track_footway.png" />
- <button type="tag" label="road" icon="walk_ride_detailed_icons_300px/button_way_residential.png" />
- <button type="tag" label="service" icon="walk_ride_detailed_icons_300px/button_way_service.png" />
+ <button type="tag" label="track" icon="walk_ride_detailed_300px_icons/button_track_grade1.png" />
+ <button type="tag" label="path" icon="walk_ride_detailed_300px_icons/button_track_footway.png" />
+ <button type="tag" label="road" icon="walk_ride_detailed_300px_icons/button_way_residential.png" />
+ <button type="tag" label="service" icon="walk_ride_detailed_300px_icons/button_way_service.png" />
  </row>
  <row>
- <button type="tag" label="steps" icon="walk_ride_detailed_icons_300px/button_track_steps.png" />
- <button type="tag" label="bridge" icon="walk_ride_detailed_icons_300px/button_way_bridge.png" />
- <button type="tag" label="ford" icon="walk_ride_detailed_icons_300px/button_car.png" />
- <button type="tag" label="tunnel" icon="walk_ride_detailed_icons_300px/record_grey.png" />
+ <button type="tag" label="steps" icon="walk_ride_detailed_300px_icons/button_track_steps.png" />
+ <button type="tag" label="bridge" icon="walk_ride_detailed_300px_icons/button_way_bridge.png" />
+ <button type="tag" label="ford" icon="walk_ride_detailed_300px_icons/button_car.png" />
+ <button type="tag" label="tunnel" icon="walk_ride_detailed_300px_icons/record_grey.png" />
  </row>
   </layout>
 
@@ -179,7 +179,7 @@
   </row>
 <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Dog Poo" icon="walk_ride_detailed_icons_300px/excrement_bags.png" />
+ <button type="tag" label="Dog Poo" icon="walk_ride_detailed_300px_icons/excrement_bags.png" />
  <button type="tag" label="Dog Yes" icon="button_way_residential.png" />
  <button type="tag" label="Dog No" icon="button_way_residential.png" />
   </row>
