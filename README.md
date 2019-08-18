@@ -11,4 +11,4 @@ This is OSMTracker's default repository for download custom layouts functionalit
 + [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supply/README.md)
 + [Walk Ride Detailed.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/walk_ride_detailed/readme.md)
 + [Walk Ride Detailed 300px.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/walk_ride_detailed/readme.md)
-+ [Walk Ride Detailed no icons.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/walk_ride_detailed/readme.md)
++ [Walk Ride Detailed 30px.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/walk_ride_detailed/readme.md)
