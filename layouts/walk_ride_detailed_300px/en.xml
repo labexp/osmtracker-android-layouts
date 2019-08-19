@@ -66,16 +66,16 @@
  </row>
  <row>
    <!-- 4 standard tag buttons -->
-   <button type="tag" label="public_footpath" icon="button_way_service.png" />
-   <button type="tag" label="public_bridleway" icon="button_way_residential.png" />
+   <button type="tag" label="public_footpath" icon="walk_ride_detailed_300px_icons/button_track_pedestrian.png" />
+   <button type="tag" label="public_bridleway" icon="walk_ride_detailed_300px_icons/button_track_bridleway.png" />
    <button type="tag" label="restricted_byway" icon="button_way_residential.png" />
    <button type="tag" label="byway_open_to_all_traffic" icon="button_way_residential.png" />
  </row>
  <row>
    <!-- 4 standard tag buttons -->
- <button type="tag" label="permissive_footpath" icon="button_restriction.png" />
- <button type="tag" label="permissive_bridleway" icon="button_restriction.png" />
- <button type="tag" label="permissive_cycleway" icon="button_restriction.png" />
+ <button type="tag" label="permissive_footpath" icon="walk_ride_detailed_300px_icons/button_track_pedestrian.png" />
+ <button type="tag" label="permissive_bridleway" icon="walk_ride_detailed_300px_icons/button_track_bridleway.png" />
+ <button type="tag" label="permissive_cycleway" icon="walk_ride_detailed_300px_icons/button_track_cycleway.png" />
  </row>
  <row>
   <button type="tag" label="customers_only" icon="button_restriction.png" />
