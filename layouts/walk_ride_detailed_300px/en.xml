@@ -18,7 +18,7 @@
    <!-- "link" to 4 sub pages -->
    <button type="page" label="Barrier" icon="walk_ride_detailed_300px_icons/button_misc_bollard.png" targetlayout="barrier" />
    <button type="page" label="Various" icon="walk_ride_detailed_300px_icons/button_tourism_monument.png" targetlayout="various" />
-   <button type="page" label="Width" icon="walk_ride_detailed_300px_icons/button_tourism_cinema.png" targetlayout="width" />
+   <button type="page" label="Width" icon="walk_ride_detailed_300px_icons/width.png" targetlayout="width" />
    <button type="page" label="Errors" icon="walk_ride_detailed_300px_icons/theme_highcontrast_btn_pressed.9.png" targetlayout="errors" />
   </row>  
   <row>
@@ -93,10 +93,10 @@
  <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="Foot Y" icon="button_restriction.png" />
- <button type="tag" label="Foot N" icon="button_restriction.png" />
- <button type="tag" label="Bike Y" icon="button_restriction_one_way.png" />
- <button type="tag" label="Bike N" icon="button_restriction_one_way.png" />
+ <button type="tag" label="Foot Y" icon="walk_ride_detailed_300px_icons/foot-Y.png" />
+ <button type="tag" label="Foot N" icon="walk_ride_detailed_300px_icons/foot-N.png" />
+ <button type="tag" label="Bike Y" icon="walk_ride_detailed_300px_icons/bike-Y.png" />
+ <button type="tag" label="Bike N" icon="walk_ride_detailed_300px_icons/bike-N.png" />
  </row>
  <row>
  <button type="tag" label="Horse Y" icon="button_restriction.png" />
@@ -132,8 +132,8 @@
  </row>
  <row>
  <button type="tag" label="ploughed" icon="button_restriction.png" />
- <button type="tag" label="paved" icon="button_restriction.png" />
- <button type="tag" label="stepping_stones" icon="button_restriction.png" />
+ <button type="tag" label="paved" icon="walk_ride_detailed_300px_icons/paved.png" />
+ <button type="tag" label="stepping_stones" icon="walk_ride_detailed_300px_icons/stepping-stones.png" />
  <button type="tag" label="wood" icon="button_restriction.png" />
  </row>
   </layout>
@@ -147,15 +147,15 @@
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="stile Stepover" icon="button_way_service.png" />
-   <button type="tag" label="stile Squeeze" icon="button_way_service.png" />
-   <button type="tag" label="Stile ladder" icon="button_restriction.png" />
+   <button type="tag" label="stile Stepover" icon="walk_ride_detailed_300px_icons/stile-stepover.png" />
+   <button type="tag" label="stile Squeeze" icon="walk_ride_detailed_300px_icons/stile-squeeze.png" />
+   <button type="tag" label="Stile ladder" icon="walk_ride_detailed_300px_icons/stile-ladder.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
    <button type="tag" label="kissing gate" icon="walk_ride_detailed_300px_icons/kissing-gate.png" />
-   <button type="tag" label="gate" icon="button_way_residential.png" />
-   <button type="tag" label="6' gate" icon="button_restriction.png" />
+   <button type="tag" label="gate" icon="walk_ride_detailed_300px_icons/narrow-gate.png" />
+   <button type="tag" label="3m gate" icon="walk_ride_detailed_300px_icons/gate.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
@@ -181,8 +181,8 @@
 <row>
    <!-- 3 standard tag buttons -->
  <button type="tag" label="Dog Poo" icon="walk_ride_detailed_300px_icons/excrement_bags.png" />
- <button type="tag" label="Dog Yes" icon="button_way_residential.png" />
- <button type="tag" label="Dog No" icon="button_way_residential.png" />
+ <button type="tag" label="Dog Yes" icon="walk_ride_detailed_300px_icons/dog-paw-green.png" />
+ <button type="tag" label="Dog No" icon="walk_ride_detailed_300px_icons/dog-paw.png" />
   </row>
  <row>
    <!-- 3 standard tag buttons -->
@@ -201,21 +201,21 @@
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="width 0.5" icon="button_way_service.png" />
+ <button type="tag" label="width 0.5" icon="walk_ride_detailed_300px_icons/width-narrow.png" />
  <button type="tag" label="width 0.75" icon="button_way_residential.png" />
- <button type="tag" label="width 1" icon="button_way_residential.png" />
+ <button type="tag" label="width 1" icon="walk_ride_detailed_300px_icons/width.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="width 1.2" icon="button_way_service.png" />
+ <button type="tag" label="width 1.2" icon="walk_ride_detailed_300px_icons/width-narrow.png" />
  <button type="tag" label="width 1.5" icon="button_way_residential.png" />
- <button type="tag" label="width 1.7" icon="button_way_residential.png" />
+ <button type="tag" label="width 1.7" icon="walk_ride_detailed_300px_icons/width.png" />
   </row>
   <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="width 2" icon="button_way_service.png" />
+ <button type="tag" label="width 2" icon="walk_ride_detailed_300px_icons/width-narrow.png" />
  <button type="tag" label="width 2.5" icon="button_way_residential.png" />
- <button type="tag" label="width 3" icon="button_way_residential.png" />
+ <button type="tag" label="width 3" icon="walk_ride_detailed_300px_icons/width.png" />
   </row>
   </layout>
   
