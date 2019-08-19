@@ -153,7 +153,7 @@
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="kissing gate" icon="button_way_residential.png" />
+   <button type="tag" label="kissing gate" icon="walk_ride_detailed_300px_icons/kissing-gate.png" />
    <button type="tag" label="gate" icon="button_way_residential.png" />
    <button type="tag" label="6' gate" icon="button_restriction.png" />
  </row>
