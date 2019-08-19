@@ -68,8 +68,8 @@
    <!-- 4 standard tag buttons -->
    <button type="tag" label="public_footpath" icon="walk_ride_detailed_300px_icons/button_track_pedestrian.png" />
    <button type="tag" label="public_bridleway" icon="walk_ride_detailed_300px_icons/button_track_bridleway.png" />
-   <button type="tag" label="restricted_byway" icon="button_way_residential.png" />
-   <button type="tag" label="byway_open_to_all_traffic" icon="button_way_residential.png" />
+   <button type="tag" label="restricted_byway" icon="walk_ride_detailed_300px_icons/jeep.png" />
+   <button type="tag" label="byway_open_to_all_traffic" icon="walk_ride_detailed_300px_icons/jeep-1.png" />
  </row>
  <row>
    <!-- 4 standard tag buttons -->
@@ -78,8 +78,8 @@
  <button type="tag" label="permissive_cycleway" icon="walk_ride_detailed_300px_icons/button_track_cycleway.png" />
  </row>
  <row>
-  <button type="tag" label="customers_only" icon="button_restriction.png" />
-  <button type="tag" label="residents_only" icon="button_restriction.png" />
+  <button type="tag" label="customers_only" icon="walk_ride_detailed_300px_icons/cash.png" />
+  <button type="tag" label="residents_only" icon="walk_ride_detailed_300px_icons/house.png" />
   <button type="tag" label="motor_vehicle_private" icon="button_restriction.png" />
   <button type="tag" label="access_rights_unknown" icon="button_restriction.png" />
  </row>
@@ -105,10 +105,10 @@
  <button type="tag" label="Mcycle N" icon="walk_ride_detailed_300px_icons/mcycle-N.png" />
  </row>
  <row>
- <button type="tag" label="Car Y" icon="button_restriction.png" />
- <button type="tag" label="Car N" icon="button_restriction.png" />
- <button type="tag" label="Coach Y" icon="button_restriction.png" />
- <button type="tag" label="Coach N" icon="button_restriction.png" />
+ <button type="tag" label="Car Y" icon="walk_ride_detailed_300px_icons/car-Y.png" />
+ <button type="tag" label="Car N" icon="walk_ride_detailed_300px_icons/car-N.png" />
+ <button type="tag" label="Coach Y" icon="walk_ride_detailed_300px_icons/coach-Y.png" />
+ <button type="tag" label="Coach N" icon="walk_ride_detailed_300px_icons/coach-N.png" />
  </row>
   </layout>
   <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
@@ -125,8 +125,8 @@
  <button type="tag" label="concrete" icon="button_restriction_one_way.png" />
  </row>
  <row>
- <button type="tag" label="grass" icon="button_restriction.png" />
- <button type="tag" label="gravel" icon="button_car_speed_camera.png" />
+ <button type="tag" label="grass" icon="walk_ride_detailed_300px_icons/grass.png" />
+ <button type="tag" label="gravel" icon="walk_ride_detailed_300px_icons/gravel.png" />
  <button type="tag" label="ground" icon="button_restriction.png" />
  <button type="tag" label="mud" icon="button_restriction.png" />
  </row>
@@ -228,8 +228,8 @@
  </row>
  <row>
    <!-- 2 standard tag buttons -->
- <button type="tag" label="wheelchair_yes" icon="button_way_service.png" />
- <button type="tag" label="wheelchair_no" icon="button_way_residential.png" />
+ <button type="tag" label="wheelchair_yes" icon="walk_ride_detailed_300px_icons/wheelchair.png" />
+ <button type="tag" label="wheelchair_no" icon="walk_ride_detailed_300px_icons/wheelchair-N.png" />
  </row>
  <row>
    <!-- 2 standard tag buttons -->
@@ -260,13 +260,13 @@
  <row>
    <!-- 3 standard tag buttons -->
  <button type="tag" label="bad  robust wheels" icon="button_way_residential.png" />
- <button type="tag" label="very bad  high clearance" icon="button_way_residential.png" />
+ <button type="tag" label="very bad  high clearance" icon="walk_ride_detailed_300px_icons/jeep.png" />
  <button type="tag" label="horrible  off road wheels" icon="walk_ride_detailed_300px_icons/marshy.png" />
   </row>
   <row>
    <!-- 2 standard tag buttons -->
  <button type="tag" label="very horrible  tractor" icon="walk_ride_detailed_300px_icons/marshy.png" />
- <button type="tag" label="impassable" icon="button_way_residential.png" />
+ <button type="tag" label="impassable" icon="walk_ride_detailed_300px_icons/no-entry.png" />
   </row>
   </layout>   
     
