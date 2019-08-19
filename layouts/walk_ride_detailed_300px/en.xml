@@ -50,7 +50,7 @@
  </row>
  <row>
  <button type="tag" label="steps" icon="walk_ride_detailed_300px_icons/button_track_steps.png" />
- <button type="tag" label="bridge" icon="walk_ride_detailed_300px_icons/button_way_bridge.png" />
+ <button type="tag" label="bridge" icon="walk_ride_detailed_300px_icons/bridge.png" />
  <button type="tag" label="ford" icon="walk_ride_detailed_300px_icons/button_car.png" />
  <button type="tag" label="tunnel" icon="walk_ride_detailed_300px_icons/record_grey.png" />
  </row>
@@ -99,10 +99,10 @@
  <button type="tag" label="Bike N" icon="walk_ride_detailed_300px_icons/bike-N.png" />
  </row>
  <row>
- <button type="tag" label="Horse Y" icon="button_restriction.png" />
- <button type="tag" label="Horse N" icon="button_car_speed_camera.png" />
- <button type="tag" label="Mcycle Y" icon="button_restriction.png" />
- <button type="tag" label="Mcycle N" icon="button_restriction.png" />
+ <button type="tag" label="Horse Y" icon="walk_ride_detailed_300px_icons/horse-Y.png" />
+ <button type="tag" label="Horse N" icon="walk_ride_detailed_300px_icons/horse-N.png" />
+ <button type="tag" label="Mcycle Y" icon="walk_ride_detailed_300px_icons/mcycle-Y.png" />
+ <button type="tag" label="Mcycle N" icon="walk_ride_detailed_300px_icons/mcycle-N.png" />
  </row>
  <row>
  <button type="tag" label="Car Y" icon="button_restriction.png" />
@@ -134,7 +134,7 @@
  <button type="tag" label="ploughed" icon="button_restriction.png" />
  <button type="tag" label="paved" icon="walk_ride_detailed_300px_icons/paved.png" />
  <button type="tag" label="stepping_stones" icon="walk_ride_detailed_300px_icons/stepping-stones.png" />
- <button type="tag" label="wood" icon="button_restriction.png" />
+ <button type="tag" label="wood" icon="walk_ride_detailed_300px_icons/wood.png" />
  </row>
   </layout>
   
@@ -160,7 +160,7 @@
  <row>
    <!-- 3 standard tag buttons -->
    <button type="tag" label="cycle" icon="button_restriction.png" />
-   <button type="tag" label="wood" icon="button_car_speed_camera.png" />
+   <button type="tag" label="wood" icon="walk_ride_detailed_300px_icons/wood.png" />
    <button type="tag" label="metal" icon="button_restriction_one_way.png" />
  </row>
   </layout>
@@ -174,8 +174,8 @@
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Lit Yes" icon="button_way_service.png" />
- <button type="tag" label="Lit No" icon="button_way_residential.png" />
+ <button type="tag" label="Lit Yes" icon="walk_ride_detailed_300px_icons/lit.png" />
+ <button type="tag" label="Lit No" icon="walk_ride_detailed_300px_icons/not-lit.png" />
  <button type="tag" label="Information" icon="walk_ride_detailed_300px_icons/button_tourism_information.png" />
   </row>
 <row>
@@ -261,11 +261,11 @@
    <!-- 3 standard tag buttons -->
  <button type="tag" label="bad  robust wheels" icon="button_way_residential.png" />
  <button type="tag" label="very bad  high clearance" icon="button_way_residential.png" />
- <button type="tag" label="horrible  off road wheels" icon="button_way_residential.png" />
+ <button type="tag" label="horrible  off road wheels" icon="walk_ride_detailed_300px_icons/marshy.png" />
   </row>
   <row>
    <!-- 2 standard tag buttons -->
- <button type="tag" label="very horrible  tractor" icon="button_way_residential.png" />
+ <button type="tag" label="very horrible  tractor" icon="walk_ride_detailed_300px_icons/marshy.png" />
  <button type="tag" label="impassable" icon="button_way_residential.png" />
   </row>
   </layout>   
