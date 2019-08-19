@@ -80,8 +80,8 @@
  <row>
   <button type="tag" label="customers_only" icon="walk_ride_detailed_300px_icons/cash.png" />
   <button type="tag" label="residents_only" icon="walk_ride_detailed_300px_icons/house.png" />
-  <button type="tag" label="motor_vehicle_private" icon="button_restriction.png" />
-  <button type="tag" label="access_rights_unknown" icon="button_restriction.png" />
+  <button type="tag" label="motor_vehicle_private" icon="walk_ride_detailed_300px_icons/car-N.png" />
+  <button type="tag" label="access_rights_unknown" icon="walk_ride_detailed_300px_icons/question.png" />
  </row>
   </layout>
   
@@ -105,8 +105,8 @@
  <button type="tag" label="Mcycle N" icon="walk_ride_detailed_300px_icons/mcycle-N.png" />
  </row>
  <row>
- <button type="tag" label="Car Y" icon="button_restriction.png" />
- <button type="tag" label="Car N" icon="button_restriction.png" />
+ <button type="tag" label="Car Y" icon="walk_ride_detailed_300px_icons/car-Y.png" />
+ <button type="tag" label="Car N" icon="walk_ride_detailed_300px_icons/car-N.png" />
  <button type="tag" label="Coach Y" icon="walk_ride_detailed_300px_icons/coach-Y.png" />
  <button type="tag" label="Coach N" icon="walk_ride_detailed_300px_icons/coach-N.png" />
  </row>
@@ -159,9 +159,9 @@
  </row>
  <row>
    <!-- 3 standard tag buttons -->
-   <button type="tag" label="cycle" icon="button_restriction.png" />
+   <button type="tag" label="cycle" icon="walk_ride_detailed_300px_icons/cycle-barrier.png" />
    <button type="tag" label="wood" icon="walk_ride_detailed_300px_icons/wood.png" />
-   <button type="tag" label="metal" icon="button_restriction_one_way.png" />
+   <button type="tag" label="metal" icon="walk_ride_detailed_300px_icons/robot.png" />
  </row>
   </layout>
   
@@ -180,15 +180,15 @@
   </row>
 <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Dog Poo" icon="walk_ride_detailed_300px_icons/excrement_bags.png" />
+ <button type="tag" label="Dog Poo" icon="walk_ride_detailed_300px_icons/bin.png" />
  <button type="tag" label="Dog Yes" icon="walk_ride_detailed_300px_icons/dog-paw-green.png" />
  <button type="tag" label="Dog No" icon="walk_ride_detailed_300px_icons/dog-paw.png" />
   </row>
  <row>
    <!-- 3 standard tag buttons -->
  <button type="tag" label="Backrest" icon="walk_ride_detailed_300px_icons/button_amenity_bench.png" />
- <button type="tag" label="Bench 2" icon="walk_ride_detailed_300px_icons/button_amenity_bench.png" />
- <button type="tag" label="Bench 3" icon="walk_ride_detailed_300px_icons/button_amenity_bench.png" />
+ <button type="tag" label="Bench 2" icon="walk_ride_detailed_300px_icons/bench-seat.png" />
+ <button type="tag" label="Bench 3" icon="walk_ride_detailed_300px_icons/bench-seat.png" />
   </row>
   </layout>
   
