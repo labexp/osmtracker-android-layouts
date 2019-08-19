@@ -119,16 +119,16 @@
  <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
- <button type="tag" label="asphalt" icon="button_restriction.png" />
+ <button type="tag" label="asphalt" icon="walk_ride_detailed_300px_icons/asphalt.png" />
  <button type="tag" label="boardwalk" icon="button_restriction.png" />
- <button type="tag" label="brick" icon="button_restriction_one_way.png" />
- <button type="tag" label="concrete" icon="button_restriction_one_way.png" />
+ <button type="tag" label="brick" icon="walk_ride_detailed_300px_icons/layers.png" />
+ <button type="tag" label="concrete" icon="walk_ride_detailed_300px_icons/concrete.png" />
  </row>
  <row>
  <button type="tag" label="grass" icon="walk_ride_detailed_300px_icons/grass.png" />
  <button type="tag" label="gravel" icon="walk_ride_detailed_300px_icons/gravel.png" />
- <button type="tag" label="ground" icon="button_restriction.png" />
- <button type="tag" label="mud" icon="button_restriction.png" />
+ <button type="tag" label="ground" icon="walk_ride_detailed_300px_icons/earth.png" />
+ <button type="tag" label="mud" icon="walk_ride_detailed_300px_icons/rain.png" />
  </row>
  <row>
  <button type="tag" label="ploughed" icon="button_restriction.png" />
@@ -279,8 +279,8 @@
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Wrong_way" icon="button_way_service.png" />
- <button type="tag" label="Ignore_last" icon="button_way_residential.png" />
+ <button type="tag" label="Wrong_way" icon="walk_ride_detailed_300px_icons/rewind.png" />
+ <button type="tag" label="Ignore_last" icon="walk_ride_detailed_300px_icons/rewind-2.png" />
  <button type="tag" label="Spare_1" icon="button_way_service.png" />
  </row>
  <row>
