@@ -234,13 +234,13 @@
  <row>
    <!-- 2 standard tag buttons -->
  <button type="tag" label="grade 1  solid or paved" icon="walk_ride_detailed_300px_icons/button_track_grade1.png" />
- <button type="tag" label="grade 2  solid gravel" icon="button_way_residential.png" />
+ <button type="tag" label="grade 2  solid gravel" icon="walk_ride_detailed_300px_icons/button_track_grade2.png" />
   </row>
   <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="grade 3  mostly solid" icon="button_way_service.png" />
- <button type="tag" label="grade 4  mostly soft" icon="button_way_residential.png" />
- <button type="tag" label="grade 5  soft" icon="button_way_residential.png" />
+ <button type="tag" label="grade 3  mostly solid" icon="walk_ride_detailed_300px_icons/button_track_grade3.png" />
+ <button type="tag" label="grade 4  mostly soft" icon="walk_ride_detailed_300px_icons/button_track_grade4.png" />
+ <button type="tag" label="grade 5  soft" icon="walk_ride_detailed_300px_icons/button_track_grade5.png" />
   </row>
   </layout>
     
