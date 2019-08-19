@@ -12,7 +12,7 @@
    <!-- "link" to 3 sub pages -->
    <button type="page" label="Looks like" icon="walk_ride_detailed_30px_icons/button_way.png" targetlayout="physical" />
    <button type="page" label="Designation" icon="walk_ride_detailed_30px_icons/button_amenity_library.png" targetlayout="designation" />
-   <button type="page" label="Access" icon="walk_ride_detailed_30px_icons/button_restriction.png" targetlayout="access" />
+   <button type="page" label="Access" icon="walk_ride_detailed_30px_icons/restriction.png" targetlayout="access" />
   </row>
   <row>
    <!-- "link" to 4 sub pages -->
@@ -173,15 +173,22 @@
  <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
-   <!-- 2 standard tag buttons -->
+   <!-- 3 standard tag buttons -->
  <button type="tag" label="Lit Yes" icon="button_way_service.png" />
  <button type="tag" label="Lit No" icon="button_way_residential.png" />
+ <button type="tag" label="Information" icon="button_way_residential.png" />
   </row>
 <row>
    <!-- 3 standard tag buttons -->
  <button type="tag" label="Dog Poo" icon="walk_ride_detailed_30px_icons/excrement_bags.png" />
  <button type="tag" label="Dog Yes" icon="button_way_residential.png" />
  <button type="tag" label="Dog No" icon="button_way_residential.png" />
+  </row>
+  <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Backrest" icon="walk_ride_detailed_30px_icons/excrement_bags.png" />
+ <button type="tag" label="Bench 2" icon="button_way_residential.png" />
+ <button type="tag" label="Bench 3" icon="button_way_residential.png" />
   </row>
   </layout>
   
