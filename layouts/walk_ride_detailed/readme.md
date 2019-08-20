@@ -16,4 +16,10 @@ The button sets should assist you with surveying such features as a 'track' whic
 *  **ACCESS** - Who is allowed such as foot=yes, bike=no.  
 *  **SURFACE** - Asphalt, gravel, grass, etc..  
 *  **BARRIER** - Bollards, gates, kissing-gates, stiles, etc..  
-*  **DOG & LIT** - Is it lit? Are dogs allowed, are there dog-poo bins?  
+*  **VARIOUS** - Is it lit? Are dogs allowed, are there dog-poo bins? Bench & information boards.  
+*  **WIDTH** - 9 buttons of different options.    
+*  **ERRORS** - for those moments when you took the wrong fork and want to have a note of this.  
+*  **TRACKTYPE** - Buttons for each of the grades. 
+*  **SMOOTHNESS** - Buttons for each grade, with an indication as to you should tag it as.
+
+There are also some spare buttons - if you would something added, contact the author at (Nick-Tallguy)[https://github.com/Nick-Tallguy/osmtracker-android-layouts]

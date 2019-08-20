@@ -1,5 +1,13 @@
 
 <metadata>
-     <option iso="en" name="English"> These button sets help you to obtain detailed notes of the paths and tracks you survey, with details such as smoothness, surface, width, designation, access, etc.. </option>
+     <option iso="en" name="English"> Designed to help you take detailed notes of paths and trails with buttons sets including; 
+     * Physical appearance,  
+     * Designation (UK),  
+     * Access,  
+     * Barrier,  
+     * Width,  
+     * Surface,  
+     * Tracktype,  
+     * Smoothness etc.. </option>
     <github username="Nick-Tallguy" repo="osmtracker-android-layouts" branch="master" />
 </metadata>
