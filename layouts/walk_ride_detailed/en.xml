@@ -19,7 +19,7 @@
    <button type="page" label="Barrier" icon="walk_ride_detailed_icons/button_misc_bollard.png" targetlayout="barrier" />
    <button type="page" label="Various" icon="walk_ride_detailed_icons/button_tourism_monument.png" targetlayout="various" />
    <button type="page" label="Width" icon="walk_ride_detailed_icons/width.png" targetlayout="width" />
-   <button type="page" label="Errors" icon="walk_ride_detailed_icons/theme_highcontrast_btn_pressed.9.png" targetlayout="errors" />
+   <button type="page" label="Solar - Errors" icon="walk_ride_detailed_icons/solar-compass.png" targetlayout="errors" />
   </row>  
   <row>
    <!-- "link" to 3 sub pages -->
@@ -280,20 +280,20 @@
  <row>
    <!-- 3 standard tag buttons -->
  <button type="tag" label="Wrong_way" icon="walk_ride_detailed_icons/rewind.png" />
+ <button type="tag" label="PV_N" icon="walk_ride_detailed_icons/solar-compass.png" />
  <button type="tag" label="Ignore_last" icon="walk_ride_detailed_icons/rewind-2.png" />
- <button type="tag" label="Spare_1" icon="button_way_service.png" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Spare_2" icon="button_way_residential.png" />
- <button type="tag" label="Spare_3" icon="button_way_residential.png" />
- <button type="tag" label="Spare_4" icon="button_way_residential.png" />
+ <button type="tag" label="PV-W" icon="walk_ride_detailed_icons/solar-compass.png" />
+ <button type="tag" label="Spare-1" icon="button_way_residential.png" />
+ <button type="tag" label="PV-E" icon="walk_ride_detailed_icons/solar-compass.png" />
   </row>
   <row>
    <!-- 3 standard tag buttons -->
- <button type="tag" label="Spare_5" icon="button_way_residential.png" />
- <button type="tag" label="Spare_6" icon="button_way_residential.png" />
- <button type="tag" label="Spare_7" icon="button_way_residential.png" />
+ <button type="tag" label="roof-PV-L" icon="walk_ride_detailed_icons/solar-L.png" />
+ <button type="tag" label="PV-S" icon="walk_ride_detailed_icons/solar-compass.png" />
+ <button type="tag" label="roof-PV-R" icon="walk_ride_detailed_icons/solar-R.png" />
   </row>
   </layout> 
 </layouts>
