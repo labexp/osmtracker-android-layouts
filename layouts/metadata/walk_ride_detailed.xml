@@ -8,7 +8,7 @@
      * Width,  
      * Surface,  
      * Tracktype,  
-     * Solar PV roof panels & orientation,
+     * Solar PV roof panels and orientation,
      * Smoothness etc.. </option>
     <github username="Nick-Tallguy" repo="osmtracker-android-layouts" branch="detailed-tracks" />
 </metadata>
