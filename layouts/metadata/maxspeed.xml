@@ -1,5 +1,6 @@
 
 <metadata>
     <option iso="en" name="English"> Map maxspeeds. </option>
+    <option iso="de" name="Deutsch"> Höchstgeschwindigkeiten erfassen. </option>
     <github username="stoecker" repo="osmtracker-android-layouts" branch="master" />
 </metadata>
