@@ -1,0 +1,32 @@
+<layouts>
+	<layout name="root">
+		<!--Special action Buttons (disabled)
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row> -->
+		<row>
+			<button type="tag" label="30" icon="30.png"/>
+			<button type="tag" label="40" icon="40.png"/>
+			<button type="tag" label="End" icon="end.png"/>
+			<button type="tag" label="80" icon="40.png"/>
+			<button type="tag" label="City" icon="city.png"/>
+		</row>
+		<row>
+			<button type="tag" label="50" icon="50.png"/>
+			<button type="tag" label="60" icon="60.png"/>
+			<button type="tag" label="Error" icon="error.png"/>
+			<button type="tag" label="120" icon="120.png"/>
+			<button type="tag" label="No City" icon="cityend.png"/>
+		</row>
+		<row>
+			<button type="tag" label="100" icon="100.png"/>
+			<button type="tag" label="90" icon="90.png"/>
+			<button type="tag" label="Camera" icon="camera.png"/>
+			<button type="tag" label="130" icon="130.png"/>
+			<button type="tag" label="70" icon="70.png"/>
+		</row>
+		
+	</layout>
+</layouts>
