@@ -1,25 +1,25 @@
 <layouts>
 	<layout name="root">
 		<row>
-			<button type="tag" label="30" icon="icons/30.png"/>
-			<button type="tag" label="40" icon="icons/40.png"/>
-			<button type="tag" label="End" icon="icons/end.png"/>
-			<button type="tag" label="80" icon="icons/80.png"/>
-			<button type="tag" label="City" icon="icons/city.png"/>
+			<button type="tag" label="30" icon="maxspeed_icons/30.png"/>
+			<button type="tag" label="40" icon="maxspeed_icons/40.png"/>
+			<button type="tag" label="End" icon="maxspeed_icons/end.png"/>
+			<button type="tag" label="80" icon="maxspeed_icons/80.png"/>
+			<button type="tag" label="City" icon="maxspeed_icons/city.png"/>
 		</row>
 		<row>
-			<button type="tag" label="50" icon="icons/50.png"/>
-			<button type="tag" label="60" icon="icons/60.png"/>
+			<button type="tag" label="50" icon="maxspeed_icons/50.png"/>
+			<button type="tag" label="60" icon="maxspeed_icons/60.png"/>
 			<button type="tag" label="Error"/>
-			<button type="tag" label="120" icon="icons/120.png"/>
-			<button type="tag" label="No City" icon="icons/cityend.png"/>
+			<button type="tag" label="120" icon="maxspeed_icons/120.png"/>
+			<button type="tag" label="No City" icon="maxspeed_icons/cityend.png"/>
 		</row>
 		<row>
-			<button type="tag" label="100" icon="icons/100.png"/>
-			<button type="tag" label="90" icon="icons/90.png"/>
-			<button type="tag" label="Camera" icon="icons/camera.png"/>
-			<button type="tag" label="130" icon="icons/130.png"/>
-			<button type="tag" label="70" icon="icons/70.png"/>
+			<button type="tag" label="100" icon="maxspeed_icons/100.png"/>
+			<button type="tag" label="90" icon="maxspeed_icons/90.png"/>
+			<button type="tag" label="Camera" icon="maxspeed_icons/camera.png"/>
+			<button type="tag" label="130" icon="maxspeed_icons/130.png"/>
+			<button type="tag" label="70" icon="maxspeed_icons/70.png"/>
 		</row>
 		
 	</layout>
