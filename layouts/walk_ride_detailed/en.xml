@@ -1,0 +1,299 @@
+<layouts>
+
+ <!-- Main layout, the first to be displayed -->
+ <layout name="root">
+  <row>
+   <!-- 3 special action buttons -->
+   <button type="voicerec" label="Voice record" icon="voice.png" />
+   <button type="picture" label="Take picture" icon="camera.png" />
+   <button type="textnote" label="Text note" icon="text.png" />
+  </row>
+   <row>
+   <!-- "link" to 3 sub pages -->
+   <button type="page" label="Looks like" icon="walk_ride_detailed_icons/button_way.png" targetlayout="physical" />
+   <button type="page" label="Designation" icon="walk_ride_detailed_icons/button_amenity_library.png" targetlayout="designation" />
+   <button type="page" label="Access" icon="walk_ride_detailed_icons/button_restriction.png" targetlayout="access" />
+  </row>
+  <row>
+   <!-- "link" to 4 sub pages -->
+   <button type="page" label="Barrier" icon="walk_ride_detailed_icons/button_misc_bollard.png" targetlayout="barrier" />
+   <button type="page" label="Various" icon="walk_ride_detailed_icons/button_tourism_monument.png" targetlayout="various" />
+   <button type="page" label="Width" icon="walk_ride_detailed_icons/width.png" targetlayout="width" />
+   <button type="page" label="Solar - Errors" icon="walk_ride_detailed_icons/solar-compass.png" targetlayout="errors" />
+  </row>  
+  <row>
+   <!-- "link" to 3 sub pages -->
+   <button type="page" label="Surface" icon="walk_ride_detailed_icons/button_landuse_farm.png" targetlayout="surface" />
+   <button type="page" label="Tracktype" icon="walk_ride_detailed_icons/button_track_grade3.png" targetlayout="tracktype" />
+   <button type="page" label="Smoothness" icon="walk_ride_detailed_icons/button_track.png" targetlayout="smoothness" />
+  </row>
+ </layout>
+
+  <!-- physical layout, will be displayed when clicking on "Looks like" previous defined button -->
+	<layout name="physical">
+ <row>
+   <!-- 3 special action buttons -->
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="footway" icon="walk_ride_detailed_icons/button_track_pedestrian.png" />
+ <button type="tag" label="bridleway" icon="walk_ride_detailed_icons/button_track_bridleway.png" />
+ <button type="tag" label="cycleway" icon="walk_ride_detailed_icons/button_track_cycleway.png" />
+ </row>
+ <row>
+ <button type="tag" label="track" icon="walk_ride_detailed_icons/button_track_grade1.png" />
+ <button type="tag" label="path" icon="walk_ride_detailed_icons/button_track_footway.png" />
+ <button type="tag" label="road" icon="walk_ride_detailed_icons/button_way_residential.png" />
+ <button type="tag" label="service" icon="walk_ride_detailed_icons/button_way_service.png" />
+ </row>
+ <row>
+ <button type="tag" label="steps" icon="walk_ride_detailed_icons/button_track_steps.png" />
+ <button type="tag" label="bridge" icon="walk_ride_detailed_icons/bridge.png" />
+ <button type="tag" label="ford" icon="walk_ride_detailed_icons/button_car.png" />
+ <button type="tag" label="tunnel" icon="walk_ride_detailed_icons/record_grey.png" />
+ </row>
+  </layout>
+
+  <!-- Designation layout, will be displayed when clicking on "Designation" previous defined button -->
+	<layout name="designation">
+ <row>
+   <!-- 3 special action buttons -->
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 4 standard tag buttons -->
+   <button type="tag" label="public_footpath" icon="walk_ride_detailed_icons/button_track_pedestrian.png" />
+   <button type="tag" label="public_bridleway" icon="walk_ride_detailed_icons/button_track_bridleway.png" />
+   <button type="tag" label="restricted_byway" icon="walk_ride_detailed_icons/jeep.png" />
+   <button type="tag" label="byway_open_to_all_traffic" icon="walk_ride_detailed_icons/jeep-1.png" />
+ </row>
+ <row>
+   <!-- 4 standard tag buttons -->
+ <button type="tag" label="permissive_footpath" icon="walk_ride_detailed_icons/button_track_pedestrian.png" />
+ <button type="tag" label="permissive_bridleway" icon="walk_ride_detailed_icons/button_track_bridleway.png" />
+ <button type="tag" label="permissive_cycleway" icon="walk_ride_detailed_icons/button_track_cycleway.png" />
+ </row>
+ <row>
+  <button type="tag" label="customers_only" icon="walk_ride_detailed_icons/cash.png" />
+  <button type="tag" label="residents_only" icon="walk_ride_detailed_icons/house.png" />
+  <button type="tag" label="motor_vehicle_private" icon="walk_ride_detailed_icons/car-N.png" />
+  <button type="tag" label="access_rights_unknown" icon="walk_ride_detailed_icons/question.png" />
+ </row>
+  </layout>
+  
+ <!-- Access layout, will be displayed when clicking on "Access" previous defined button -->
+	<layout name="access">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="Foot Y" icon="walk_ride_detailed_icons/foot-Y.png" />
+ <button type="tag" label="Foot N" icon="walk_ride_detailed_icons/foot-N.png" />
+ <button type="tag" label="Bike Y" icon="walk_ride_detailed_icons/bike-Y.png" />
+ <button type="tag" label="Bike N" icon="walk_ride_detailed_icons/bike-N.png" />
+ </row>
+ <row>
+ <button type="tag" label="Horse Y" icon="walk_ride_detailed_icons/horse-Y.png" />
+ <button type="tag" label="Horse N" icon="walk_ride_detailed_icons/horse-N.png" />
+ <button type="tag" label="Mcycle Y" icon="walk_ride_detailed_icons/mcycle-Y.png" />
+ <button type="tag" label="Mcycle N" icon="walk_ride_detailed_icons/mcycle-N.png" />
+ </row>
+ <row>
+ <button type="tag" label="Car Y" icon="walk_ride_detailed_icons/car-Y.png" />
+ <button type="tag" label="Car N" icon="walk_ride_detailed_icons/car-N.png" />
+ <button type="tag" label="Coach Y" icon="walk_ride_detailed_icons/coach-Y.png" />
+ <button type="tag" label="Coach N" icon="walk_ride_detailed_icons/coach-N.png" />
+ </row>
+  </layout>
+  <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
+	<layout name="surface">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="asphalt" icon="walk_ride_detailed_icons/asphalt.png" />
+ <button type="tag" label="boardwalk" icon="walk_ride_detailed_icons/brown-layers.png" />
+ <button type="tag" label="brick" icon="walk_ride_detailed_icons/layers.png" />
+ <button type="tag" label="concrete" icon="walk_ride_detailed_icons/concrete.png" />
+ </row>
+ <row>
+ <button type="tag" label="grass" icon="walk_ride_detailed_icons/grass.png" />
+ <button type="tag" label="gravel" icon="walk_ride_detailed_icons/gravel.png" />
+ <button type="tag" label="ground" icon="walk_ride_detailed_icons/earth.png" />
+ <button type="tag" label="mud" icon="walk_ride_detailed_icons/rain.png" />
+ </row>
+ <row>
+ <button type="tag" label="ploughed" icon="walk_ride_detailed_icons/brown-layers.png" />
+ <button type="tag" label="paved" icon="walk_ride_detailed_icons/paved.png" />
+ <button type="tag" label="stepping_stones" icon="walk_ride_detailed_icons/stepping-stones.png" />
+ <button type="tag" label="wood" icon="walk_ride_detailed_icons/wood.png" />
+ </row>
+  </layout>
+  
+    <!-- Barrier layout, will be displayed when clicking on "Barrier" previous defined button -->
+	<layout name="barrier">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+   <button type="tag" label="stile Stepover" icon="walk_ride_detailed_icons/stile-stepover.png" />
+   <button type="tag" label="stile Squeeze" icon="walk_ride_detailed_icons/stile-squeeze.png" />
+   <button type="tag" label="Stile ladder" icon="walk_ride_detailed_icons/stile-ladder.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+   <button type="tag" label="kissing gate" icon="walk_ride_detailed_icons/kissing-gate.png" />
+   <button type="tag" label="gate" icon="walk_ride_detailed_icons/narrow-gate.png" />
+   <button type="tag" label="3m gate" icon="walk_ride_detailed_icons/gate.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+   <button type="tag" label="cycle" icon="walk_ride_detailed_icons/cycle-barrier.png" />
+   <button type="tag" label="wood" icon="walk_ride_detailed_icons/wood.png" />
+   <button type="tag" label="metal" icon="walk_ride_detailed_icons/robot.png" />
+ </row>
+  </layout>
+  
+<!-- Various layout, will be displayed when clicking on "Various" previous defined button -->
+	<layout name="various">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Lit Yes" icon="walk_ride_detailed_icons/lit.png" />
+ <button type="tag" label="Lit No" icon="walk_ride_detailed_icons/not-lit.png" />
+ <button type="tag" label="Information" icon="walk_ride_detailed_icons/button_tourism_information.png" />
+  </row>
+<row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Dog Poo" icon="walk_ride_detailed_icons/bin.png" />
+ <button type="tag" label="Dog Yes" icon="walk_ride_detailed_icons/dog-paw-green.png" />
+ <button type="tag" label="Dog No" icon="walk_ride_detailed_icons/dog-paw.png" />
+  </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Backrest" icon="walk_ride_detailed_icons/button_amenity_bench.png" />
+ <button type="tag" label="Bench 2" icon="walk_ride_detailed_icons/bench-seat.png" />
+ <button type="tag" label="Bench 3" icon="walk_ride_detailed_icons/bench-seat.png" />
+  </row>
+  </layout>
+  
+   <!-- Width layout, will be displayed when clicking on "Width" previous defined button -->
+	<layout name="width">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="width 0.5" icon="walk_ride_detailed_icons/width-narrow.png" />
+ <button type="tag" label="width 0.75" icon="button_way_residential.png" />
+ <button type="tag" label="width 1" icon="walk_ride_detailed_icons/width.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="width 1.2" icon="walk_ride_detailed_icons/width-narrow.png" />
+ <button type="tag" label="width 1.5" icon="button_way_residential.png" />
+ <button type="tag" label="width 1.7" icon="walk_ride_detailed_icons/width.png" />
+  </row>
+  <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="width 2" icon="walk_ride_detailed_icons/width-narrow.png" />
+ <button type="tag" label="width 2.5" icon="button_way_residential.png" />
+ <button type="tag" label="width 3" icon="walk_ride_detailed_icons/width.png" />
+  </row>
+  </layout>
+  
+ <!-- Tracktype layout, will be displayed when clicking on "Wheelchair & Tracktype" previous defined button -->
+	<layout name="tracktype">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 2 standard tag buttons -->
+ <button type="tag" label="wheelchair_yes" icon="walk_ride_detailed_icons/wheelchair.png" />
+ <button type="tag" label="wheelchair_no" icon="walk_ride_detailed_icons/wheelchair-N.png" />
+ </row>
+ <row>
+   <!-- 2 standard tag buttons -->
+ <button type="tag" label="grade 1  solid or paved" icon="walk_ride_detailed_icons/button_track_grade1.png" />
+ <button type="tag" label="grade 2  solid gravel" icon="walk_ride_detailed_icons/button_track_grade2.png" />
+  </row>
+  <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="grade 3  mostly solid" icon="walk_ride_detailed_icons/button_track_grade3.png" />
+ <button type="tag" label="grade 4  mostly soft" icon="walk_ride_detailed_icons/button_track_grade4.png" />
+ <button type="tag" label="grade 5  soft" icon="walk_ride_detailed_icons/button_track_grade5.png" />
+  </row>
+  </layout>
+    
+ <!-- Smoothness layout, will be displayed when clicking on "Smoothness" previous defined button -->
+	<layout name="smoothness">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="excellent  skate board" icon="walk_ride_detailed_icons/ice-skating.png" />
+ <button type="tag" label="good  racing bike" icon="walk_ride_detailed_icons/button_track.png" />
+ <button type="tag" label="intermediate  wheelchair" icon="walk_ride_detailed_icons/wheelchair.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="bad  robust wheels" icon="walk_ride_detailed_icons/jeep.png" />
+ <button type="tag" label="very bad  high clearance" icon="walk_ride_detailed_icons/jeep.png" />
+ <button type="tag" label="horrible  off road wheels" icon="walk_ride_detailed_icons/marshy.png" />
+  </row>
+  <row>
+   <!-- 2 standard tag buttons -->
+ <button type="tag" label="very horrible  tractor" icon="walk_ride_detailed_icons/marshy.png" />
+ <button type="tag" label="impassable" icon="walk_ride_detailed_icons/no-entry.png" />
+  </row>
+  </layout>   
+    
+ <!-- Errors layout, will be displayed when clicking on "Errors" previous defined button -->
+	<layout name="errors">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Wrong_way" icon="walk_ride_detailed_icons/rewind.png" />
+ <button type="tag" label="PV_315-44" icon="walk_ride_detailed_icons/solar-compass.png" />
+ <button type="tag" label="Ignore_last" icon="walk_ride_detailed_icons/rewind-2.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="PV_225-314" icon="walk_ride_detailed_icons/solar-compass.png" />
+ <button type="tag" label="Spare-1" icon="button_way_residential.png" />
+ <button type="tag" label="PV_45-134" icon="walk_ride_detailed_icons/solar-compass.png" />
+  </row>
+  <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="roof-PV-L" icon="walk_ride_detailed_icons/solar-L.png" />
+ <button type="tag" label="PV_135-224" icon="walk_ride_detailed_icons/solar-compass.png" />
+ <button type="tag" label="roof-PV-R" icon="walk_ride_detailed_icons/solar-R.png" />
+  </row>
+  </layout> 
+</layouts>
