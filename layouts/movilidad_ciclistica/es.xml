@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+			<button type="textnote" icon="text_32x32" />
+		</row>
+		<row>
+			<button type="tag" label="Parqueo bicicleta" icon="/movilidad_ciclistica_icons/parqueo_bici.png" />
+			<button type="tag" label="Fuente de agua" icon="/movilidad_ciclistica_icons/agua.png" />
+			<button type="tag" label="Estación con inflador" icon="/movilidad_ciclistica_icons/inflador.png" />
+		</row>
+		<row>
+			<button type="tag" label="Iluminación" icon="/movilidad_ciclistica_icons/poste_luz.png" />
+			<button type="tag" label="Taller" icon="/movilidad_ciclistica_icons/taller.png" />
+			<button type="tag" label="Hueco en recorrido" icon="/movilidad_ciclistica_icons/hueco.png" />
+		</row>
+		<row>
+			<button type="tag" label="Señalización" icon="/movilidad_ciclistica_icons/senalizacion.png" />
+			<button type="tag" label="Pulpería" icon="/movilidad_ciclistica_icons/pulperia.png" />
+			<button type="tag" label="Sanitarios" icon="/movilidad_ciclistica_icons/sanitario.png" />
+		</row>
+
+		<row>
+			<button type="tag" label="Inicio de ciclovia" icon="/movilidad_ciclistica_icons/inicio_ciclovia.png" />
+			<button type="tag" label="Fin de ciclovía" icon="/movilidad_ciclistica_icons/fin_ciclovia.png" />
+			<button type="tag" label="Atención médica" icon="/movilidad_ciclistica_icons/medica.png" />
+		</row>
+
+	</layout>
+
+</layouts>
