@@ -1,0 +1,481 @@
+<layouts><!-- aide : premier ecran general-->
+	<layout name="root">
+		<row>
+			<button type="voicerec" label="Voix" icon="voice.png"/>
+			<button type="picture" label="Photo" icon="camera.png"/>
+			<button type="textnote" label="Note" icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="2eme levée" targetlayout="levee"/>
+			<button type="page" label="salissement" targetlayout="salissement"/>
+			<button type="page" label="jaunisse" targetlayout="jaunisse"/>
+		</row>
+		<row>
+			<button type="page" label="montees" targetlayout="montees"/>
+			<button type="page" label="nematode heterodera" targetlayout="nematode heterodera"/>
+			<button type="page" label="magnesie" targetlayout="magnesie"/>
+		</row>
+		<row>
+			<button type="page" label="structure" targetlayout="structure"/>
+			<button type="page" label="maladies foliaires" targetlayout="maladies foliaires"/>
+			<button type="page" label="pegomye" targetlayout="pegomye"/>
+		</row>
+		<row>
+			<button type="page" label="rhizo forte" targetlayout="rhizo forte"/>
+			<button type="page" label="autre 1" targetlayout="autre 1"/>
+			<button type="page" label="autre 2" targetlayout="autre 2"/>
+		</row>
+	</layout>
+	<!-- ecran second-->
+	<layout name="salissement">
+		<row>
+			<button type="page" label="salissement" targetlayout="salissement"/>
+			<button type="page" label="adventices" targetlayout="salissement"/>
+			<button type="page" label="2=tres sale" targetlayout="salissement"/>
+		</row>
+		<row>
+			<button type="tag" label="sal : 2" />
+			<button type="tag" label="sal : 3" />
+			<button type="tag" label="sal : 4" />
+		</row>
+		<row>
+			<button type="tag" label="sal : 5" />
+			<button type="tag" label="sal : 6" />
+			<button type="tag" label="sal : 7" />
+		</row>
+		<row>
+			<button type="tag" label="sal : 8" />
+			<button type="tag" label="sal : 9" />
+			<button type="tag" label="sal : 10" />
+		</row>
+		<row>
+			<button type="page" label="adventices" targetlayout="adventices"/>
+			<button type="page" label="retour jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="adventices">
+		<row>
+			<button type="tag" label="chenopode" />
+			<button type="tag" label="chardon"/>
+			<button type="tag" label="laiteron" />
+		</row>
+		<row>
+			<button type="tag" label="folle avoine" icon="button_amenity_water.png"/>
+			<button type="tag" label="ray grass chiendent" icon="button_amenity_water.png"/>
+			<button type="tag" label="matricaire"/>
+		</row>
+		<row>
+			<button type="tag" label="mercuriale" icon="text.png"/>
+			<button type="tag" label="colza" icon="button_amenity_water.png"/>
+			<button type="tag" label="ravenelle"/>
+		</row>
+		<row>
+			<button type="tag" label="ethuse" icon="text.png"/>
+			<button type="tag" label="ammi majus" icon="button_amenity_water.png"/>
+			<button type="tag" label="atriplex"/>
+		</row>
+		<row>
+			<button type="tag" label="renouee percicaire" icon="text.png"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<!-- ecran primaire-->
+	<layout name="levee">
+		<row>
+			<button type="page" label="2eme levée" icon="button_amenity_water.png" />
+			<button type="page" label="Absence=0" />
+			<button type="page" label="en %" icon="text.png" />
+		</row>
+		<row>
+			<button type="tag" label="levée : 0" />
+			<button type="tag" label="levée : 10" />
+			<button type="tag" label="levée : 20" />
+		</row>
+		<row>
+			<button type="tag" label="levée : 30" />
+			<button type="tag" label="levée : 40" />
+			<button type="tag" label="levée : 50" />
+		</row>
+		<row>
+			<button type="tag" label="levée : 60" />
+			<button type="tag" label="levée : 70" />
+			<button type="tag" label="levée : 80" />
+		</row>			
+		<row>
+			<button type="page" label="retour jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="montees">
+		<row>
+			<button type="page" label="montees" targetlayout="montees"/>
+			<button type="page" label="0.5=1 pour 20 m/10" targetlayout="montees"/>			
+			<button type="page" label="en %o" targetlayout="montees"/>
+		</row>
+		<row>
+			<button type="tag" label="mont%o : 0.5 " icon="button_amenity_bench.png"/>
+			<button type="tag" label="mont%o : 1 " icon="button_amenity_water.png"/>
+			<button type="tag" label="mont%o : 2 " icon="button_amenity_bench.png"/>
+		</row>
+		<row>
+			<button type="tag" label="mont%o : 5 " icon="button_amenity_bench.png"/>
+			<button type="tag" label="mont%o : 10 " icon="button_amenity_water.png"/>
+			<button type="tag" label="mont%o : 20 " icon="button_amenity_bench.png"/>
+		</row>
+		<row>
+			<button type="tag" label="mont%o : 50 " icon="button_amenity_bench.png"/>
+			<button type="tag" label="mont%o : 100 " icon="button_amenity_water.png"/>
+			<button type="tag" label=" mont%o : 500 " icon="button_amenity_bench.png"/>
+		</row>
+		<row>
+			<button type="page" label="retour jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="structure">
+		<row>
+			<button type="page" label="structure" targetlayout="structure"/>
+			<button type="page" label="du sol" targetlayout="structure"/>
+			<button type="page" label="1=dégât tres faible" targetlayout="structure"/>
+		</row>
+		<row>
+			<button type="tag" label="struct : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="struct : 2"/>
+			<button type="tag" label="struct : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="struct : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="struct : 5"/>
+			<button type="tag" label="struct : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="struct : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="struct : 8"/>
+			<button type="tag" label=" struct : 9 " icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="retour jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="nematode heterodera">
+		<row>
+			<button type="page" label="nematode" targetlayout="nematode heterodera"/>
+			<button type="page" label="heterodera" targetlayout="nematode heterodera"/>
+			<button type="page" label="1=dégât tres faible" targetlayout="nematode heterodera"/>
+		</row>
+		<row>
+			<button type="tag" label="nema : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="nema : 2"/>
+			<button type="tag" label="nema : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="nema : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="nema : 5"/>
+			<button type="tag" label="nema : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="nema : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="nema : 8"/>
+			<button type="tag" label="nema : 9" icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="retour jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="magnesie">
+		<row>
+			<button type="page" label="magnésie" targetlayout="magnesie"/>
+			<button type="page" label="   magnesie   " targetlayout="magnesie"/>
+			<button type="page" label="1=symptome faible" targetlayout="magnesie"/>
+		</row>
+		<row>
+			<button type="tag" label="magn : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="magn : 2"/>
+			<button type="tag" label="magn : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="magn : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="magn : 5"/>
+			<button type="tag" label="magn : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="magn : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="magn : 8"/>
+			<button type="tag" label=" magn : 9 " icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="retour jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="jaunisse">
+		<row>
+			<button type="page" label="jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="1= insignifiant" targetlayout="jaunisse"/>
+			<button type="page" label="en %" targetlayout="jaunisse"/>
+		</row>
+		<row>
+			<button type="tag" label="jaun : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="jaun : 5"/>
+			<button type="tag" label="jaun : 10" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="jaun : 20" icon="button_amenity_water.png"/>
+			<button type="tag" label="jaun : 30"/>
+			<button type="tag" label="jaun : 40" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="jaun : 60" icon="button_amenity_water.png"/>
+			<button type="tag" label="jaun : 80"/>
+			<button type="tag" label="jaun : 100" icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="retour levée" targetlayout="levee"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="pegomye">
+		<row>
+			<button type="page" label="pegomye" targetlayout="pegomye"/>
+			<button type="page" label="1= insignifiant" targetlayout="pegomye"/>
+			<button type="page" label="en %" targetlayout="pegomye"/>
+		</row>
+		<row>
+			<button type="tag" label="peg : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="peg : 5"/>
+			<button type="tag" label="peg : 10" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="peg : 20" icon="button_amenity_water.png"/>
+			<button type="tag" label="peg : 30"/>
+			<button type="tag" label="peg : 40" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="peg : 60" icon="button_amenity_water.png"/>
+			<button type="tag" label="peg : 80"/>
+			<button type="tag" label="peg : 100" icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="    retour jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="maladies foliaires">
+		<row>
+			<button type="page" label="maladies" targetlayout="maladies foliaires"/>
+			<button type="page" label="foliaires" targetlayout="maladies foliaires"/>
+		</row>
+		<row>
+			<button type="page" label="oidium" icon="button_amenity_water.png" targetlayout="oidium"/>
+			<button type="page" label="rouille" icon="button_amenity_water.png" targetlayout="rouille"/>
+		</row>
+		<row>
+			<button type="page" label="ramulariose" icon="text.png" targetlayout="ramulariose"/>
+			<button type="page" label="cercosporiose" icon="button_amenity_water.png" targetlayout="cercosporiose"/>
+		</row>
+		<row>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="oidium">
+		<row>
+			<button type="page" label="oidium" targetlayout="oidium"/>
+			<button type="page" label="gravite" targetlayout="oidium"/>
+			<button type="page" label="1= insignifiant" targetlayout="oidium"/>
+		</row>
+		<row>
+			<button type="tag" label="oid : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="oid : 2"/>
+			<button type="tag" label="oid : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="oid : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="oid : 5"/>
+			<button type="tag" label="oid : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="oid : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="oid : 8"/>
+			<button type="tag" label="oid : 9"/>
+		</row>
+		<row>
+			<button type="page" label="retour maladies" icon="text.png" targetlayout="maladies foliaires"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="rouille">
+		<row>
+			<button type="page" label="rouille" targetlayout="rouille"/>
+			<button type="page" label="gravite" targetlayout="rouille"/>
+			<button type="page" label="1= insignifiant" targetlayout="rouille"/>
+		</row>
+		<row>
+			<button type="tag" label="rou : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="rou : 2"/>
+			<button type="tag" label="rou : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="rou : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="rou : 5"/>
+			<button type="tag" label="rou : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="rou : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="rou : 8"/>
+			<button type="tag" label="rou : 9"/>
+		</row>
+		<row>
+			<button type="page" label="retour maladies" icon="text.png" targetlayout="maladies foliaires"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="cercosporiose">
+		<row>
+			<button type="page" label="cercosporiose" targetlayout="cercosporiose"/>
+			<button type="page" label="gravite" targetlayout="cercosporiose"/>
+			<button type="page" label="1= insignifiant" targetlayout="cercosporiose"/>
+		</row>
+		<row>
+			<button type="tag" label="cerc : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="cerc : 2"/>
+			<button type="tag" label="cerc : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="cerc : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="cerc : 5"/>
+			<button type="tag" label="cerc : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="cerc : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="cerc : 8"/>
+			<button type="tag" label="cerc : 9"/>
+		</row>
+		<row>
+			<button type="page" label="retour maladies" icon="text.png" targetlayout="maladies foliaires"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="  retour general  " targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="ramulariose">
+		<row>
+			<button type="page" label="ramulariose" targetlayout="ramulariose"/>
+			<button type="page" label="gravite" targetlayout="ramulariose"/>
+			<button type="page" label="1= insignifiant" targetlayout="ramulariose"/>
+		</row>
+		<row>
+			<button type="tag" label="ram : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="ram : 2"/>
+			<button type="tag" label="ram : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="ram : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="ram : 5"/>
+			<button type="tag" label="ram : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="ram : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="ram : 8"/>
+			<button type="tag" label="ram : 9"/>
+		</row>
+		<row>
+			<button type="page" label="retour maladies" icon="text.png" targetlayout="maladies foliaires"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="  retour general  " targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="autre 1">
+		<row>
+			<button type="page" label="autre 1" targetlayout="autre 1"/>
+			<button type="page" label="autre 1" targetlayout="autre 1"/>
+			<button type="page" label="1= insignifiant" targetlayout="autre 1"/>
+		</row>
+		<row>
+			<button type="tag" label="aut 1 : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="aut 1 : 2"/>
+			<button type="tag" label="aut 1 : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="aut 1 : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="aut 1 : 5"/>
+			<button type="tag" label="aut 1 : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="aut 1 : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="aut 1 : 8"/>
+			<button type="tag" label="aut 1 : 9" icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="retour jaunisse" icon="text.png" targetlayout="salissement"/>
+			<button type="page" label="salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+	</layout>
+	<layout name="autre 2">
+		<row>
+			<button type="page" label="autre 2" targetlayout="autre 2"/>
+			<button type="page" label="autre 2" targetlayout="autre 2"/>
+			<button type="page" label="1= insignifiant" targetlayout="autre 2"/>
+		</row>
+		<row>
+			<button type="tag" label="aut 2 : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="aut 2 : 2"/>
+			<button type="tag" label="aut 2 : 3" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="aut 2 : 4" icon="button_amenity_water.png"/>
+			<button type="tag" label="aut 2 : 5"/>
+			<button type="tag" label="aut 2 : 6" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="aut 2 : 7" icon="button_amenity_water.png"/>
+			<button type="tag" label="aut 2 : 8"/>
+			<button type="tag" label="aut 2 : 9" icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="retour jaunisse" targetlayout="jaunisse"/>
+			<button type="page" label="salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>
+</layout>
+	<layout name="rhizo forte">
+		<row>
+			<button type="page" label="rhizo forte" targetlayout="rhizo forte"/>
+			<button type="page" label="1=insignifiant" targetlayout="rhizo forte"/>
+			<button type="page" label="en %" targetlayout="rhizo forte"/>
+		</row>
+		<row>
+			<button type="tag" label="rhizo inf : 1" icon="button_amenity_water.png"/>
+			<button type="tag" label="rhizo inf : 5"/>
+			<button type="tag" label="rhizo inf : 10" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="rhizo inf : 20" icon="button_amenity_water.png"/>
+			<button type="tag" label="rhizo inf : 30"/>
+			<button type="tag" label="rhizo inf : 40" icon="text.png"/>
+		</row>
+		<row>
+			<button type="tag" label="rhizo inf : 60" icon="button_amenity_water.png"/>
+			<button type="tag" label="rhizo inf : 80"/>
+			<button type="tag" label="rhizo inf : 100" icon="text.png"/>
+		</row>
+		<row>
+			<button type="page" label="retour levée" targetlayout="levee"/>
+			<button type="page" label="retour salissement" targetlayout="salissement"/>
+			<button type="page" label="retour general" targetlayout="root"/>
+		</row>		
+	</layout>
+</layouts>
