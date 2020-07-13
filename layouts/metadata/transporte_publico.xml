@@ -1,6 +1,0 @@
-<metadata>
-    <option iso="es" name="Español">Con este Layout se podrá mapear los tres tipos de paradas de buses, lugares de estacionamiento de taxis, trenes y bicicletas, además, de ciclovías y lugares de alquiler de bicicletas.</option>
-    <option iso="en" name="English">With this Layout you can map the three types of bus stops, parking places for taxis, trains and bicycles, as well as cycle paths and bike rental places.</option>
-    <option iso="fr" name="Français">Avec cette disposition de boutons vous pouvez collecter trois types d'arrêts de bus, des gares, des taxis et des équipements et chemins cyclables.</option>
-    <github username="labexp" repo="osmtracker-android-layouts" branch="master" />
-</metadata>

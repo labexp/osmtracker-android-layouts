@@ -1,6 +1,0 @@
-
-<metadata>
-    <option iso="es" name="Español"> Este layout permite mapear diferentes tipos de pozos de agua, como pozos en uso, pozos recién descubiertos o pozos contaminados </option>
-    <option iso="en" name="English"> This layout allows you to map different kinds of water supplies like some that are in use right now, new water supply discovered or contaminated ones. </option>
-    <github username="labexp" repo="osmtracker-android-layouts" branch="master" />
-</metadata>
