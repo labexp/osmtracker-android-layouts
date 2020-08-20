@@ -1,0 +1,9 @@
+<layouts>
+        <layout name="root">
+		<row>
+			<button type="tag" label="X" icon="xyz_icons/x.png"/>
+			<button type="tag" label="Y" icon="xyz_icons/y.png"/>
+			<button type="tag" label="Z" icon="xyz_icons/z.png"/>
+		</row>
+	</layout>
+</layouts>
