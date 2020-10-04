@@ -1,0 +1,66 @@
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="textnote"/>
+		</row>
+		<row>
+			<button type="page" icon="compdes_icons/accessibility.png" label="Accesibilidad" targetlayout="Accesibilidad"/>
+		</row>
+		<row>
+			<button type="page" icon="compdes_icons/infraestructure.png" label="Infraestructura" targetlayout="Infraestructura"/>
+		</row>
+		<row>
+			<button type="page" icon="compdes_icons/emergency.png" label="Emergencias" targetlayout="Emergencias"/>
+		</row>
+	</layout>
+	
+	<layout name="Accesibilidad">
+		<row>
+			<button type="tag" label="Parqueo especial"/>
+			<button type="tag" label="Rampa acceso"/>
+		</row>
+		<row>
+			<button type="tag" label="Baño accesible"/>
+			<button type="tag" label="Gradas"/>
+		</row>
+		<row>
+			<button type="tag" label="Ascensor"/>
+		</row>
+	</layout>
+
+	<layout name="Infraestructura">
+		<row>
+			<button type="tag" label="Parqueo bicicleta"/>
+			<button type="tag" label="Basurero múltiple"/>
+			<button type="tag" label="Basurero simple"/>
+		</row>
+		<row>
+			<button type="tag" label="Baños"/>
+			<button type="tag" label="Banca"/>
+			<button type="tag" label="Zona recreativa"/>
+		</row>
+		<row>
+			<button type="tag" label="Paso peat. INICIO"/>
+			<button type="tag" label="Paso peat. FIN"/>
+			<button type="tag" label="Librería"/>
+		</row>
+		<row>
+			<button type="tag" label="Pasillo tech. INI"/>
+			<button type="tag" label="Pasillo tech. FIN"/>
+			<button type="tag" label="Panel solar"/>
+		</row>
+	</layout>
+
+	<layout name="Emergencias">
+		<row>
+			<button type="tag" label="Camilla"/>
+			<button type="tag" label="Extinguidor"/>
+		</row>
+		<row>
+			<button type="tag" label="Punto reunión"/>
+			<button type="tag" label="Tubo de agua"/>
+			<button type="tag" label="Árbol"/>
+		</row>
+	</layout>
+
+</layouts>

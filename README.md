@@ -6,3 +6,4 @@ The layouts hosted in this branch are only meant to be used for the purpose of r
 
 ## *Available Layouts:*
 + [ABC](https://github.com/labexp/osmtracker-android-layouts/blob/for_tests/layouts/abc/README.md)
++ [Compdes](https://github.com/labexp/osmtracker-android-layouts/blob/for_tests/layouts/compdes/README.md)
