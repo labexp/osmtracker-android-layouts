@@ -10,6 +10,7 @@ This is OSMTracker's default repository for download custom layouts functionalit
 + [Accesibilidad.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/accesibilidad/README.md)
 + [Hidrantes.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/hidrantes/README.md)
 + [Max Speed.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/maxspeed/README.md)
++ [Max Speed USA.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/maxspeed_usa/README.md)
 + [Transporte público.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/transporte_publico/README.md)
 + [Walk Ride Detailed.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/walk_ride_detailed/readme.md)
 + [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supply/README.md)
