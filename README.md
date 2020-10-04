@@ -4,9 +4,12 @@ This is OSMTracker's default repository for download custom layouts functionalit
 
 [Here](https://github.com/labexp/osmtracker-android-layouts/wiki) you can learn how to contribute with the community.
 
-## *Available Layouts:*
-+ [Hidrantes.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/hidrantes/README.md)
-+ [Transporte público.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/transporte_publico/README.md)
+
+
+## Available Layouts: (in alphabetical order)
 + [Accesibilidad.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/accesibilidad/README.md)
-+ [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supply/README.md)
++ [Hidrantes.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/hidrantes/README.md)
++ [Max Speed.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/maxspeed/README.md)
++ [Transporte público.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/transporte_publico/README.md)
 + [Walk Ride Detailed.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/walk_ride_detailed/readme.md)
++ [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supply/README.md)
