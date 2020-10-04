@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+    <layout name="root">
+        <row>
+        <button type="tag" label="Autre dechet" icon="macroplastics_pollution_icons/autre_dechet.png" />
+            <button type="tag" label="Autres dechets +10" icon="macroplastics_pollution_icons/autres_dechets_10.png"/>
+        </row>
+        <row>  
+ <button type="tag" label="Objet vie courante"icon="macroplastics_pollution_icons/objet_vie_courante.png" />
+           
+            <button type="tag" label="Bouteille boisson" icon="macroplastics_pollution_icons/bouteille_boisson.png" />
+          
+ <button type="tag" label="Emballage alimentaire"icon="macroplastics_pollution_icons/emballage_alimentaire.png" />
+        </row>
+        <row>
+            <button type="tag" label="Dechet agricole" icon="macroplastics_pollution_icons/dechet_agricole.png"/>
+            <button type="tag" label="Industriel ou construction"icon="macroplastics_pollution_icons/dechet_construction_industriel.png" />
+            <button type="tag" label="Peche et chasse"icon="macroplastics_pollution_icons/peche_et_chasse.png" />
+        </row>
+    </layout>
+</layouts>
