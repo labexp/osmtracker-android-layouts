@@ -1,7 +1,7 @@
 # Disposición de botones para captura de datos de hidrantes
 Una vez descargada la disposición de botones ser verá como la siguiente:
 
-(<u>Nota:</u> acá se debe insertar un pantallazo de la disposición de botones)
+<img src="captura_pantalla.jpg" style="zoom: 50%;" />
 
 
 
