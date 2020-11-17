@@ -6,35 +6,35 @@
             <button type="voicerec" icon="logo_voice"/>
         </row>
         <row>
-            <button type="tag" label="Obstáculo" icon="accesibilidad/accesibilidad_icons/obstaculo.png" />
-            <button type="tag" label="Semáforo audible" icon="accesibilidad/accesibilidad_icons/semaforo.png"/>
+            <button type="tag" label="Obstáculo" icon="bekuo_icons/obstaculo.png" />
+            <button type="tag" label="Semáforo audible" icon="bekuo_icons/semaforo.png"/>
         </row>
         <row>
-            <button type="page" label="Hidrantes" targetlayout="Hidrantes"/>
-            <button type="page" label="Transporte" targetlayout="Transporte"/>
+            <button type="page" label="Hidrantes" targetlayout="hidrantes"/>
+            <button type="page" label="Transporte" targetlayout="transporte"/>
         </row>
-        <layout name="Hidrantes">
+        <layout name="hidrantes">
             <row>
                 <button type="tag" label="Hidrante Seco" icon="bekuo_icons/marker.png"/>
-                <button type="tag" label="Hidrante de Pilar" icon="hidrantes/hidrantes_icons/App-01.png"/>
-                <button type="tag" label="Hidrante de Pared" icon="hidrantes/hidrantes_icons/App-02.png"/>
+                <button type="tag" label="Hidrante de Pilar" icon="bekuo_icons/App-01.png"/>
+                <button type="tag" label="Hidrante de Pared" icon="bekuo_icons/App-02.png"/>
             </row>
             <row>
                 <button type="tag" label="Hidrante Subterráneo" icon="bekuo_icons/marker.png"/>
-                <button type="tag" label="Hidrante Desconocido" icon="hidrantes/hidrantes_icons/App-04.png"/>
-                <button type="tag" label="Hidrante fuera de servicio" icon="hidrantes/hidrantes_icons/App-10.png"/>
+                <button type="tag" label="Hidrante Desconocido" icon="bekuo_icons/App-04.png"/>
+                <button type="tag" label="Hidrante fuera de servicio" icon="bekuo_icons/App-10.png"/>
             </row>
         </layout>
-        <layout name="Transporte">
+        <layout name="transporte">
             <row>
-                <button type="tag" label="Parada de Bus - Tipo 1" icon="transporte_publico/transporte_publico_icons/parada_bus_1.png" />
-                <button type="tag" label="Parada de Bus - Tipo 2" icon="transporte_publico/transporte_publico_icons/parada_bus_2.png" />
-                <button type="tag" label="Parada de Bus - Tipo 3" icon="transporte_publico/transporte_publico_icons/parada_bus_3.png" />
+                <button type="tag" label="Parada de Bus - Tipo 1" icon="bekuo_icons/parada_bus_1.png" />
+                <button type="tag" label="Parada de Bus - Tipo 2" icon="bekuo_icons/parada_bus_2.png" />
+                <button type="tag" label="Parada de Bus - Tipo 3" icon="bekuo_icons/parada_bus_3.png" />
             </row>
             <row>
-                <button type="tag" label="Alquiler Bicicletas" icon="transporte_publico/transporte_publico_icons/alquiler.png" />
-                <button type="tag" label="Taxis" icon="transporte_publico/transporte_publico_icons/taxi.png" />
-                <button type="tag" label="Parqueo Bicicleta" icon="transporte_publico/transporte_publico_icons/parqueo_bici.png" />
+                <button type="tag" label="Alquiler Bicicletas" icon="bekuo_icons/alquiler.png" />
+                <button type="tag" label="Taxis" icon="bekuo_icons/taxi.png" />
+                <button type="tag" label="Parqueo Bicicleta" icon="bekuo_icons/parqueo_bici.png" />
             </row>
         </layout>
     </layout>
