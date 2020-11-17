@@ -6,17 +6,12 @@
             <button type="voicerec" icon="logo_voice"/>
         </row>
         <row>
-            <button type="page" label="Portrait" targetlayout="portrait"/>
-        </row>
-    </layout>
-    <layout name="portrait">
-        <row>
             <button type="tag" label="Obstáculo" icon="accesibilidad/accesibilidad_icons/obstaculo.png" />
             <button type="tag" label="Semáforo audible" icon="accesibilidad/accesibilidad_icons/semaforo.png"/>
         </row>
         <row>
-            <button type="page" label="Hidrantes" targetlayout=""/>
-            <button type="page" label="Transporte" targetlayout=""/>
+            <button type="page" label="Hidrantes" targetlayout="Hidrantes"/>
+            <button type="page" label="Transporte" targetlayout="Transporte"/>
         </row>
         <layout name="Hidrantes">
             <row>
