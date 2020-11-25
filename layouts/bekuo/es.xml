@@ -11,7 +11,7 @@
         </row>
         <row>
             <button type="page" label="Hidrantes" targetlayout="hidrantes"/>
-            <button type="page" label="Transporte" targetlayout="transporte"/>
+            <button type="page" label="Movilidad" targetlayout="movilidad"/>
         </row>
     </layout>
     <layout name="hidrantes">
@@ -26,7 +26,7 @@
             <button type="tag" label="Hidrante fuera de servicio" icon="bekuo_icons/App-10.png"/>
         </row>
     </layout>
-    <layout name="transporte">
+    <layout name="movilidad">
         <row>
             <button type="tag" label="Parada de Bus - Tipo 1" icon="bekuo_icons/parada_bus_1.png" />
             <button type="tag" label="Parada de Bus - Tipo 2" icon="bekuo_icons/parada_bus_2.png" />
