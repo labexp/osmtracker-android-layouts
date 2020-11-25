@@ -16,3 +16,9 @@ Esta disposición nos ayudará a mapear objetos relacionados a la calidad de acc
 
 [2] Al establecer un punto de inicio para una acera táctil, se debe establecer su punto de fin donde corresponda, las etiquetas mostradas son utilizadas para describir el estado de dicha acera.
 
+
+**Aclaraciones**
+
+[1] Al encontrar un nodo de tipo obstáculo, es necesario indicar que solo se debe utilizar una de las etiquetas ejemplificadas en la tabla.
+
+[2] Al establecer un punto de inicio para una acera táctil, se debe establecer su punto de fin donde corresponda, las etiquetas mostradas son utilizadas para describir el estado de dicha acera.
