@@ -1,37 +1,43 @@
 # Disposición de botones Bëküo
 
-Esta disposición de botones (DisBo) facilita la recolección de datos para mapear elementos de accesibilidad, hidrantes y movilidad. Esta DisBo ha sido creada por el grupo de investigación/extensión Bekuo del [Laboratorio Experimental](labexp.org) como parte de sus tareas.  A continuación se ofrece una tabla que documenta los botones incluidos en la DisBo y su eventual uso al editar el mapa de Open Street Map (OSM).
+Esta disposición de botones (DisBo) facilita la recolección de datos para mapear elementos de accesibilidad, hidrantes y movilidad. Esta DisBo ha sido creada por el grupo de investigación/extensión Bekuo del [Laboratorio Experimental](labexp.org) como parte de una [investigación sobre calidad de datos](https://github.com/labexp/pre-editor-osm). La DIsBo será utilizada en un ejercicio de mapeo en campo.  A continuación se ofrece una tabla que documenta los botones incluidos en la DisBo y su eventual uso al editar el mapa de Open Street Map (OSM).
+
+
 
 | <img src="docu/bekuo1.jpg" style="zoom:25%;" /> | <img src="docu/bekuo2.jpg" style="zoom:25%;" /> | <img src="docu/bekuo3.jpg" style="zoom:25%;" /> |
 | ----------------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
-|                                                 |                                                 |                                                 |
+| DisBo de entrada                                | Hidrantes                                       | Movilidad.                                      |
 
-La imagen de la izquierda es la DisBo de entrada, permite capturar elementos de accesibilidad y nos llega a las otras dos pantallas, la de hidrantes y de movilidad. Estas últimas dos serán explicadas más abajo en este archivo.  
+La imagen de la izquierda es la DisBo de entrada, permite capturar elementos de accesibilidad y nos lleva a las otras dos pantallas: la de hidrantes y de movilidad. Estas últimas dos serán explicadas más abajo en este archivo.  
 
-Las siguientes tabla pretenden guiar la asociación entre distintos tipos de elementos encontrados en el campo con el mapa de OSM. La primera columna presenta el ícono que aparecen en la disposición de botones. La segunda y tercera columna describen con una imagen y texto, las características de cada elemento para identificarlo en el campo mientras se capturan datos.  La cuarta columna indica el texto que aparecerá en el archivo en el punto del GPX  (*waypoint*) luego de presionar el botón. La última columna es una sugerencia de esquema de mapeo para incorporar los datos capturados a OSM.
+Las siguientes tablas pretenden guiar la asociación entre distintos tipos de elementos encontrados en el campo con las etiquetas a utilizar para describir los elementos en el mapa de OSM. La primera columna presenta el ícono que aparecen en la disposición de botones. La segunda y tercera columna describen con una imagen y texto las características de cada elemento para identificarlo en el campo mientras se capturan datos.  La cuarta columna indica el texto que aparecerá en el archivo en el punto del GPX  (*waypoint*) luego de presionar el botón. La última columna es una sugerencia de esquema de mapeo para incorporar los datos capturados a OSM.
+
+
 
 ## Entrada
 
 | Ícono  |Ejemplo| Texto del punto en el GPX (waypoint)  | Descripción   | Esquema de mapeo sugerido en OSM   |
 |--------|-------|---------------------------------------|---------------|------------------------------------|
-|<img src="https://github.com/EmmanuelAB/Pruebas/blob/master/negros/obstaculo.png?raw=true" width="100" heigth="100">|<img src="https://www.jacksons-fencing.co.uk/-/media/jacksons-products/timber/footpath--row/5888.jpg?mh=460&mw=690&hash=29B1C023A25AE85F6CCC985590743B4133B42F4D" width="250" heigth="250"> | Obstáculo  | Obstáculo: cualquier tipo de obstáculo en una acera o zona de paso que dificulte o imposibilite el paso accesible.  | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): ` barrier=chain` `barrier=cable_barrier` `barrier=handrail` `barrier=kerb` `barrier=cattle_grid` `barrier=debris`[1] |
-|<img src="https://github.com/EmmanuelAB/Pruebas/blob/master/negros/semaforo.png?raw=true" width="100" heigth="100">|<img src="https://globalaccessibilitynews.com/files/2014/05/DSC_012.jpg" width="150" heigth="150">|  Semáforo audible  | Semáforo audible, con un nivel de sonido claro.|Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): ` crossing=traffic_signals`  `traffic_signals:sound=walk` `traffic_signals:sound=yes` |
+|<img src="https://github.com/EmmanuelAB/Pruebas/blob/master/negros/obstaculo.png?raw=true" width="100" heigth="100">|<img src="https://www.jacksons-fencing.co.uk/-/media/jacksons-products/timber/footpath--row/5888.jpg?mh=460&mw=690&hash=29B1C023A25AE85F6CCC985590743B4133B42F4D" width="250" heigth="250"> | Obstáculo  | Cualquier tipo de obstáculo en una acera o zona de paso que dificulte o imposibilite el paso accesible.  | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): ` barrier=chain` `barrier=cable_barrier` `barrier=handrail` `barrier=kerb` `barrier=cattle_grid` `barrier=debris`[1] |
+|<img src="https://github.com/EmmanuelAB/Pruebas/blob/master/negros/semaforo.png?raw=true" width="100" heigth="100">|<img src="https://globalaccessibilitynews.com/files/2014/05/DSC_012.jpg" width="150" heigth="150">|  Semáforo audible  | Semáforo peatonal con un nivel de sonido claro. |Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): ` crossing=traffic_signals`  `traffic_signals:sound=walk` `traffic_signals:sound=yes` |
 
 
 
-El esquema de mapeo sugerido está basado en las páginas wiki:
+El esquema de mapeo sugerido está basado en las páginas Wiki:
 
 *  [Key:barrier](https://wiki.openstreetmap.org/wiki/ES:Key:barrier).
 * [crossing=traffic_signals](https://wiki.openstreetmap.org/wiki/ES:Tag:crossing%3Dtraffic_signals)
 
 [1] Al encontrar un nodo de tipo obstáculo, es necesario indicar que solo se debe utilizar una de las etiquetas ejemplificadas en la tabla.
 
+
+
 ## Hidrantes
 
 
 | Ícono                                                        | Ejemplo                                                      | Descripción                                                  | Texto del punto en el GPX (waypoint) | Esquema de mapeo sugerido en OSM                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------ | ------------------------------------------------------------ |
-| (<u>Por hacer</u>: incluir ícono) Hidrante Seco              | ![](https://wiki.openstreetmap.org/w/images/thumb/3/33/Hydrants_20130326_112938.JPG/150px-Hydrants_20130326_112938.JPG) | También conocido como "hidrante seco", necesario una bomba.  | Hidrante Seco                        | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=pipe |
+| (<u>Por hacer</u>: incluir ícono) Hidrante Seco              | ![](https://wiki.openstreetmap.org/w/images/thumb/3/33/Hydrants_20130326_112938.JPG/150px-Hydrants_20130326_112938.JPG) | También conocido como "hidrante seco", necesario una bomba.  | Hidrante Seco                        | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=pipe` |
 | <img src="bekuo_icons/App-01.png" style="zoom:33%;background-color: gray;" /> Hidrante de Pilar | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Downtown_Charlottesville_fire_hydrant_1.jpg/150px-Downtown_Charlottesville_fire_hydrant_1.jpg) | Un hidrante de tipo pilar. Para información específica leer [`pillar:type=*`](https://wiki.openstreetmap.org/w/index.php?title=ES:Tag:emergency%3Dfire_hydrant#pillar:type.3D.2A) | Hidrante de Pilar                    | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=pillar` |
 | <img src="bekuo_icons/App-02.png" style="zoom:33%;background-color: gray;" /> Hidrante de Pared | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Guentherscheid_Tunnel_Rescue4.jpg/225px-Guentherscheid_Tunnel_Rescue4.jpg) | Hidrante colocado en una pared.                              | Hidrante de Pared                    | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=wall` |
 | (<u>Por hacer</u>: incluir ícono) Hidrante Subterráneo       | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Berlin_hydrant_20050211_p1000517.jpg/200px-Berlin_hydrant_20050211_p1000517.jpg) | El hidrantes está bajo tierra, es necesario un tubo vertical. | Hidrante Subterráneo                 | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=underground` |
@@ -39,6 +45,7 @@ El esquema de mapeo sugerido está basado en las páginas wiki:
 | <img src="bekuo_icons/App-10.png" style="zoom:33%;background-color: gray;" /> Hidrante fuera de servicio. |                                                              | Se supone que los hidrantes están en funcionamiento de manera  predeterminada. En caso contrario, si el hidrante está fuera de  servicio, use esta etiqueta. | Hidrante fuera de servicio           | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `disused:emergency=fire_hydrant` |
 
 El esquema de mapeo sugerido está basado en la [wiki de la etiqueta `emergency=fire_hydrant`](https://wiki.openstreetmap.org/wiki/ES:Tag:emergency%3Dfire_hydrant).
+
 
 
 ## Movilidad
