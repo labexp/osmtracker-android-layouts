@@ -26,6 +26,7 @@
 			<button type="tag" label="Compacted"/>
 			<button type="tag" label="Gravel"/>
 			<button type="tag" label="Earth"/>
+			<button type="tag" label="Asphalt"/>
 		</row>
 		<row>
 			<button type="tag" label="Viz excellent"/>
@@ -36,14 +37,13 @@
 		<row>
 			<button type="tag" label="SAC hiking"/>
 			<button type="tag" label="SAC mtn hiking"/>
-			<button type="tag" label="Earth"/>
+			<button type="tag" label="S= small wheels"/>
 		</row>
 		<row>
-			<button type="tag" label="Smth = small wheels"/>
-			<button type="tag" label="Smth = racing bike"/>
-			<button type="tag" label="Smth = city bike"/>
-			<button type="tag" label="Smth = mtn bike"/>
-			<button type="tag" label="Smth = car"/>
+			<button type="tag" label="S= racing bike"/>
+			<button type="tag" label="S= city bike"/>
+			<button type="tag" label="S= mtn bike"/>
+			<button type="tag" label="S= car"/>
 		</row>
 		<row>
 			<button type="tag" label="Duckboard start"/>
@@ -73,6 +73,7 @@
 			<button type="tag" label="Toilet"/>
 		</row>
 		<row>
+			<button type="tag" label="Fire pit"/>
 			<button type="tag" label="Firewood"/>
 		</row>
 	</layout>
