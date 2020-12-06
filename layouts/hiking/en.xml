@@ -1,0 +1,79 @@
+<layouts>
+        <layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="page" label="Ways" targetlayout="ways"/>
+			<button type="page" label="Surface" targetlayout="surface"/>
+			<button type="page" label="Amenity" targetlayout="amenity"/>
+		</row>
+	</layout>
+        <layout name="ways">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Path"/>
+			<button type="tag" label="Track"/>
+			<button type="tag" label="Footway"/>
+		</row>
+		<row>
+			<button type="tag" label="Compacted"/>
+			<button type="tag" label="Gravel"/>
+			<button type="tag" label="Earth"/>
+		</row>
+		<row>
+			<button type="tag" label="Viz excellent"/>
+			<button type="tag" label="Viz good"/>
+			<button type="tag" label="Viz intermediate"/>
+			<button type="tag" label="Viz bad"/>
+		</row>
+		<row>
+			<button type="tag" label="SAC hiking"/>
+			<button type="tag" label="SAC mtn hiking"/>
+			<button type="tag" label="Earth"/>
+		</row>
+		<row>
+			<button type="tag" label="Smth = small wheels"/>
+			<button type="tag" label="Smth = racing bike"/>
+			<button type="tag" label="Smth = city bike"/>
+			<button type="tag" label="Smth = mtn bike"/>
+			<button type="tag" label="Smth = car"/>
+		</row>
+		<row>
+			<button type="tag" label="Duckboard start"/>
+			<button type="tag" label="Duckboard end"/>
+			<button type="tag" label="Bridge"/>
+		</row>
+	</layout>
+        <layout name="amenity">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Info = Map"/>
+			<button type="tag" label="Info = Guidepost"/>
+			<button type="tag" label="Bench"/>
+		</row>
+		<row>
+			<button type="tag" label="Viewpoint"/>
+			<button type="tag" label="Shelter"/>
+			<button type="tag" label="picnic_site"/>
+		</row>
+		<row>
+			<button type="tag" label="Camp site"/>
+			<button type="tag" label="Parking"/>
+			<button type="tag" label="Toilet"/>
+		</row>
+		<row>
+			<button type="tag" label="Firewood"/>
+		</row>
+	</layout>
+</layouts>
