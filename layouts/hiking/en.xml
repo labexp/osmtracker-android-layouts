@@ -60,12 +60,12 @@
 		<row>
 			<button type="tag" label="Info = Map"/>
 			<button type="tag" label="Info = Guidepost"/>
-			<button type="tag" label="Bench"/>
+			<button type="tag" label="Viewpoint"/>
 		</row>
 		<row>
-			<button type="tag" label="Viewpoint"/>
 			<button type="tag" label="Shelter"/>
-			<button type="tag" label="picnic_site"/>
+			<button type="tag" label="Picnic table"/>
+			<button type="tag" label="Bench"/>
 		</row>
 		<row>
 			<button type="tag" label="Camp site"/>
