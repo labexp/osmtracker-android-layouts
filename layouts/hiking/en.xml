@@ -7,8 +7,11 @@
 		</row>
 		<row>
 			<button type="page" label="Ways" targetlayout="ways"/>
+			<button type="page" label="Ways 2" targetlayout="ways-advanced"/>
 			<button type="page" label="Amenity" targetlayout="amenity"/>
-			<button type="page" label="Ways, extra Amenity" targetlayout="ways-advanced"/>
+		</row>
+		<row>
+			<button type="page" label="Ways, extra Amenity" targetlayout="road"/>
 		</row>
 	</layout>
         <layout name="ways">
@@ -18,33 +21,33 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="tag" label="Path"/>
-			<button type="tag" label="Track"/>
-			<button type="tag" label="Footway"/>
+			<button type="tag" label="Way = Path"/>
+			<button type="tag" label="Way = Track"/>
+			<button type="tag" label="Way = Footway"/>
 		</row>
 		<row>
-			<button type="tag" label="Compacted"/>
-			<button type="tag" label="Gravel"/>
-			<button type="tag" label="Earth"/>
-			<button type="tag" label="Asphalt"/>
+			<button type="tag" label="Surf = Compacted"/>
+			<button type="tag" label="Surf = Gravel"/>
+			<button type="tag" label="Surf = Earth"/>
+			<button type="tag" label="Surf = Asphalt"/>
 		</row>
 		<row>
-			<button type="tag" label="Viz excellent"/>
-			<button type="tag" label="Viz good"/>
-			<button type="tag" label="Viz intermediate"/>
-			<button type="tag" label="Viz bad"/>
+			<button type="tag" label="Viz = excellent"/>
+			<button type="tag" label="Viz = good"/>
+			<button type="tag" label="Viz = intermediate"/>
+			<button type="tag" label="Viz = bad"/>
 		</row>
 		<row>
-			<button type="tag" label="SAC1 hiking"/>
-			<button type="tag" label="SAC2 mtn hiking"/>
-			<button type="tag" label="SAC3 difficult mtn"/>
+			<button type="tag" label="Diff = SAC1 hiking"/>
+			<button type="tag" label="Diff = SAC2 mtn hiking"/>
+			<button type="tag" label="Diff = SAC3 difficult mtn"/>
 		</row>
 		<row>
-			<button type="tag" label="S= small wheels"/>
-			<button type="tag" label="S= racing bike"/>
-			<button type="tag" label="S= city bike"/>
-			<button type="tag" label="S= mtn bike"/>
-			<button type="tag" label="S= car"/>
+			<button type="tag" label="Smth = small wheels"/>
+			<button type="tag" label="Smth = racing bike"/>
+			<button type="tag" label="Smth = city bike"/>
+			<button type="tag" label="Smth = mtn bike"/>
+			<button type="tag" label="Smth = car"/>
 		</row>
 	</layout>
         <layout name="amenity">
@@ -57,6 +60,7 @@
 			<button type="tag" label="Info = Map"/>
 			<button type="tag" label="Info = Guidepost"/>
 			<button type="tag" label="Info = Nature"/>
+			<button type="tag" label="Info = History"/>
 		</row>
 		<row>
 			<button type="tag" label="Shelter"/>
@@ -65,13 +69,13 @@
 		</row>
 		<row>
 			<button type="tag" label="Camp site"/>
-			<button type="tag" label="Parking"/>
-			<button type="tag" label="Toilet"/>
+			<button type="tag" label="Fire pit"/>
+			<button type="tag" label="Firewood"/>
 		</row>
 		<row>
 			<button type="tag" label="Viewpoint"/>
-			<button type="tag" label="Fire pit"/>
-			<button type="tag" label="Firewood"/>
+			<button type="tag" label="Parking"/>
+			<button type="tag" label="Toilet"/>
 		</row>
 	</layout>
         <layout name="ways-advanced">
@@ -97,6 +101,16 @@
 			<button type="tag" label="Cycle = yes"/>
 			<button type="tag" label="Horse = yes"/>
 			<button type="tag" label="Ski = yes"/>
+		</row>
+	</layout>
+        <layout name="road">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Parking"/>
 		</row>
 	</layout>
 </layouts>
