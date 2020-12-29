@@ -7,8 +7,8 @@
 		</row>
 		<row>
 			<button type="page" label="Ways" targetlayout="ways"/>
-			<button type="page" label="Surface" targetlayout="surface"/>
 			<button type="page" label="Amenity" targetlayout="amenity"/>
+			<button type="page" label="Ways, extra Amenity" targetlayout="ways-advanced"/>
 		</row>
 	</layout>
         <layout name="ways">
@@ -35,20 +35,16 @@
 			<button type="tag" label="Viz bad"/>
 		</row>
 		<row>
-			<button type="tag" label="SAC hiking"/>
-			<button type="tag" label="SAC mtn hiking"/>
-			<button type="tag" label="S= small wheels"/>
+			<button type="tag" label="SAC1 hiking"/>
+			<button type="tag" label="SAC2 mtn hiking"/>
+			<button type="tag" label="SAC3 difficult mtn"/>
 		</row>
 		<row>
+			<button type="tag" label="S= small wheels"/>
 			<button type="tag" label="S= racing bike"/>
 			<button type="tag" label="S= city bike"/>
 			<button type="tag" label="S= mtn bike"/>
 			<button type="tag" label="S= car"/>
-		</row>
-		<row>
-			<button type="tag" label="Duckboard start"/>
-			<button type="tag" label="Duckboard end"/>
-			<button type="tag" label="Bridge"/>
 		</row>
 	</layout>
         <layout name="amenity">
@@ -60,7 +56,7 @@
 		<row>
 			<button type="tag" label="Info = Map"/>
 			<button type="tag" label="Info = Guidepost"/>
-			<button type="tag" label="Viewpoint"/>
+			<button type="tag" label="Info = Nature"/>
 		</row>
 		<row>
 			<button type="tag" label="Shelter"/>
@@ -73,8 +69,34 @@
 			<button type="tag" label="Toilet"/>
 		</row>
 		<row>
+			<button type="tag" label="Viewpoint"/>
 			<button type="tag" label="Fire pit"/>
 			<button type="tag" label="Firewood"/>
+		</row>
+	</layout>
+        <layout name="ways-advanced">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="END"/>
+			<button type="tag" label="Nothing here"/>
+		</row>
+		<row>
+			<button type="tag" label="Mark 1"/>
+			<button type="tag" label="Mark 2"/>
+		</row>
+		<row>
+			<button type="tag" label="Stairs Start"/>
+			<button type="tag" label="Bridge Start"/>
+			<button type="tag" label="Duckboard start"/>
+		</row>
+		<row>
+			<button type="tag" label="Cycle = yes"/>
+			<button type="tag" label="Horse = yes"/>
+			<button type="tag" label="Ski = yes"/>
 		</row>
 	</layout>
 </layouts>
