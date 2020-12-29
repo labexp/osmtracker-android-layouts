@@ -13,6 +13,10 @@
 		<row>
 			<button type="page" label="Ways, extra Amenity" targetlayout="road"/>
 		</row>
+		<row>
+			<button type="tag" label="Left side"/>
+			<button type="tag" label="Right side"/>
+		</row>
 	</layout>
         <layout name="ways">
 		<row>
