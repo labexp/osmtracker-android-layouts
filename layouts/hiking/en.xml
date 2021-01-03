@@ -7,15 +7,21 @@
 		</row>
 		<row>
 			<button type="page" label="Ways" targetlayout="ways"/>
-			<button type="page" label="Ways 2" targetlayout="ways-advanced"/>
-			<button type="page" label="Amenity" targetlayout="amenity"/>
+			<button type="page" label="Way surfaces" targetlayout="ways-advanced"/>
+			<button type="page" label="Along ways" targetlayout="along-ways"/>
 		</row>
 		<row>
-			<button type="page" label="Ways, extra Amenity" targetlayout="road"/>
+			<button type="page" label="Sites" targetlayout="sites"/>
+			<button type="page" label="Symbols" targetlayout="symbols"/>
+			<button type="page" label="Roads/transit" targetlayout="road"/>
 		</row>
 		<row>
 			<button type="tag" label="Left side"/>
 			<button type="tag" label="Right side"/>
+		</row>
+		<row>
+			<button type="tag" label="Mark 1"/>
+			<button type="tag" label="Mark 2"/>
 		</row>
 	</layout>
         <layout name="ways">
@@ -46,15 +52,41 @@
 			<button type="tag" label="Diff = SAC2 mtn hiking"/>
 			<button type="tag" label="Diff = SAC3 difficult mtn"/>
 		</row>
+	</layout>
+        <layout name="ways-advanced">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="END"/>
+			<button type="tag" label="Nothing here"/>
+			<button type="tag" label="Connected"/>
+			<button type="tag" label="Separate"/>
+		</row>
+		<row>
+			<button type="tag" label="Stairs Start"/>
+			<button type="tag" label="Bridge Start"/>
+			<button type="tag" label="Duckboard start"/>
+		</row>
+		<row>
+			<button type="tag" label="Cycle = yes"/>
+			<button type="tag" label="Horse = yes"/>
+			<button type="tag" label="Ski = yes"/>
+		</row>
 		<row>
 			<button type="tag" label="Smth = small wheels"/>
 			<button type="tag" label="Smth = racing bike"/>
 			<button type="tag" label="Smth = city bike"/>
 			<button type="tag" label="Smth = mtn bike"/>
+		</row>
+		<row>
+			<button type="tag" label="Smth = no wheels"/>
 			<button type="tag" label="Smth = car"/>
 		</row>
 	</layout>
-        <layout name="amenity">
+        <layout name="along-ways">
 		<row>
 			<button type="picture" icon="logo_camera"/>
 			<button type="textnote" icon="logo_textnote"/>
@@ -67,6 +99,19 @@
 			<button type="tag" label="Info = History"/>
 		</row>
 		<row>
+			<button type="tag" label="Picnic table"/>
+			<button type="tag" label="Bench"/>
+			<button type="tag" label="Viewpoint"/>
+		</row>
+	</layout>
+        <layout name="sites">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+
 			<button type="tag" label="Shelter"/>
 			<button type="tag" label="Picnic table"/>
 			<button type="tag" label="Bench"/>
@@ -77,34 +122,7 @@
 			<button type="tag" label="Firewood"/>
 		</row>
 		<row>
-			<button type="tag" label="Viewpoint"/>
-			<button type="tag" label="Parking"/>
 			<button type="tag" label="Toilet"/>
-		</row>
-	</layout>
-        <layout name="ways-advanced">
-		<row>
-			<button type="picture" icon="logo_camera"/>
-			<button type="textnote" icon="logo_textnote"/>
-			<button type="voicerec" icon="logo_voice"/>
-		</row>
-		<row>
-			<button type="tag" label="END"/>
-			<button type="tag" label="Nothing here"/>
-		</row>
-		<row>
-			<button type="tag" label="Mark 1"/>
-			<button type="tag" label="Mark 2"/>
-		</row>
-		<row>
-			<button type="tag" label="Stairs Start"/>
-			<button type="tag" label="Bridge Start"/>
-			<button type="tag" label="Duckboard start"/>
-		</row>
-		<row>
-			<button type="tag" label="Cycle = yes"/>
-			<button type="tag" label="Horse = yes"/>
-			<button type="tag" label="Ski = yes"/>
 		</row>
 	</layout>
         <layout name="road">
@@ -115,6 +133,37 @@
 		</row>
 		<row>
 			<button type="tag" label="Parking"/>
+		</row>
+	</layout>
+        <layout name="symbols">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Blue"/>
+			<button type="tag" label="Green"/>
+			<button type="tag" label="Orange"/>
+			<button type="tag" label="Purple"/>
+		</row>
+		<row>
+			<button type="tag" label="Red"/>
+			<button type="tag" label="White"/>
+			<button type="tag" label="Yellow"/>
+			<button type="tag" label=""/>
+		</row>
+		<row>
+			<button type="tag" label="Diamond"/>
+			<button type="tag" label="Square"/>
+			<button type="tag" label="V bar"/>
+			<button type="tag" label="H bar"/>
+		</row>
+		<row>
+			<button type="tag" label="Circle"/>
+			<button type="tag" label="H line through"/>
+			<button type="tag" label=""/>
+			<button type="tag" label=""/>
 		</row>
 	</layout>
 </layouts>
