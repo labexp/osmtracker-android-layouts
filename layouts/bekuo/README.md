@@ -18,9 +18,8 @@ Las siguientes tablas pretenden guiar la asociación entre distintos tipos de el
 
 | Ícono  |Ejemplo| Texto del punto en el GPX (waypoint)  | Descripción   | Esquema de mapeo sugerido en OSM   |
 |--------|-------|---------------------------------------|---------------|------------------------------------|
-|<img src="https://github.com/EmmanuelAB/Pruebas/blob/master/negros/obstaculo.png?raw=true" width="100" heigth="100">|<img src="https://www.jacksons-fencing.co.uk/-/media/jacksons-products/timber/footpath--row/5888.jpg?mh=460&mw=690&hash=29B1C023A25AE85F6CCC985590743B4133B42F4D" width="250" heigth="250"> | Obstáculo  | Cualquier tipo de obstáculo en una acera o zona de paso que dificulte o imposibilite el paso accesible.  | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): ` barrier=chain` `barrier=cable_barrier` `barrier=handrail` `barrier=kerb` `barrier=cattle_grid` `barrier=debris`[1] |
+|<img src="https://github.com/EmmanuelAB/Pruebas/blob/master/negros/obstaculo.png?raw=true" width="100" heigth="100">|<img src="https://www.jacksons-fencing.co.uk/-/media/jacksons-products/timber/footpath--row/5888.jpg?mh=460&mw=690&hash=29B1C023A25AE85F6CCC985590743B4133B42F4D" width="250" heigth="250"> | Obstáculo  | Cualquier tipo de obstáculo en una acera o zona de paso que dificulte o imposibilite el paso accesible.  | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `barrier=yes wheelchair=no` [1] |
 |<img src="https://github.com/EmmanuelAB/Pruebas/blob/master/negros/semaforo.png?raw=true" width="100" heigth="100">|<img src="https://globalaccessibilitynews.com/files/2014/05/DSC_012.jpg" width="150" heigth="150">|  Semáforo audible  | Semáforo peatonal con un nivel de sonido claro. |Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): ` crossing=traffic_signals`  `traffic_signals:sound=walk` `traffic_signals:sound=yes` |
-
 
 
 El esquema de mapeo sugerido está basado en las páginas Wiki:
@@ -28,7 +27,8 @@ El esquema de mapeo sugerido está basado en las páginas Wiki:
 *  [Key:barrier](https://wiki.openstreetmap.org/wiki/ES:Key:barrier).
 * [crossing=traffic_signals](https://wiki.openstreetmap.org/wiki/ES:Tag:crossing%3Dtraffic_signals)
 
-[1] Al encontrar un nodo de tipo obstáculo, es necesario indicar que solo se debe utilizar una de las etiquetas ejemplificadas en la tabla.
+[1] Al encontrar un nodo de tipo obstáculo, es necesario indicar que solo se deben tomar en cuenta elementos
+que impidan el paso para una silla de ruedas mediante el uso de las etiquetas correspondientes.
 
 
 
