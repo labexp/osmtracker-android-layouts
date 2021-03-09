@@ -16,12 +16,12 @@
     </layout>
     <layout name="hidrantes">
         <row>
-            <button type="tag" label="Hidrante Seco" icon="bekuo_icons/marker.png"/>
+            <button type="tag" label="Hidrante Seco" icon="bekuo_icons/noun_Faucet_3728494.png"/>
             <button type="tag" label="Hidrante de Pilar" icon="bekuo_icons/App-01.png"/>
             <button type="tag" label="Hidrante de Pared" icon="bekuo_icons/App-02.png"/>
         </row>
         <row>
-            <button type="tag" label="Hidrante Subterráneo" icon="bekuo_icons/marker.png"/>
+            <button type="tag" label="Hidrante Subterráneo" icon="bekuo_icons/noun_Danger_857876.png"/>
             <button type="tag" label="Hidrante Desconocido" icon="bekuo_icons/App-04.png"/>
             <button type="tag" label="Hidrante fuera de servicio" icon="bekuo_icons/App-10.png"/>
         </row>
