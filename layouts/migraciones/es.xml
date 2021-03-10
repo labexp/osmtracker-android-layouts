@@ -1,0 +1,55 @@
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+            <button type="voicerec" icon="logo_voice"/>
+        </row>
+        <row>
+            <button type="tag" label="Espacio abandonado" icon="migraciones_icons/noun_fail_1715963.png" />
+            <button type="tag" label="Rampa accesibilidad" icon="migraciones_icons/noun_wheelchair_226857.png"/>
+            <button type="tag" label="Zona recreativa" icon="migraciones_icons/noun_picnic area_2507816.png"/>
+        </row>
+        <row>
+            <button type="page" label="Servicios públicos" targetlayout="servicios_publicos" icon="migraciones_icons/noun_social service_1861169.png"/>
+            <button type="page" label="Emprendimientos" targetlayout="emprendimientos" icon="migraciones_icons/noun_entrepreneur_1603532.png"/>
+            <button type="page" label="Emprendimientos" targetlayout="emprendimientosII" icon="migraciones_icons/noun_business idea_418327.png"/>
+        </row>
+    </layout>
+    <layout name="servicios_publicos">
+        <row>
+            <button type="tag" label="Parada de bus" icon="migraciones_icons/noun_Bus Stop_19258.png"/>
+            <button type="tag" label="Hidrante" icon="migraciones_icons/noun_Fire Hydrant_2751891.png"/>
+            <button type="tag" label="Cajero automático" icon="migraciones_icons/noun_ATM_1422.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Banco" icon="migraciones_icons/noun_Bank_1204856.png"/>
+            <button type="tag" label="Médico" icon="migraciones_icons/noun_medical_3681461.png"/>
+            <button type="tag" label="Farmacia" icon="migraciones_icons/noun_medical_3149488.png"/>
+        </row>
+    </layout>
+    <layout name="emprendimientos">
+        <row>
+            <button type="tag" label="Comidas" icon="migraciones_icons/noun_Food_3407707.png" />
+            <button type="tag" label="Panadería" icon="migraciones_icons/noun_Bread_1531250.png" />
+            <button type="tag" label="Verdulería" icon="migraciones_icons/noun_vegetables_918550.png" />
+        </row>
+        <row>
+            <button type="tag" label="Pulpería" icon="migraciones_icons/noun_supermarket_1964818.png" />
+            <button type="tag" label="Carnicería" icon="migraciones_icons/noun_Butcher_464150.png" />
+            <button type="tag" label="Lotería" icon="migraciones_icons/noun_entertainment_3508145.png" />
+        </row>
+    </layout>
+        <layout name="emprendimientosII">
+        <row>
+            <button type="tag" label="Zapatero" icon="migraciones_icons/noun_Boot_17443.png" />
+            <button type="tag" label="Sastre" icon="migraciones_icons/noun_Sewing Machine_17433.png" />
+            <button type="tag" label="Peluquería" icon="migraciones_icons/noun_Scissors_17436.png" />
+        </row>
+        <row>
+            <button type="tag" label="Reparaciones" icon="migraciones_icons/noun_Hammer_17440.png" />
+            <button type="tag" label="Jardinería" icon="migraciones_icons/noun_Garden_308785.png" />
+            <button type="tag" label="Taller" icon="migraciones_icons/noun_Gears_694967.png" />
+        </row>
+    </layout>
+</layouts>
