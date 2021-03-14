@@ -1,0 +1,7 @@
+<layouts>
+        <layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+		</row>
+        </layout>
+</layouts>
