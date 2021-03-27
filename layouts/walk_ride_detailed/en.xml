@@ -303,11 +303,21 @@
  <button type="voicerec" icon="voice_32x32.png" />
  <button type="picture" icon="camera_32x32.png" />
  <button type="textnote" icon="text_32x32.png" />
- </row>
- <row>
- <button type="tag" label="stile Stepover" icon="walk_ride_detailed_icons/stile-stepover.png" />
+  </row>
+  <row>
+ <button type="tag" label="Stile Stepover" icon="walk_ride_detailed_icons/stile-stepover.png" />
  <button type="tag" label="Stile ladder" icon="walk_ride_detailed_icons/stile-ladder.png" />
+ <button type="tag" label="Steadying post Y" icon="walk_ride_detailed_icons/stile-ladder.png" />
+  </row>
+  <row>
  <button type="tag" label="Steps 1" icon="walk_ride_detailed_icons/stile-ladder.png" />
- </row>
+ <button type="tag" label="Steps 2" icon="walk_ride_detailed_icons/stile-ladder.png" />
+ <button type="tag" label="Steadying post N" icon="walk_ride_detailed_icons/stile-ladder.png" />
+  </row>
+  <row>
+ <button type="tag" label="Steps 3" icon="walk_ride_detailed_icons/stile-ladder.png" />
+ <button type="tag" label="Steps 4" icon="walk_ride_detailed_icons/stile-ladder.png" />
+ <button type="tag" label="Steps 5" icon="walk_ride_detailed_icons/stile-ladder.png" />
+  </row>
   </layout> 
 </layouts>
