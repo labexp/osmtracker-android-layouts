@@ -1,81 +1,21 @@
-## Disposición de hidrantes
-Al abrir la aplicación, se notará que no hay muchos cambios con respecto al layout original, únicamente el botón
-de "Restricción" se ha visto afectado, y ahora ha pasado a ser el botón que nos llevará a la pantalla en la que se presentan las opciones para mapear diferentes tipos de hidrantes, dicho botón lleva el nombre de "Hidrantes OSM".
+# Disposición de botones para captura de datos de hidrantes
+Una vez descargada la disposición de botones ser verá como la siguiente:
 
-## ¿Qué me permite hacer cada botón dentro de este nuevo Layout?
-Al abrir la opción para el mapeo de los hidrantes, además de permitirnos hacer las funciones de grabar la voz, tomar una foto o bien una nota de texto, se presentan nueve nuevas opciones.
-Estos botones nos van a permitir seleccionar concretamente 3 tipos diferentes de hidrantes, dos de las 9 opciones de botones personalizados, son para hidrantes multivalvulares ( de 4' o de 2.5'), otros dos están destinados para los hidrantes normales ( de 4' o de 2.5'), uno para los hidrantes que están colocados en paredes así como una opción para mapear otro tipo de hidrante diferente a los presentados en los botones. De la misma manera, se presentan 3 botones más, estos nos serán de utilidad a la hora en la que nos encontremos un hidrante de tipo multivalvular, normal o de pared en mal estado.
-
-<table>
-
-<!-- cabecera de los iconos de hidrantres -->
-  <tr>
-    <th>Icono</th>
-    <th>Descripción</th>
-  </tr>
+<img src="captura_pantalla.jpg" style="zoom: 50%;" />
 
 
-<!-- Icono de hidrante de tipo normal -->
-  <tr>
-    <td>
-	  <img src="https://image.ibb.co/j3zqrG/photo_2017_09_29_14_14_54.jpg" width = "125" heigth = "125" alt="photo_2017_09_29_14_14_54" border="0"></td>
-    <td>
-      Icono para hidrantes de tipo normal
-    </td>
-  </tr>
 
-<!-- Icono de hidrante de tipo multivalvular -->
-  <tr>
-    <td>
-	  <img src="https://image.ibb.co/mxUC5b/photo_2017_09_29_14_14_40.jpg" width = "125" heigth = "125" alt="photo 2017 09 29 14 14 40" border="0" /></td>
-    <td>
-      Icono para hidrantes de tipo multivalvular
-    </td>
-  </tr>
+La siguiente tabla pretende guiar la asociación entre distintos tipos de hidrantes encontrados en el campo con el mapa de Open Street Map. La primera columna presenta el ícono que aparecen en la disposición de botones. La segunda y tercera columna describen con una imagen y texto, las características de cada hidrante para identificarlo en el campo mientras se capturan datos.  La cuarta columna indica el texto que aparecerá en el archivo en el punto del GPX  (*waypoint*) luego de presionar el botón. La última columna es una sugerencia de esquema de mapeo para incorporar los datos capturados a Open Street Map. El esquema de mapeo sugerido está basado en la [wiki de la etiqueta `emergency=fire_hydrant`](https://wiki.openstreetmap.org/wiki/ES:Tag:emergency%3Dfire_hydrant).
 
-<!-- Icono para hidrantes de pared -->
-  <tr>
-    <td>
-	  <img src="https://image.ibb.co/nxBjkb/photo_2017_09_29_14_14_48.jpg" width = "125" heigth = "125" alt="photo_2017_09_29_14_14_48" border="0"></td>
-    <td>
-      Icono para hidrantes que están colocados en paredes
-    </td>
-  </tr>
 
-<!-- Icono para hidrantes de otro tipo -->
-  <tr>
-    <td>
-	<img src="https://image.ibb.co/hy7krG/photo_2017_09_29_14_15_27.jpg" width = "125" heigth = "125"  alt="photo_2017_09_29_14_15_27" border="0"></td>
-    <td>
-      Icono para hidrantes de otro tipo que no están contemplados dentro de las demás opciones
-    </td>
-  </tr>
 
-<!-- Imagenes de hidrantes multivalvulares en mal estado -->
-  <tr>
-    <td>
-	<img src="https://image.ibb.co/mjROdw/photo_2017_09_29_14_15_22.jpg" width = "125" heigth = "125"  alt="photo_2017_09_29_14_15_22" border="0"></td>
-    <td>
-       Icono para hidrantes multivalvulares en mal estado
-    </td>
-  </tr>
 
-<!-- Icono para hidrantes de pared en mal estado -->
-  <tr>
-    <td>
-	<img src="https://image.ibb.co/dz60Qb/photo_2017_09_29_14_15_18.jpg" width = "125" heigth = "125" alt="photo_2017_09_29_14_15_18" border="0"></td>
-    <td>
-      Icono para hidrantes colocados en la pared en mal estado
-    </td>
-  </tr>
 
-<!-- Icono para hidrantes normales en mal estado-->
-  <tr>
-    <td>
-	<img src="https://image.ibb.co/kXUFrG/photo_2017_09_29_14_15_13.jpg" width = "125" heigth = "125" alt="photo 2017 09 29 14 15 13" border="0" /></td>
-    <td>
-      Icono para hidrantes normales en mal estado
-    </td>
-  </tr>
-
-</table>
+| Ícono                                                        | Ejemplo                                                      | Descripción                                                  | Texto del punto en el GPX (waypoint) | Esquema de mapeo sugerido en OSM                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------ | ------------------------------------------------------------ |
+| (<u>Por hacer</u>: incluir ícono) Hidrante Seco              | ![](https://wiki.openstreetmap.org/w/images/thumb/3/33/Hydrants_20130326_112938.JPG/150px-Hydrants_20130326_112938.JPG) | También conocido como "hidrante seco", necesario una bomba.  | Hidrante Seco                        | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=pipe |
+| <img src="hidrantes_icons/App-01.png" style="zoom:33%;background-color: gray;" /> Hidrante de Pilar | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Downtown_Charlottesville_fire_hydrant_1.jpg/150px-Downtown_Charlottesville_fire_hydrant_1.jpg) | Un hidrante de tipo pilar. Para información específica leer [`pillar:type=*`](https://wiki.openstreetmap.org/w/index.php?title=ES:Tag:emergency%3Dfire_hydrant#pillar:type.3D.2A) | Hidrante de Pilar                    | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=pillar` |
+| <img src="hidrantes_icons/App-02.png" style="zoom:33%;background-color: gray;" /> Hidrante de Pared | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Guentherscheid_Tunnel_Rescue4.jpg/225px-Guentherscheid_Tunnel_Rescue4.jpg) | Hidrante colocado en una pared.                              | Hidrante de Pared                    | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=wall` |
+| (<u>Por hacer</u>: incluir ícono) Hidrante Subterráneo       | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Berlin_hydrant_20050211_p1000517.jpg/200px-Berlin_hydrant_20050211_p1000517.jpg) | El hidrantes está bajo tierra, es necesario un tubo vertical. | Hidrante Subterráneo                 | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=underground` |
+| <img src="hidrantes_icons/App-04.png" style="zoom:33%;background-color: gray;" />Otro tipo de hidrante (desconocido): |                                                              | Tipo de hidrante desconocido.                                | Hidrante Desconocido                 | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=unknown` |
+| <img src="hidrantes_icons/App-10.png" style="zoom:33%;background-color: gray;" /> Hidrante fuera de servicio. |                                                              | Se supone que los hidrantes están en funcionamiento de manera  predeterminada. En caso contrario, si el hidrante está fuera de  servicio, use esta etiqueta. | Hidrante fuera de servicio           | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `disused:emergency=fire_hydrant` |

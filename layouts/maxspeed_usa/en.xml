@@ -1,0 +1,64 @@
+<layouts>
+        <layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="page" label="Landscape" targetlayout="landscape"/>
+			<button type="page" label="Portrait" targetlayout="portrait"/>
+		</row>
+        </layout>
+	<layout name="portrait">
+		<row>
+			<button type="tag" label="Speed Limit 15" icon="maxspeed_usa_icons/15.png"/>
+			<button type="tag" label="Speed Limit 20" icon="maxspeed_usa_icons/20.png"/>
+			<button type="tag" label="Speed Limit 25" icon="maxspeed_usa_icons/25.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Speed Limit 30" icon="maxspeed_usa_icons/30.png"/>
+			<button type="tag" label="Speed Limit 35" icon="maxspeed_usa_icons/35.png"/>
+			<button type="tag" label="Speed Limit 40" icon="maxspeed_usa_icons/40.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Speed Limit 45" icon="maxspeed_usa_icons/45.png"/>
+			<button type="tag" label="Speed Limit 50" icon="maxspeed_usa_icons/50.png"/>
+			<button type="tag" label="Speed Limit 55" icon="maxspeed_usa_icons/55.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Speed Limit 60" icon="maxspeed_usa_icons/60.png"/>
+			<button type="tag" label="Speed Limit 65" icon="maxspeed_usa_icons/65.png"/>
+			<button type="tag" label="Speed Limit 70" icon="maxspeed_usa_icons/70.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Speed Limit 75" icon="maxspeed_usa_icons/75.png"/>
+			<button type="tag" label="Speed Limit 80" icon="maxspeed_usa_icons/80.png"/>
+			<button type="tag" label="Speed Limit 85"/>
+		</row>
+        </layout>
+	<layout name="landscape">
+		<row>
+			<button type="tag" label="Speed Limit 15" icon="maxspeed_usa_icons/15.png"/>
+			<button type="tag" label="Speed Limit 20" icon="maxspeed_usa_icons/20.png"/>
+			<button type="tag" label="Speed Limit 25" icon="maxspeed_usa_icons/25.png"/>
+			<button type="tag" label="Speed Limit 30" icon="maxspeed_usa_icons/30.png"/>
+			<button type="tag" label="Speed Limit 35" icon="maxspeed_usa_icons/35.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Speed Limit 40" icon="maxspeed_usa_icons/40.png"/>
+			<button type="tag" label="Speed Limit 45" icon="maxspeed_usa_icons/45.png"/>
+			<button type="tag" label="Speed Limit 50" icon="maxspeed_usa_icons/50.png"/>
+			<button type="tag" label="Speed Limit 55" icon="maxspeed_usa_icons/55.png"/>
+			<button type="tag" label="Speed Limit 60" icon="maxspeed_usa_icons/60.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Speed Limit 65" icon="maxspeed_usa_icons/65.png"/>
+			<button type="tag" label="Speed Limit 70" icon="maxspeed_usa_icons/70.png"/>
+			<button type="tag" label="Speed Limit 75" icon="maxspeed_usa_icons/75.png"/>
+			<button type="tag" label="Speed Limit 80" icon="maxspeed_usa_icons/70.png"/>
+			<button type="tag" label="Speed Limit 85" icon="maxspeed_usa_icons/75.png"/>
+		</row>
+		
+	</layout>
+</layouts>
