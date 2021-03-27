@@ -317,7 +317,7 @@
   <row>
  <button type="tag" label="Step-up 3" icon="walk_ride_detailed_icons/stile-ladder-500.png" />
  <button type="tag" label="Step-up 4" icon="walk_ride_detailed_icons/stile-ladder-550.png" />
- <button type="tag" label="Step-up 5" icon="walk_ride_detailed_icons/stile-ladder.png" />
+ <button type="tag" label="Step-up 5" icon="walk_ride_detailed_icons/stile-ladder-600.png" />
   </row>
   </layout> 
 </layouts>
