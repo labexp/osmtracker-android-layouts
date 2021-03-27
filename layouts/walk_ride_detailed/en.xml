@@ -310,13 +310,13 @@
  <button type="tag" label="Steadying post Y" icon="walk_ride_detailed_icons/post.png" />
   </row>
   <row>
- <button type="tag" label="Step-up 1" icon="walk_ride_detailed_icons/barrier_steps.n.20.png" />
- <button type="tag" label="Step-up 2" icon="walk_ride_detailed_icons/barrier_steps.n.24.png" />
+ <button type="tag" label="Step-up 1" icon="walk_ride_detailed_icons/stile-ladder-400.png" />
+ <button type="tag" label="Step-up 2" icon="walk_ride_detailed_icons/stile-ladder-450.png" />
  <button type="tag" label="Steadying post N" icon="walk_ride_detailed_icons/post-no.png" />
   </row>
   <row>
- <button type="tag" label="Step-up 3" icon="walk_ride_detailed_icons/barrier_steps.n.32.png" />
- <button type="tag" label="Step-up 4" icon="walk_ride_detailed_icons/barrier_steps.n.48.png" />
+ <button type="tag" label="Step-up 3" icon="walk_ride_detailed_icons/stile-ladder-500.png" />
+ <button type="tag" label="Step-up 4" icon="walk_ride_detailed_icons/stile-ladder-550.png" />
  <button type="tag" label="Step-up 5" icon="walk_ride_detailed_icons/stile-ladder.png" />
   </row>
   </layout> 
