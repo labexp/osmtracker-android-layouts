@@ -146,10 +146,10 @@
  <button type="textnote" icon="text_32x32.png" />
  </row>
  <row>
-   <!-- 3 standard tag buttons -->
-   <button type="tag" label="stile Stepover" icon="walk_ride_detailed_icons/stile-stepover.png" />
+   <!-- 1 standard tag button & 2 page sub-layouts -->
+   <button type="page" label="Stepover" icon="walk_ride_detailed_icons/stile-stepover.png" targetlayout="styles" />
    <button type="tag" label="stile Squeeze" icon="walk_ride_detailed_icons/stile-squeeze.png" />
-   <button type="tag" label="Stile ladder" icon="walk_ride_detailed_icons/stile-ladder.png" />
+   <button type="page" label="Ladder" icon="walk_ride_detailed_icons/stile-ladder.png" targetlayout="styles" />
  </row>
  <row>
    <!-- 3 standard tag buttons -->
@@ -294,6 +294,30 @@
  <button type="tag" label="roof-PV-L" icon="walk_ride_detailed_icons/solar-L.png" />
  <button type="tag" label="PV_135-224" icon="walk_ride_detailed_icons/solar-compass.png" />
  <button type="tag" label="roof-PV-R" icon="walk_ride_detailed_icons/solar-R.png" />
+  </row>
+  </layout> 
+  
+  <!-- Stiles layout, will be displayed when clicking on "Stepover or Ladder" previous defined button -->
+  	<layout name="styles">
+  <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+  </row>
+  <row>
+ <button type="tag" label="Stile Stepover" icon="walk_ride_detailed_icons/stile-stepover.png" />
+ <button type="tag" label="Stile ladder" icon="walk_ride_detailed_icons/stile-ladder.png" />
+ <button type="tag" label="Steadying post Y" icon="walk_ride_detailed_icons/post.png" />
+  </row>
+  <row>
+ <button type="tag" label="Step-up 1" icon="walk_ride_detailed_icons/stile-ladder-400.png" />
+ <button type="tag" label="Step-up 2" icon="walk_ride_detailed_icons/stile-ladder-450.png" />
+ <button type="tag" label="Steadying post N" icon="walk_ride_detailed_icons/post-no.png" />
+  </row>
+  <row>
+ <button type="tag" label="Step-up 3" icon="walk_ride_detailed_icons/stile-ladder-500.png" />
+ <button type="tag" label="Step-up 4" icon="walk_ride_detailed_icons/stile-ladder-550.png" />
+ <button type="tag" label="Step-up 5" icon="walk_ride_detailed_icons/stile-ladder-600.png" />
   </row>
   </layout> 
 </layouts>
