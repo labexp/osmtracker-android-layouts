@@ -14,10 +14,10 @@ Esta disposición de botones (DisBo) fue creada para recolectar indicadores sobr
 * Emprendimientos II: [business idea](https://thenounproject.com/term/entrepreneurship/418327/) por [Chameleon Design](https://thenounproject.com/Chamedesign/).
 * Parada de bus: [Bus Stop](https://thenounproject.com/search/?q=bus+stop&i=19258) por [Pierre-Luc Auclair](https://thenounproject.com/pierreluc.auclair/).
 * Hidrante: [Fire Hydrant](https://thenounproject.com/search/?q=fire+hydrant&i=2751891) por [Vectors Point](https://thenounproject.com/vectorspoint/).
-* Cajero automático: [ATM](https://thenounproject.com/search/?q=atm&i=1422) por [Andy Santos-Johnson](https://thenounproject.com/ASJ).
-* Banco: [Bank](https://thenounproject.com/search/?q=bank&i=1204856) por [David](https://thenounproject.com/kaxgyatso/).
-* Médico: [medical](https://thenounproject.com/search/?q=medical&i=3681461) por [Adrien Coquet](https://thenounproject.com/coquet_adrien/).
-* Farmacia: [medical](https://thenounproject.com/search/?q=medical&i=3149488) por [SANB](https://thenounproject.com/sanb1984sanb/).
+* Espacio comunal: [networking ](https://thenounproject.com/search/?q=community+space&i=138311) por [Daouna Jeong](https://thenounproject.com/daouna/).
+* Parqueo de buses: [parking bus](https://thenounproject.com/search/?q=parking++bus&i=3174047) por [AmruID](https://thenounproject.com/amruid/).
+* EBAIS: [medical](https://thenounproject.com/search/?q=medical&i=3681461) por [Adrien Coquet](https://thenounproject.com/coquet_adrien/).
+* Fundidora: [paint bucket](https://thenounproject.com/search/?q=forge&i=3644847) por [Zach Bogart](https://thenounproject.com/zachbogart).
 * Comidas: [Food](https://thenounproject.com/search/?q=food&i=3407707) por [Alice Design](https://thenounproject.com/rose-alice-design/). 
 * Panadería: [Bread](https://thenounproject.com/search/?q=bread&i=1531250) por [rekanice](https://thenounproject.com/rekanice/).
 * Verdulería: [vegetables](https://thenounproject.com/search/?q=vegetables&i=918550) por [Danil Polshin](https://thenounproject.com/everydaytemplate/).
@@ -28,7 +28,7 @@ Esta disposición de botones (DisBo) fue creada para recolectar indicadores sobr
 * Sastre: [Sewing Machine](https://thenounproject.com/term/craftmanship/17433/) por [Guvnor Co](https://thenounproject.com/Guvnor/).
 * Peluquería: [Scissors](https://thenounproject.com/term/craftmanship/17436/) por [Guvnor Co](https://thenounproject.com/Guvnor/).
 * Reparaciones: [Hammer](https://thenounproject.com/term/craftmanship/17440/) por [Guvnor Co](https://thenounproject.com/Guvnor/).
-* Jardinería: [Garden](https://thenounproject.com/search/?q=garden&i=308785) por [Milinda Courey](https://thenounproject.com/milindacourey10/).
+* Manicure: [Manicure](https://thenounproject.com/search/?q=nails+beauty&i=3460654) por [Amethyst Studio](https://thenounproject.com/AmethystStudio).
 * Taller: [Gears](https://thenounproject.com/search/?q=gear&i=694967) por [Gregor Cresnar](https://thenounproject.com/grega.cresnar/).
 
 

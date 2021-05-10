@@ -20,12 +20,12 @@
         <row>
             <button type="tag" label="Parada de bus" icon="migraciones_icons/noun_Bus Stop_19258.png"/>
             <button type="tag" label="Hidrante" icon="migraciones_icons/noun_Fire Hydrant_2751891.png"/>
-            <button type="tag" label="Cajero automático" icon="migraciones_icons/noun_ATM_1422.png"/>
+           <button type="tag" label="Espacio comunal" icon="migraciones_icons/noun_networking_138311.png"/>
         </row>
         <row>
-            <button type="tag" label="Banco" icon="migraciones_icons/noun_Bank_1204856.png"/>
-            <button type="tag" label="Médico" icon="migraciones_icons/noun_medical_3681461.png"/>
-            <button type="tag" label="Farmacia" icon="migraciones_icons/noun_medical_3149488.png"/>
+            <button type="tag" label="Parqueo de Buses" icon="migraciones_icons/noun_parking bus_3174047.png"/>
+            <button type="tag" label="EBAIS" icon="migraciones_icons/noun_medical_3681461.png"/>
+            <button type="tag" label="Fundidora" icon="migraciones_icons/noun_paint bucket_3644847.png"/>
         </row>
     </layout>
     <layout name="emprendimientos">
@@ -48,7 +48,7 @@
         </row>
         <row>
             <button type="tag" label="Reparaciones" icon="migraciones_icons/noun_Hammer_17440.png" />
-            <button type="tag" label="Jardinería" icon="migraciones_icons/noun_Garden_308785.png" />
+            <button type="tag" label="Manicure" icon="migraciones_icons/noun_Manicure_3460654.png" />
             <button type="tag" label="Taller" icon="migraciones_icons/noun_Gears_694967.png" />
         </row>
     </layout>
