@@ -66,21 +66,21 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="tag" label="Surf = Asphalt"/>
-			<button type="tag" label="Surf = Compacted"/>
-			<button type="tag" label="Surf = Fine Grv"/>
-			<button type="tag" label="Surf = Gravel"/>
-			<button type="tag" label="Surf = Earth"/>
+			<button type="tag" label="Su= Asphalt"/>
+			<button type="tag" label="Su= Compacted"/>
+			<button type="tag" label="Su= Fine Grv"/>
+			<button type="tag" label="Su= Gravel"/>
+			<button type="tag" label="Su= Earth"/>
 		</row>
 		<row>
-			<button type="tag" label="Smth = small wheels"/>
-			<button type="tag" label="Smth = racing bike"/>
-			<button type="tag" label="Smth = city bike"/>
-			<button type="tag" label="Smth = mtn bike"/>
+			<button type="tag" label="Sm= small wheels"/>
+			<button type="tag" label="Sm= racing bike"/>
+			<button type="tag" label="Sm= city bike"/>
+			<button type="tag" label="Sm= mtn bike"/>
 		</row>
 		<row>
-			<button type="tag" label="Smth = no wheels"/>
-			<button type="tag" label="Smth = car"/>
+			<button type="tag" label="Sm= no wheels"/>
+			<button type="tag" label="Sm= car"/>
 		</row>
 		<row>
 			<button type="tag" label="Diff = SAC1 hiking"/>
