@@ -104,6 +104,9 @@
 			<button type="tag" label="Bench"/>
 			<button type="tag" label="Viewpoint"/>
 		</row>
+		<row>
+			<button type="tag" label="Cliff"/>
+		</row>
 	</layout>
         <layout name="sites">
 		<row>
@@ -124,6 +127,11 @@
 		</row>
 		<row>
 			<button type="tag" label="Toilet"/>
+		</row>
+		<row>
+			<button type="tag" label="Stone (detached)"/>
+			<button type="tag" label="Rock"/>
+			<button type="tag" label="Cliff"/>
 		</row>
 	</layout>
         <layout name="road">
