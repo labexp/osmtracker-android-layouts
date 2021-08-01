@@ -37,21 +37,26 @@
 			<button type="tag" label="Way = Footway"/>
 		</row>
 		<row>
-			<button type="tag" label="Surf = Compacted"/>
-			<button type="tag" label="Surf = Gravel"/>
-			<button type="tag" label="Surf = Earth"/>
-			<button type="tag" label="Surf = Asphalt"/>
+			<button type="tag" label="Stairs Start"/>
+			<button type="tag" label="Bridge Start"/>
+			<button type="tag" label="Duckboard start"/>
+		</row>
+		<row>
+			<button type="tag" label="END"/>
+			<button type="tag" label="Nothing here"/>
+			<button type="tag" label="Connected"/>
+			<button type="tag" label="Separate"/>
+		</row>
+		<row>
+			<button type="tag" label="Cycle = yes"/>
+			<button type="tag" label="Horse = yes"/>
+			<button type="tag" label="Ski = yes"/>
 		</row>
 		<row>
 			<button type="tag" label="Viz = excellent"/>
 			<button type="tag" label="Viz = good"/>
 			<button type="tag" label="Viz = intermediate"/>
 			<button type="tag" label="Viz = bad"/>
-		</row>
-		<row>
-			<button type="tag" label="Diff = SAC1 hiking"/>
-			<button type="tag" label="Diff = SAC2 mtn hiking"/>
-			<button type="tag" label="Diff = SAC3 difficult mtn"/>
 		</row>
 	</layout>
         <layout name="ways-advanced">
@@ -61,20 +66,11 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="tag" label="END"/>
-			<button type="tag" label="Nothing here"/>
-			<button type="tag" label="Connected"/>
-			<button type="tag" label="Separate"/>
-		</row>
-		<row>
-			<button type="tag" label="Stairs Start"/>
-			<button type="tag" label="Bridge Start"/>
-			<button type="tag" label="Duckboard start"/>
-		</row>
-		<row>
-			<button type="tag" label="Cycle = yes"/>
-			<button type="tag" label="Horse = yes"/>
-			<button type="tag" label="Ski = yes"/>
+			<button type="tag" label="Surf = Asphalt"/>
+			<button type="tag" label="Surf = Compacted"/>
+			<button type="tag" label="Surf = Fine Grv"/>
+			<button type="tag" label="Surf = Gravel"/>
+			<button type="tag" label="Surf = Earth"/>
 		</row>
 		<row>
 			<button type="tag" label="Smth = small wheels"/>
@@ -85,6 +81,11 @@
 		<row>
 			<button type="tag" label="Smth = no wheels"/>
 			<button type="tag" label="Smth = car"/>
+		</row>
+		<row>
+			<button type="tag" label="Diff = SAC1 hiking"/>
+			<button type="tag" label="Diff = SAC2 mtn hiking"/>
+			<button type="tag" label="Diff = SAC3 difficult mtn"/>
 		</row>
 	</layout>
         <layout name="along-ways">
@@ -103,6 +104,7 @@
 			<button type="tag" label="Picnic table"/>
 			<button type="tag" label="Bench"/>
 			<button type="tag" label="Viewpoint"/>
+			<button type="tag" label="Trash"/>
 		</row>
 		<row>
 			<button type="tag" label="Cliff"/>
@@ -127,6 +129,7 @@
 		</row>
 		<row>
 			<button type="tag" label="Toilet"/>
+			<button type="tag" label="Trash"/>
 		</row>
 		<row>
 			<button type="tag" label="Stone (detached)"/>
@@ -171,6 +174,7 @@
 			<button type="tag" label="Marina"/>
 			<button type="tag" label="Fuel"/>
 			<button type="tag" label="Water point"/>
+			<button type="tag" label="Septic"/>
 		</row>
 	</layout>
         <layout name="symbols">
