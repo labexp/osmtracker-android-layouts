@@ -14,6 +14,7 @@
 			<button type="page" label="Sites" targetlayout="sites"/>
 			<button type="page" label="Symbols" targetlayout="symbols"/>
 			<button type="page" label="Roads/transit" targetlayout="road"/>
+			<button type="page" label="Water" targetlayout="water"/>
 		</row>
 		<row>
 			<button type="tag" label="Left side"/>
@@ -133,6 +134,35 @@
 		</row>
 		<row>
 			<button type="tag" label="Parking"/>
+		</row>
+	</layout>
+        <layout name="water">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Stream"/>
+			<button type="tag" label="Canal"/>
+			<button type="tag" label="Drain"/>
+			<button type="tag" label="Ditch"/>
+		</row>
+		<row>
+			<button type="tag" label="Nothing"/>
+			<button type="tag" label="Intermittent"/>
+			<button type="tag" label="Intermittent=no"/>
+		</row>
+		<row>
+			<button type="tag" label="Dock"/>
+			<button type="tag" label="Dam"/>
+			<button type="tag" label="Weir"/>
+			<button type="tag" label="Waterfall"/>
+		</row>
+		<row>
+			<button type="tag" label="Marina"/>
+			<button type="tag" label="Fuel"/>
+			<button type="tag" label="Water point"/>
 		</row>
 	</layout>
         <layout name="symbols">
