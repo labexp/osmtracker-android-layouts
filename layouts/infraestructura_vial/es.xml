@@ -7,8 +7,8 @@
         </row>
         <row>
             <button type="tag" label="Tramo Inicio" icon="infraestructura_vial_icons/tramo-inicio.png" />
-            <button type="tag" label="Materiales" targetlayout="materiales"/>
-            <button type="tag" label="Uniformidad" targetlayout="uniformidad"/>
+            <button type="page" label="Materiales" targetlayout="materiales"/>
+            <button type="page" label="Uniformidad" targetlayout="uniformidad"/>
         </row>
         <row>
             <button type="tag" label="Tramo Fin" icon="infraestructura_vial_icons/tramo-fin.png" />
