@@ -187,26 +187,26 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="tag" label="Blue"/>
-			<button type="tag" label="Green"/>
-			<button type="tag" label="Orange"/>
-			<button type="tag" label="Purple"/>
+			<button type="tag" label="Blue 🟦"/>
+			<button type="tag" label="Green 🟩"/>
+			<button type="tag" label="Orange 🟧"/>
+			<button type="tag" label="Purple 🟪"/>
 		</row>
 		<row>
-			<button type="tag" label="Red"/>
-			<button type="tag" label="White"/>
-			<button type="tag" label="Yellow"/>
+			<button type="tag" label="Red 🟥"/>
+			<button type="tag" label="White ⬜"/>
+			<button type="tag" label="Yellow 🟨"/>
 			<button type="tag" label=""/>
 		</row>
 		<row>
-			<button type="tag" label="Diamond"/>
-			<button type="tag" label="Square"/>
-			<button type="tag" label="V bar"/>
-			<button type="tag" label="H bar"/>
+			<button type="tag" label="Diamond ◇"/>
+			<button type="tag" label="Square □"/>
+			<button type="tag" label="V bar ▯"/>
+			<button type="tag" label="H bar ▭"/>
 		</row>
 		<row>
-			<button type="tag" label="Circle"/>
-			<button type="tag" label="H line through"/>
+			<button type="tag" label="Circle ○"/>
+			<button type="tag" label="H line through ─"/>
 			<button type="tag" label=""/>
 			<button type="tag" label=""/>
 		</row>
