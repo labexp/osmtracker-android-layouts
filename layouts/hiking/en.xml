@@ -121,16 +121,19 @@
 		</row>
 		<row>
 
-			<button type="tag" label="Shelter"/>
+			<button type="tag" label="Picnic shelter"/>
+			<button type="tag" label="Lean-to"/>
+			<button type="tag" label="Basic hut"/>
+			<button type="tag" label="Camp site"/>
+		</row>
+		<row>
 			<button type="tag" label="Picnic table"/>
 			<button type="tag" label="Bench"/>
-		</row>
-		<row>
-			<button type="tag" label="Camp site"/>
 			<button type="tag" label="Fire pit"/>
-			<button type="tag" label="Firewood"/>
+			<button type="tag" label="Grill spot"/>
 		</row>
 		<row>
+			<button type="tag" label="Firewood"/>
 			<button type="tag" label="Toilet"/>
 			<button type="tag" label="Trash"/>
 		</row>
@@ -166,6 +169,7 @@
 			<button type="tag" label="Nothing"/>
 			<button type="tag" label="Intermittent"/>
 			<button type="tag" label="Intermittent=no"/>
+			<button type="tag" label="Life ring"/>
 		</row>
 		<row>
 			<button type="tag" label="Dock"/>
