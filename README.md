@@ -12,6 +12,10 @@ This is OSMTracker's default repository for download custom layouts functionalit
 + [Macroplastics pollution](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/macroplastics_pollution/README.md)
 + [Max Speed.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/maxspeed/README.md)
 + [Max Speed USA.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/maxspeed_usa/README.md)
++ Movilidad en bicicleta:
+  + [Elementos de infraestructura ciclista](https://github.com/labexp/osmtracker-android-layouts/blob/movilidad/layouts/infraestructura_ciclista/README.md)
+  + [Elementos de infraestructura vial](https://github.com/labexp/osmtracker-android-layouts/blob/movilidad/layouts/infraestructura_vial/README.md)
+  + [Obstáculos para ciclístas](https://github.com/labexp/osmtracker-android-layouts/blob/movilidad/layouts/obstáculos_para_ciclísticas/README.md)
 + [Transporte público.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/transporte_publico/README.md)
 + [Walk Ride Detailed.](https://github.com/Nick-Tallguy/osmtracker-android-layouts/blob/master/layouts/walk_ride_detailed/readme.md)
 + [Water Supplies.](https://github.com/labexp/osmtracker-android-layouts/blob/master/layouts/water_supply/README.md)
