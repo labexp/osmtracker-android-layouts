@@ -211,8 +211,8 @@
 		<row>
 			<button type="tag" label="Circle ○"/>
 			<button type="tag" label="H line through ─"/>
-			<button type="tag" label=""/>
-			<button type="tag" label=""/>
+			<button type="tag" label="Triangle △"/>
+			<button type="tag" label="(no symbol)"/>
 		</row>
 	</layout>
 </layouts>
