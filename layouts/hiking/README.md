@@ -11,4 +11,5 @@ The basic idea:
 - Water
 - Roads (mainly focused on trailheads)
 
-Maintainer: @rkdarst .
+Maintainer: @rkdarst .  There may be further updates at
+https://github.com/rkdarst/osmtracker-android-layouts .
