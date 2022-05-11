@@ -1,21 +1,65 @@
-# Disposición de botones para captura de datos de elementos de reciclaje y gestión de residuos sólidos
+# Disposición de botones de reciclaje y gestión de residuos sólidos
 
 Una vez descargada la disposición de botones ser verá como la siguiente:
 
 <img src="captura_pantalla.jpg" style="zoom: 50%;" />
 
-La siguiente tabla pretende guiar la asociación entre distintos tipos de hidrantes encontrados en el campo con el mapa de Open Street Map. La primera columna presenta el ícono que aparecen en la disposición de botones. La segunda y tercera columna describen con una imagen y texto, las características de cada hidrante para identificarlo en el campo mientras se capturan datos.  La cuarta columna indica el texto que aparecerá en el archivo en el punto del GPX  (*waypoint*) luego de presionar el botón. La última columna es una sugerencia de esquema de mapeo para incorporar los datos capturados a Open Street Map. El esquema de mapeo sugerido está basado en la [wiki de la etiqueta `emergency=fire_hydrant`](https://wiki.openstreetmap.org/wiki/ES:Tag:emergency%3Dfire_hydrant).
+Estos son los botones y su descripción para tomar en terreno elementos asociados al reciclaje y la gestión de residuos sólidos (basuras). Igualmente indica cómo se deben mapear en OSM.
+
+# Main page / Pantalla principal
+
+| Icon / Ícono  | Example / Ejemplo  | Description / Descripción  | Text on the GPX point / Texto del punto en el GPX (waypoint)  | OSM mapping schema / Esquema de mapeo sugerido en OSM  |
+| ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
+| Page / página ![Canecas](recycling_icons/waste_basket.png) | ![Caneca]()  | Waste basket / Caneca  |  |
+| ![Distribuidor de bolsas](recycling_icons/dog_excrement_bag_vending.png) | ![Distribuidor de bolsas](https://wiki.openstreetmap.org/w/images/8/8c/Dog_excrement_bags.jpg) | Place with available bags for pickup and collection of animal waste. / Distribuidor de bolsas para excrementos de perros | Vending excrement bags / Distribuidor de bolsas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `vending=excrement_bags` |
+| Page / página ![Contenedor de reciclaje]() | ![Contenedor de reciclaje](ecycling_icons/container.png) | Recycling container / Contenedor de reciclaje |  |  |  |
+| ![Contenedor para camión de basuras](recycling_icons/waste_disposal.png) | ![Contenedor para camión de basuras](https://wiki.openstreetmap.org/w/images/6/6b/Waste_container.jpg) | Waste disposal is used for medium and large waste bins, typically for bagged up household or industrial waste. They may be in the street, but they are not primarily for use by passing pedestrians. / Contenedor para camión de basuras | Waste container / Contenedor para camión de basuras | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `amenity=waste_disposal` |
+| ![Centro de reciclaje]() | ![Centro de reciclaje](https://wiki.openstreetmap.org/w/images/c/c2/WertstoffhofWeitnau.jpg) | These centres are dedicated areas for collecting a wider range of recyclable household materials / Centro de reciclaje | Recycling center / Centro de reciclaje | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `amenity=recycling` + `recycling_type=centre` |
+| ![Centro de acopio]() | ![Centro de acopio]() | A waste transfer station is a location that accepts, consolidates and transfers waste in bulk, usually from government or commercial collections. / Centro de acopio | Waste transfer station / Centro de acopio | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `amenity=waste_transfer_station` |
+| ![Relleno]() | ![Relleno](https://upload.wikimedia.org/wikipedia/commons/a/ac/Landfill_Hawaii.jpg) | A site for permanent or long term storage of waste materials / Relleno | Landfill / Relleno | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `landuse=landfill` |
+| ![PTAR]() | ![PTAR](https://upload.wikimedia.org/wikipedia/commons/4/48/Klaerwerk_Buelk_nahe_Kiel.jpg) | A wastewater plant (also known as sewage works, sewage treatment plant, wastewater treatment plant, reclamation plant) is a facility used to treat wastewater / PTAR | Wastewater plant / PTAR | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `man_made=wastewater_plant` |
+
+# Bins / Canecas
+
+| Icon / Ícono  | Example / Ejemplo  | Description / Descripción  | Text on the GPX point / Texto del punto en el GPX (waypoint)  | OSM mapping schema / Esquema de mapeo sugerido en OSM  |
+| ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
+| ![Caneca para basuras](recycling_icons/waste_basket.png) | ![Caneca para basuras](https://upload.wikimedia.org/wikipedia/commons/6/62/Vuilnisbak-Lebbeke.JPG) | A waste basket is a single small container for depositing garbage that is easily accessible for pedestrians. / Caneca para basuras | Trash / Caneca para basuras | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `amenity=waste_basket` |
+| ![Caneca sobre poste](recycling_icons/bin_on_lamp.png) | ![Caneca sobre poste](https://upload.wikimedia.org/wikipedia/commons/9/9f/Silberner_M%C3%BClleimer_Bushaltestelle_Hardenbergstra%C3%9Fe_Kiel-Bl%C3%BCcherplatz.jpg) | Bin on streetlamp / Caneca sobre poste | Bin on streetlamp / Caneca sobre poste | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg), way ![](https://wiki.openstreetmap.org/w/images/2/2a/Mf_way.svg), area ![](https://wiki.openstreetmap.org/w/images/0/0f/Mf_area.svg): (`bench=*`, `shelter=*`, `public_transport=platform`) + `bin=yes` |
+| ![Caneca para desecho de animal](recycling_icons/dog_excrement.png) | ![Caneca para desecho de animal]() | Dog excrement bin / Caneca para desecho de animal | Dog excrement bin / Caneca para desecho de animal | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Caneca para cigarrillos](recycling_icons/cigarretes_basket.png) | ![Caneca para cigarrillos]() | Cigarettes bin / Caneca para cigarrillos | Cigarettes bin / Caneca para cigarrillos | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+
+# Recycling containers / Contenedores de reciclaje
+
+| Icon / Ícono  | Example / Ejemplo  | Description / Descripción  | Text on the GPX point / Texto del punto en el GPX (waypoint)  | OSM mapping schema / Esquema de mapeo sugerido en OSM  |
+| ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
+| Page / página ![Plástico/Baterías/Aceite]() | ![Plástico/Baterías/Aceite]() |  / Plástico/Baterías/Aceite |  |  |
+| ![Papel]() | ![Papel]() | Paper / Papel | Paper / Papel | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `amenity=recycling` + `recycling_type` |
+| ![Vidrio](recycling_icons/glass.png) | ![Vidrio]() | Glass / Vidrio | Glass / Vidrio | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| Page / página ![Eléctricos/Electrónicos]() | ![Eléctricos/Electrónicos]() | Electrical/Electronics / Eléctricos/Electrónicos |  |  |
+| ![Llantas](recycling_icons/tyres.png) | ![Llantas]() | Tyres / Llantas | Tyres / Llantas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Medicinas](recycling_icons/drugs.png) | ![Medicinas]() | Drugs / Medicinas | Drugs / Medicinas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Compostaje]() | ![Compostaje]() | Compost / Compostaje | Compost / Compostaje | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+
+# Plastic-Batteries-Oil / Plásticos-baterías-aceite
+
+| Icon / Ícono  | Example / Ejemplo  | Description / Descripción  | Text on the GPX point / Texto del punto en el GPX (waypoint)  | OSM mapping schema / Esquema de mapeo sugerido en OSM  |
+| ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
+| ![Plástico general]() | ![Plástico general]() | All plastic / Plástico general | All plastic / Plástico general | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Icopor / poliestireno](Polystyrene foam) | ![Icopor / poliestireno]() | Polystyrene foam / Icopor / poliestireno | Polystyrene foam / Icopor / poliestireno | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Tapas de botellas](recycling_icons/plastic_bottle_cap.png) | ![Tapas de botellas]() | Plastic bottle caps / Tapas de botellas | Plastic bottle caps / Tapas de botellas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Baterías y pilas](recycling_icons/battery.png) | ![Baterías y pilas]() | Batteries / Baterías y pilas | Batteries / Baterías y pilas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Baterías de carro](recycling_icons/car_battery.png) | ![Baterías de carro]() | Car batteries / Baterías de carro | Car batteries / Baterías de carro | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Aceite de cocina](recycling_icons/cooking_oil.png) | ![Aceite de cocina]() | Cooking oil / Aceite de cocina | Cooking oil / Aceite de cocina | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Aceite de carro](recycling_icons/engine_oil.png) | ![Aceite de carro]() | Engine oil / Aceite de carro | Engine oil / Aceite de carro | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+
+# Electric and electronics / Eléctricos y electrónicos
+
+| Icon / Ícono  | Example / Ejemplo  | Description / Descripción  | Text on the GPX point / Texto del punto en el GPX (waypoint)  | OSM mapping schema / Esquema de mapeo sugerido en OSM  |
+| ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
+| ![Computadores](recycling_icons/computers.png) | ![Computadores]() | Computers / Computadores | Computers / Computadores | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Celulares](recycling_icons/mobile_phone.png) | ![Celulares]() | Mobile phones / Celulares | Mobile phones / Celulares | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Electrónicos]() | ![Electrónicos]() | Electronics / Electrónicos | Electronics / Electrónicos | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| <img src="recycling_icons/bulb.png" style="zoom:33%;background-color: gray;" /> | ![Bombillos]() | Bulbs / Bombillos | Bulbs / Bombillos | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 
 
-
-
-
-| Ícono                                                        | Ejemplo                                                      | Descripción                                                  | Texto del punto en el GPX (waypoint) | Esquema de mapeo sugerido en OSM                             |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------ | ------------------------------------------------------------ |
-| (<u>Por hacer</u>: incluir ícono) Hidrante Seco              | ![](https://wiki.openstreetmap.org/w/images/thumb/3/33/Hydrants_20130326_112938.JPG/150px-Hydrants_20130326_112938.JPG) | También conocido como "hidrante seco", necesario una bomba.  | Hidrante Seco                        | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=pipe |
-| <img src="hidrantes_icons/App-01.png" style="zoom:33%;background-color: gray;" /> Hidrante de Pilar | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Downtown_Charlottesville_fire_hydrant_1.jpg/150px-Downtown_Charlottesville_fire_hydrant_1.jpg) | Un hidrante de tipo pilar. Para información específica leer [`pillar:type=*`](https://wiki.openstreetmap.org/w/index.php?title=ES:Tag:emergency%3Dfire_hydrant#pillar:type.3D.2A) | Hidrante de Pilar                    | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=pillar` |
-| <img src="hidrantes_icons/App-02.png" style="zoom:33%;background-color: gray;" /> Hidrante de Pared | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Guentherscheid_Tunnel_Rescue4.jpg/225px-Guentherscheid_Tunnel_Rescue4.jpg) | Hidrante colocado en una pared.                              | Hidrante de Pared                    | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=wall` |
-| (<u>Por hacer</u>: incluir ícono) Hidrante Subterráneo       | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Berlin_hydrant_20050211_p1000517.jpg/200px-Berlin_hydrant_20050211_p1000517.jpg) | El hidrantes está bajo tierra, es necesario un tubo vertical. | Hidrante Subterráneo                 | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=underground` |
-| <img src="hidrantes_icons/App-04.png" style="zoom:33%;background-color: gray;" />Otro tipo de hidrante (desconocido): |                                                              | Tipo de hidrante desconocido.                                | Hidrante Desconocido                 | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `emergency=fire_hydrant` `fire_hydrant:type=unknown` |
-| <img src="hidrantes_icons/App-10.png" style="zoom:33%;background-color: gray;" /> Hidrante fuera de servicio. |                                                              | Se supone que los hidrantes están en funcionamiento de manera  predeterminada. En caso contrario, si el hidrante está fuera de  servicio, use esta etiqueta. | Hidrante fuera de servicio           | Nodo ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `disused:emergency=fire_hydrant` |
 
