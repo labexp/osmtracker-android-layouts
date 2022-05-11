@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="textnote" icon="text_32x32" />
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+		</row>
+		<row>
+			<button type="page" label="Waste basket" targetlayout="canecas" />
+			<button type="tag" label="Vending excrement bags" />
+			<button type="page" label="Recycling container" targetlayout="contenedores" />
+		</row>
+		<row>
+			<button type="tag" label="Waste container" />
+			<button type="tag" label="Recycling center" />
+			<button type="tag" label="Waste transfer station" />
+		</row>
+		<row>
+			<button type="tag" label="Landfill" />
+			<button type="tag" label="Wastewater plant" />
+		</row>
+	</layout>
+	<layout name="canecas">
+		<row>
+			<button type="tag" label="Trash" />
+			<button type="tag" label="Bin on streetlamp" />
+		</row>
+		<row>
+			<button type="tag" label="Dog excrement bin" />
+			<button type="tag" label="Cigarettes bin" />
+		</row>
+	</layout>
+	<layout name="contenedores">
+		<row>
+			<button type="page" label="Plastic/Batteries/Oil" targetlayout="pl-ba-ac" />
+			<button type="tag" label="Paper" />
+			<button type="tag" label="Glass" />
+		</row>
+		<row>
+			<button type="page" label="Electrical/Electronics" targetlayout="elect" />
+			<button type="tag" label="Tyres" />
+		</row>
+		<row>
+			<button type="tag" label="Drugs" />
+			<button type="tag" label="Compost" />
+		</row>
+	</layout>
+	<layout name="pl-ba-ac">
+		<row>
+			<button type="tag" label="All plastic" />
+			<button type="tag" label="Polystyrene foam" />
+			<button type="tag" label="Plastic bottle caps" />
+		</row>
+		<row>
+			<button type="tag" label="Batteries" />
+			<button type="tag" label="Car batteries" />
+		</row>
+		<row>
+			<button type="tag" label="Cooking oil" />
+			<button type="tag" label="Engine oil" />
+		</row>
+	</layout>
+	<layout name="elect">
+		<row>
+			<button type="tag" label="Computers" />
+			<button type="tag" label="Mobile phones" />
+		</row>
+		<row>
+			<button type="tag" label="Electronics" />
+			<button type="tag" label="Bulbs" />
+		</row>
+	</layout>
+</layouts>
