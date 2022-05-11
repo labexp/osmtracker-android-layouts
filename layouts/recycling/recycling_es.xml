@@ -7,7 +7,7 @@
 			<button type="picture" icon="camera_32x32" />
 		</row>
 		<row>
-			<button type="page" label="Canecas" targetlayout="canecas" icon="recycling_icons/battery.png" />
+			<button type="page" label="Canecas" targetlayout="canecas" icon="recycling_icons/waste_basket.png" />
 			<button type="tag" label="Distribuidor de bolsas" icon="recycling_icons/dog_excrement_bag_vending.png" />
 			<button type="page" label="Contenedor de reciclaje" targetlayout="contenedores" icon="recycling_icons/container.png" />
 		</row>
@@ -39,7 +39,7 @@
 		</row>
 		<row>
 			<button type="page" label="Eléctricos/Electrónicos" icon="recycling_icons/" targetlayout="elect" />
-			<button type="tag" label="Llantas" icon="recycling_icons/tyers.png" />
+			<button type="tag" label="Llantas" icon="recycling_icons/tyres.png" />
 		</row>
 		<row>
 			<button type="tag" label="Medicinas" icon="recycling_icons/drugs.png" />
@@ -50,7 +50,7 @@
 		<row>
 			<button type="tag" label="Plástico general" icon="recycling_icons/plastic.png" />
 			<button type="tag" label="Icopor / poliestireno" />
-			<button type="tag" label="Tapas de botellas" icon="recycling_icons/plastic_bottle_cap" />
+			<button type="tag" label="Tapas de botellas" icon="recycling_icons/plastic_bottle_cap.png" />
 		</row>
 		<row>
 			<button type="tag" label="Baterías y pilas" icon="recycling_icons/battery.png" />
