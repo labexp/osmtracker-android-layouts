@@ -7,12 +7,12 @@
 			<button type="picture" icon="camera_32x32" />
 		</row>
 		<row>
-			<button type="page" label="Waste basket" targetlayout="canecas" />
-			<button type="tag" label="Vending excrement bags" />
-			<button type="page" label="Recycling container" targetlayout="contenedores" />
+			<button type="page" label="Waste basket" targetlayout="canecas" icon="recycling_icons/battery.png" />
+			<button type="tag" label="Vending excrement bags" icon="recycling_icons/dog_excrement_bag_vending.png" />
+			<button type="page" label="Recycling container" targetlayout="contenedores" icon="recycling_icons/container.png" />
 		</row>
 		<row>
-			<button type="tag" label="Waste container" />
+			<button type="tag" label="Waste container" icon="recycling_icons/waste_disposal.png" />
 			<button type="tag" label="Recycling center" />
 			<button type="tag" label="Waste transfer station" />
 		</row>
@@ -23,52 +23,52 @@
 	</layout>
 	<layout name="canecas">
 		<row>
-			<button type="tag" label="Trash" />
-			<button type="tag" label="Bin on streetlamp" />
+			<button type="tag" label="Trash" icon="recycling_icons/waste_basket.png" />
+			<button type="tag" label="Bin on streetlamp" icon="recycling_icons/bin_on_lamp.png" />
 		</row>
 		<row>
-			<button type="tag" label="Dog excrement bin" />
-			<button type="tag" label="Cigarettes bin" />
+			<button type="tag" label="Dog excrement bin" icon="recycling_icons/dog_excrement.png" />
+			<button type="tag" label="Cigarettes bin" icon="recycling_icons/cigarretes_basket.png" />
 		</row>
 	</layout>
 	<layout name="contenedores">
 		<row>
 			<button type="page" label="Plastic/Batteries/Oil" targetlayout="pl-ba-ac" />
 			<button type="tag" label="Paper" />
-			<button type="tag" label="Glass" />
+			<button type="tag" label="Glass" icon="recycling_icons/glass.png" />
 		</row>
 		<row>
-			<button type="page" label="Electrical/Electronics" targetlayout="elect" />
-			<button type="tag" label="Tyres" />
+			<button type="page" label="Electrical/Electronics" icon="recycling_icons/" targetlayout="elect" />
+			<button type="tag" label="Tyres" icon="recycling_icons/tyers.png" />
 		</row>
 		<row>
-			<button type="tag" label="Drugs" />
+			<button type="tag" label="Drugs" icon="recycling_icons/drugs.png" />
 			<button type="tag" label="Compost" />
 		</row>
 	</layout>
 	<layout name="pl-ba-ac">
 		<row>
-			<button type="tag" label="All plastic" />
+			<button type="tag" label="All plastic" icon="recycling_icons/plastic.png" />
 			<button type="tag" label="Polystyrene foam" />
-			<button type="tag" label="Plastic bottle caps" />
+			<button type="tag" label="Plastic bottle caps" icon="recycling_icons/plastic_bottle_cap" />
 		</row>
 		<row>
-			<button type="tag" label="Batteries" />
-			<button type="tag" label="Car batteries" />
+			<button type="tag" label="Batteries" icon="recycling_icons/battery.png" />
+			<button type="tag" label="Car batteries" icon="recycling_icons/car_battery.png" />
 		</row>
 		<row>
-			<button type="tag" label="Cooking oil" />
-			<button type="tag" label="Engine oil" />
+			<button type="tag" label="Cooking oil" icon="recycling_icons/cooking_oil.png" />
+			<button type="tag" label="Engine oil" icon="recycling_icons/engine_oil.png" />
 		</row>
 	</layout>
 	<layout name="elect">
 		<row>
-			<button type="tag" label="Computers" />
-			<button type="tag" label="Mobile phones" />
+			<button type="tag" label="Computers" icon="recycling_icons/computers.png" />
+			<button type="tag" label="Mobile phones" icon="recycling_icons/mobile_phone.png" />
 		</row>
 		<row>
 			<button type="tag" label="Electronics" />
-			<button type="tag" label="Bulbs" />
+			<button type="tag" label="Bulbs" icon="recycling_icons/bulb.png" />
 		</row>
 	</layout>
 </layouts>
