@@ -32,23 +32,23 @@ Estos son los botones y su descripción para tomar en terreno elementos asociado
 
 | Icon / Ícono  | Example / Ejemplo  | Description / Descripción  | Text on the GPX point / Texto del punto en el GPX (waypoint)  | OSM mapping schema / Esquema de mapeo sugerido en OSM  |
 | ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
-| Page / página | ![Plástico/Baterías/Aceite]() | Plastic/Batteries/Oil / Plástico/Baterías/Aceite |  |  |
+| Page / página | - | Plastic/Batteries/Oil / Plástico/Baterías/Aceite |  |  |
 | - | ![Papel](https://upload.wikimedia.org/wikipedia/commons/5/59/Pekelder_paper_recycling_container.jpg) | Paper / Papel | Paper / Papel | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `amenity=recycling` + `recycling_type` |
 | ![Vidrio](recycling_icons/glass.png) | ![Vidrio](https://upload.wikimedia.org/wikipedia/commons/2/2e/Glass_recycling_container%2C_Barendrecht_%282020%29_03.jpg) | Glass / Vidrio | Glass / Vidrio | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 | Page / página  | ![Eléctricos/Electrónicos](https://upload.wikimedia.org/wikipedia/commons/c/c6/Handy_schrott_mobile_phone_scrap.jpg) | Electrical/Electronics / Eléctricos/Electrónicos |  |  |
 | ![Llantas](recycling_icons/tyres.png) | ![Llantas](https://upload.wikimedia.org/wikipedia/commons/8/81/Tyres_in_the_recycling_shed_at_Greenhead_landfill_site%2C_Lerwick_-_geograph.org.uk_-_1905862.jpg) | Tyres / Llantas | Tyres / Llantas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 | ![Medicinas](recycling_icons/drugs.png) | ![Medicinas](https://upload.wikimedia.org/wikipedia/commons/a/a4/Drug_disposal_receptacle.jpg) | Drugs / Medicinas | Drugs / Medicinas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
-| - | ![Compostaje](https://upload.wikimedia.org/wikipedia/commons/2/20/Prospect_Av_Greenwood_Av_td_%282019-09-16%29_05_-_Compost_Bins.jpg) | Compost / Compostaje | Compost / Compostaje | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| - | ![Compostaje](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Prospect_Av_Greenwood_Av_td_%282019-09-16%29_05_-_Compost_Bins.jpg/320px-Prospect_Av_Greenwood_Av_td_%282019-09-16%29_05_-_Compost_Bins.jpg) | Compost / Compostaje | Compost / Compostaje | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 
 # Plastic-Batteries-Oil / Plásticos-baterías-aceite
 
 | Icon / Ícono  | Example / Ejemplo  | Description / Descripción  | Text on the GPX point / Texto del punto en el GPX (waypoint)  | OSM mapping schema / Esquema de mapeo sugerido en OSM  |
 | ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
-| - | ![Plástico general](https://upload.wikimedia.org/wikipedia/commons/9/9b/Jerusalem_Musrara_Shivtei_Israel_street_plastic_bottles_recycling.jpg) | All plastic / Plástico general | All plastic / Plástico general | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| - | ![Plástico general](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jerusalem_Musrara_Shivtei_Israel_street_plastic_bottles_recycling.jpg/320px-Jerusalem_Musrara_Shivtei_Israel_street_plastic_bottles_recycling.jpg) | All plastic / Plástico general | All plastic / Plástico general | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 | - | - | Polystyrene foam / Icopor / poliestireno | Polystyrene foam / Icopor / poliestireno | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
-| ![Tapas de botellas](recycling_icons/plastic_bottle_cap.png) | ![Tapas de botellas](https://upload.wikimedia.org/wikipedia/commons/6/6f/Bottle_Cap_Recycling_%2819740699084%29.jpg) | Plastic bottle caps / Tapas de botellas | Plastic bottle caps / Tapas de botellas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Tapas de botellas](recycling_icons/plastic_bottle_cap.png) | ![Tapas de botellas](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Bottle_Cap_Recycling_%2819740699084%29.jpg/320px-Bottle_Cap_Recycling_%2819740699084%29.jpg) | Plastic bottle caps / Tapas de botellas | Plastic bottle caps / Tapas de botellas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 | ![Baterías y pilas](recycling_icons/battery.png) | ![Baterías y pilas](https://upload.wikimedia.org/wikipedia/commons/a/a3/Vigo_-_reciclaje_de_residuos_urbanos_01.jpg) | Batteries / Baterías y pilas | Batteries / Baterías y pilas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
-| ![Baterías de carro](recycling_icons/car_battery.png) | ![Baterías de carro](https://upload.wikimedia.org/wikipedia/commons/4/49/Diamond_Energie_car_battery.jpg) | Car batteries / Baterías de carro | Car batteries / Baterías de carro | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| ![Baterías de carro](recycling_icons/car_battery.png) | ![Baterías de carro](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Diamond_Energie_car_battery.jpg/310px-Diamond_Energie_car_battery.jpg) | Car batteries / Baterías de carro | Car batteries / Baterías de carro | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 | ![Aceite de cocina](recycling_icons/cooking_oil.png) | ![Aceite de cocina](https://upload.wikimedia.org/wikipedia/commons/b/b9/Alicante_-_Reciclaje_de_residuos_urbanos_03.jpg) | Cooking oil / Aceite de cocina | Cooking oil / Aceite de cocina | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 | ![Aceite de carro](recycling_icons/engine_oil.png) | ![Aceite de carro](https://upload.wikimedia.org/wikipedia/commons/b/bb/Mobil_1_motor_oil.jpg) | Engine oil / Aceite de carro | Engine oil / Aceite de carro | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 
@@ -58,8 +58,8 @@ Estos son los botones y su descripción para tomar en terreno elementos asociado
 | ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
 | ![Computadores](recycling_icons/computers.png) | ![Computadores](https://upload.wikimedia.org/wikipedia/commons/a/a5/TV_and_Computer_Monitor_Recycling_Pen_-_geograph.org.uk_-_1025508.jpg) | Computers / Computadores | Computers / Computadores | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 | ![Celulares](recycling_icons/mobile_phone.png) | ![Celulares](https://upload.wikimedia.org/wikipedia/commons/4/4d/Telenor_mobile_recycling_innsamling4.JPG) | Mobile phones / Celulares | Mobile phones / Celulares | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
-| ![Electrónicos]() | ![Electrónicos](https://upload.wikimedia.org/wikipedia/commons/c/c6/Waste_electrical_c.png) | Electronics / Electrónicos | Electronics / Electrónicos | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
-| <img src="recycling_icons/bulb.png" style="zoom:33%;background-color: gray;" /> | ![Bombillos]() | Bulbs / Bombillos | Bulbs / Bombillos | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| - | ![Electrónicos](https://upload.wikimedia.org/wikipedia/commons/c/c6/Waste_electrical_c.png) | Electronics / Electrónicos | Electronics / Electrónicos | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
+| <img src="recycling_icons/bulb.png" style="zoom:33%;background-color: gray;" /> | - | Bulbs / Bombillos | Bulbs / Bombillos | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `` |
 
 
 
