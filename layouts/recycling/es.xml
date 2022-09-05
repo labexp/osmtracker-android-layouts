@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="textnote" icon="text_32x32" />
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+		</row>
+		<row>
+			<button type="page" label="Canecas" targetlayout="canecas" icon="recycling_icons/waste_basket.png" />
+			<button type="tag" label="Distribuidor de bolsas" icon="recycling_icons/dog_excrement_bag_vending.png" />
+			<button type="page" label="Contenedor de reciclaje" targetlayout="contenedores" icon="recycling_icons/container.png" />
+		</row>
+		<row>
+			<button type="tag" label="Contenedor para camión de basuras" icon="recycling_icons/waste_disposal.png" />
+			<button type="tag" label="Centro de reciclaje" />
+			<button type="tag" label="Centro de acopio" />
+		</row>
+		<row>
+			<button type="tag" label="Relleno" />
+			<button type="tag" label="PTAR" />
+		</row>
+	</layout>
+	<layout name="canecas">
+		<row>
+			<button type="tag" label="Caneca para basuras" icon="recycling_icons/waste_basket.png" />
+			<button type="tag" label="Caneca sobre poste" icon="recycling_icons/bin_on_lamp.png" />
+		</row>
+		<row>
+			<button type="tag" label="Caneca para desecho de animal" icon="recycling_icons/dog_excrement.png" />
+			<button type="tag" label="Caneca para cigarrillos" icon="recycling_icons/cigarretes_basket.png" />
+		</row>
+	</layout>
+	<layout name="contenedores">
+		<row>
+			<button type="page" label="Plástico/Baterías/Aceite" targetlayout="pl-ba-ac" />
+			<button type="tag" label="Papel" />
+			<button type="tag" label="Vidrio" icon="recycling_icons/glass.png" />
+		</row>
+		<row>
+			<button type="page" label="Eléctricos/Electrónicos" icon="recycling_icons/" targetlayout="elect" />
+			<button type="tag" label="Llantas" icon="recycling_icons/tyres.png" />
+		</row>
+		<row>
+			<button type="tag" label="Medicinas" icon="recycling_icons/drugs.png" />
+			<button type="tag" label="Compostaje" />
+		</row>
+	</layout>
+	<layout name="pl-ba-ac">
+		<row>
+			<button type="tag" label="Plástico general" icon="recycling_icons/plastic.png" />
+			<button type="tag" label="Icopor / poliestireno" />
+			<button type="tag" label="Tapas de botellas" icon="recycling_icons/plastic_bottle_cap.png" />
+		</row>
+		<row>
+			<button type="tag" label="Baterías y pilas" icon="recycling_icons/battery.png" />
+			<button type="tag" label="Baterías de carro" icon="recycling_icons/car_battery.png" />
+		</row>
+		<row>
+			<button type="tag" label="Aceite de cocina" icon="recycling_icons/cooking_oil.png" />
+			<button type="tag" label="Aceite de carro" icon="recycling_icons/engine_oil.png" />
+		</row>
+	</layout>
+	<layout name="elect">
+		<row>
+			<button type="tag" label="Computadores" icon="recycling_icons/computers.png" />
+			<button type="tag" label="Celulares" icon="recycling_icons/mobile_phone.png" />
+		</row>
+		<row>
+			<button type="tag" label="Electrónicos" />
+			<button type="tag" label="Bombillos" icon="recycling_icons/bulb.png" />
+		</row>
+	</layout>
+</layouts>
