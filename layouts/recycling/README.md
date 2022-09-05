@@ -1,8 +1,9 @@
 # Disposición de botones de reciclaje y gestión de residuos sólidos
 
-Una vez descargada la disposición de botones ser verá como la siguiente:
+<!--Una vez descargada la disposición de botones ser verá como la siguiente:
 
 <img src="captura_pantalla.jpg" style="zoom: 50%;" />
+-->
 
 Estos son los botones y su descripción para tomar en terreno elementos asociados al reciclaje y la gestión de residuos sólidos (basuras). Igualmente indica cómo se deben mapear en OSM.
 
