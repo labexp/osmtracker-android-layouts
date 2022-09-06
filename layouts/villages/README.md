@@ -1,0 +1,7 @@
+# Villages
+
+Ezzel a presettel könnyen rögzíthetjük a magyar falvakban megtalálható gyakori objektumokat. Ilyenek például a tűzcsapok, padok, ivóvizek, útmentő kőkeresztek, stb.
+
+---
+
+With this layout preset you can easily record the object which are found in many villages in Hungary.
