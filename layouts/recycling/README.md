@@ -1,8 +1,10 @@
 # Disposición de botones de reciclaje y gestión de residuos sólidos
 
+<!--
 Una vez descargada la disposición de botones ser verá como la siguiente:
 
 <img src="captura_pantalla.jpg" style="zoom: 50%;" />
+-->
 
 Estos son los botones y su descripción para tomar en terreno elementos asociados al reciclaje y la gestión de residuos sólidos (basuras). Igualmente indica cómo se deben mapear en OSM.
 
@@ -10,7 +12,7 @@ Estos son los botones y su descripción para tomar en terreno elementos asociado
 
 | Icon / Ícono  | Example / Ejemplo  | Description / Descripción  | Text on the GPX point / Texto del punto en el GPX (waypoint)  | OSM mapping schema / Esquema de mapeo sugerido en OSM  |
 | ------ | -------- | ------------ | ------------------------------------- | --------------------------------- |
-| Page / página ![Canecas](recycling_icons/waste_basket.png) | ![Caneca](https://wiki.openstreetmap.org/w/images/2/22/M%C3%BClleimer_%C3%96PNV.JPG)  | Waste basket / Caneca  | - | - |
+| Page / página ![Canecas](recycling_icons/waste_basket.png) | ![Caneca](https://wiki.openstreetmap.org/wiki/File:Vuilnisbak-Lebbeke.JPG)  | Waste basket / Caneca  | - | - |
 | ![Distribuidor de bolsas](recycling_icons/dog_excrement_bag_vending.png) | ![Distribuidor de bolsas](https://wiki.openstreetmap.org/w/images/8/8c/Dog_excrement_bags.jpg) | Place with available bags for pickup and collection of animal waste. / Distribuidor de bolsas para excrementos de perros | Vending excrement bags / Distribuidor de bolsas | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `vending=excrement_bags` |
 | Page / página ![Contenedor de reciclaje](recycling_icons/container.png) | ![Contenedor de reciclaje](https://wiki.openstreetmap.org/w/images/8/80/Altglas.jpg) | Recycling container / Contenedor de reciclaje |  | - | - |
 | ![Contenedor para camión de basuras](recycling_icons/waste_disposal.png) | ![Contenedor para camión de basuras](https://wiki.openstreetmap.org/w/images/6/6b/Waste_container.jpg) | Waste disposal is used for medium and large waste bins, typically for bagged up household or industrial waste. They may be in the street, but they are not primarily for use by passing pedestrians. / Contenedor para camión de basuras | Waste container / Contenedor para camión de basuras | Node ![](https://wiki.openstreetmap.org/w/images/2/20/Mf_node.svg): `amenity=waste_disposal` |
