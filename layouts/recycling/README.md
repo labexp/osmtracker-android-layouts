@@ -1,12 +1,11 @@
-# Disposición de botones de reciclaje y gestión de residuos sólidos
+# Recycling and solid waste management button layout / Disposición de botones de reciclaje y gestión de residuos sólidos
 
-<!--
-Una vez descargada la disposición de botones ser verá como la siguiente:
+
+Once downloaded the button layout will look like the following: / Una vez descargada la disposición de botones ser verá como la siguiente:
 
 <img src="captura_pantalla.jpg" style="zoom: 50%;" />
--->
 
-Estos son los botones y su descripción para tomar en terreno elementos asociados al reciclaje y la gestión de residuos sólidos (basuras). Igualmente indica cómo se deben mapear en OSM.
+These are the buttons and their description to take elements associated with recycling and solid waste (garbage) management on the ground. It also indicates how they should be mapped in OSM. / Estos son los botones y su descripción para tomar en terreno elementos asociados al reciclaje y la gestión de residuos sólidos (basuras). Igualmente indica cómo se deben mapear en OSM.
 
 # Main page / Pantalla principal
 
