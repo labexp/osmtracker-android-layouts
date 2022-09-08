@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="tag" label="Bal oldal" />
+            <button type="tag" label="Jobb oldal" />
+        </row>
+        <row>
+            <button type="tag" label="Tűzcsap" />
+            <button type="tag" label="Szemeteskosár" />
+            <button type="tag" label="Pad" />
+        </row>
+        <row>
+            <button type="tag" label="Útmenti kereszt" />
+            <button type="tag" label="Ivóvíz" />
+        </row>
+        <row>
+            <button type="tag" label="Telefon" />
+            <button type="tag" label="Postaláda" />
+            <button type="tag" label="Buszmegálló" />
+        </row>
+        <row>
+            <button type="tag" label="Bolt" />
+            <button type="tag" label="Községháza" />
+            <button type="tag" label="Művelődési ház / Kultúrház" />
+        </row>
+        <row>
+            <button type="tag" label="Bölcsöde" />
+            <button type="tag" label="Óvoda" />
+            <button type="tag" label="Iskola" />
+        </row>
+    </layout>
+</layouts>
