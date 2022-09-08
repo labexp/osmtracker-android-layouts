@@ -1,0 +1,4 @@
+<metadata>
+    <option iso="hu" name="Magyar"> Ezzel az elrendezéssel könnyen térképezhetünk fel falvakat. A felső két gombbal (bal és jobb) megadhatjuk, hogy az út mely oldalán található az adott objektum. </option>
+    <github username="MMate2007" repo="osmtracker-android-layouts" branch="villages" />
+</metadata>
