@@ -3,7 +3,7 @@
 
 Once downloaded the button layout will look like the following: / Una vez descargada la disposición de botones ser verá como la siguiente:
 
-<img src="captura_pantalla.jpg" style="zoom: 50%;" />
+<img src="captura_pantalla.jpg" style="zoom: 25%;" />
 
 These are the buttons and their description to take elements associated with recycling and solid waste (garbage) management on the ground. It also indicates how they should be mapped in OSM. / Estos son los botones y su descripción para tomar en terreno elementos asociados al reciclaje y la gestión de residuos sólidos (basuras). Igualmente indica cómo se deben mapear en OSM.
 
