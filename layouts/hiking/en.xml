@@ -1,0 +1,218 @@
+<layouts>
+        <layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="page" label="Ways" targetlayout="ways"/>
+			<button type="page" label="Way surfaces" targetlayout="ways-advanced"/>
+			<button type="page" label="Along ways" targetlayout="along-ways"/>
+		</row>
+		<row>
+			<button type="page" label="Sites" targetlayout="sites"/>
+			<button type="page" label="Symbols" targetlayout="symbols"/>
+			<button type="page" label="Roads/transit" targetlayout="road"/>
+			<button type="page" label="Water" targetlayout="water"/>
+		</row>
+		<row>
+			<button type="tag" label="Left side"/>
+			<button type="tag" label="Right side"/>
+		</row>
+		<row>
+			<button type="tag" label="Mark 1"/>
+			<button type="tag" label="Mark 2"/>
+		</row>
+	</layout>
+        <layout name="ways">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Way = Path"/>
+			<button type="tag" label="Way = Track"/>
+			<button type="tag" label="Way = Footway"/>
+		</row>
+		<row>
+			<button type="tag" label="Stairs Start"/>
+			<button type="tag" label="Bridge Start"/>
+			<button type="tag" label="Duckboard start"/>
+		</row>
+		<row>
+			<button type="tag" label="END"/>
+			<button type="tag" label="Nothing here"/>
+			<button type="tag" label="Connected"/>
+			<button type="tag" label="Separate"/>
+		</row>
+		<row>
+			<button type="tag" label="Cycle = yes"/>
+			<button type="tag" label="Horse = yes"/>
+			<button type="tag" label="Ski = yes"/>
+		</row>
+		<row>
+			<button type="tag" label="Viz = excellent"/>
+			<button type="tag" label="Viz = good"/>
+			<button type="tag" label="Viz = intermediate"/>
+			<button type="tag" label="Viz = bad"/>
+		</row>
+	</layout>
+        <layout name="ways-advanced">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Su= Asphalt"/>
+			<button type="tag" label="Su= Compacted"/>
+			<button type="tag" label="Su= Earth"/>
+		</row>
+		<row>
+			<button type="tag" label="Su= Rock"/>
+			<button type="tag" label="Su= Fine Grv"/>
+			<button type="tag" label="Su= Gravel"/>
+		</row>
+		<row>
+			<button type="tag" label="Sm= small wheels"/>
+			<button type="tag" label="Sm= racing bike"/>
+			<button type="tag" label="Sm= city bike"/>
+			<button type="tag" label="Sm= mtn bike"/>
+		</row>
+		<row>
+			<button type="tag" label="Sm= car"/>
+			<button type="tag" label="Sm= no wheels"/>
+		</row>
+		<row>
+			<button type="tag" label="Diff = SAC1 hiking"/>
+			<button type="tag" label="Diff = SAC2 mtn hiking"/>
+			<button type="tag" label="Diff = SAC3 difficult mtn"/>
+		</row>
+	</layout>
+        <layout name="along-ways">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Info = Map"/>
+			<button type="tag" label="Info = Guidepost"/>
+			<button type="tag" label="Info = Nature"/>
+			<button type="tag" label="Info = History"/>
+		</row>
+		<row>
+			<button type="tag" label="Picnic table"/>
+			<button type="tag" label="Bench"/>
+			<button type="tag" label="Viewpoint"/>
+			<button type="tag" label="Trash"/>
+		</row>
+		<row>
+			<button type="tag" label="Cliff"/>
+		</row>
+	</layout>
+        <layout name="sites">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+
+			<button type="tag" label="Picnic shelter"/>
+			<button type="tag" label="Lean-to"/>
+			<button type="tag" label="Basic hut"/>
+			<button type="tag" label="Camp site"/>
+		</row>
+		<row>
+			<button type="tag" label="Picnic table"/>
+			<button type="tag" label="Bench"/>
+			<button type="tag" label="Fire pit"/>
+			<button type="tag" label="Grill spot"/>
+		</row>
+		<row>
+			<button type="tag" label="Firewood"/>
+			<button type="tag" label="Toilet"/>
+			<button type="tag" label="Trash"/>
+		</row>
+		<row>
+			<button type="tag" label="Stone (detached)"/>
+			<button type="tag" label="Rock"/>
+			<button type="tag" label="Cliff"/>
+		</row>
+	</layout>
+        <layout name="road">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Parking"/>
+		</row>
+	</layout>
+        <layout name="water">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Stream"/>
+			<button type="tag" label="Canal"/>
+			<button type="tag" label="Drain"/>
+			<button type="tag" label="Ditch"/>
+		</row>
+		<row>
+			<button type="tag" label="Nothing"/>
+			<button type="tag" label="Intermittent"/>
+			<button type="tag" label="Intermittent=no"/>
+			<button type="tag" label="Life ring"/>
+		</row>
+		<row>
+			<button type="tag" label="Dock"/>
+			<button type="tag" label="Dam"/>
+			<button type="tag" label="Weir"/>
+			<button type="tag" label="Waterfall"/>
+		</row>
+		<row>
+			<button type="tag" label="Marina"/>
+			<button type="tag" label="Fuel"/>
+			<button type="tag" label="Water point"/>
+			<button type="tag" label="Septic"/>
+		</row>
+	</layout>
+        <layout name="symbols">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Blue 🟦"/>
+			<button type="tag" label="Green 🟩"/>
+			<button type="tag" label="Orange 🟧"/>
+			<button type="tag" label="Purple 🟪"/>
+		</row>
+		<row>
+			<button type="tag" label="Red 🟥"/>
+			<button type="tag" label="White ⬜"/>
+			<button type="tag" label="Yellow 🟨"/>
+			<button type="tag" label=""/>
+		</row>
+		<row>
+			<button type="tag" label="Diamond ◇"/>
+			<button type="tag" label="Square □"/>
+			<button type="tag" label="V bar ▯"/>
+			<button type="tag" label="H bar ▭"/>
+		</row>
+		<row>
+			<button type="tag" label="Circle ○"/>
+			<button type="tag" label="H line through ─"/>
+			<button type="tag" label="Triangle △"/>
+			<button type="tag" label="(no symbol)"/>
+		</row>
+	</layout>
+</layouts>
