@@ -1,0 +1,69 @@
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Tramo Inicio" icon="infraestructura_vial_icons/tramo-inicio.png" />
+            <button type="page" label="Materiales" targetlayout="materiales"/>
+            <button type="page" label="Uniformidad" targetlayout="uniformidad"/>
+        </row>
+        <row>
+            <button type="tag" label="Tramo Fin" icon="infraestructura_vial_icons/tramo-fin.png" />
+            <button type="tag" label="Empozamiento" icon="infraestructura_vial_icons/empozamiento.png"/>
+            <button type="tag" label="Espaldon" icon="infraestructura_vial_icons/espaldon.png"/>
+        </row>
+        <row>
+            <button type="page" label="Elementos Individuales" targetlayout="elementos_individuales"/>
+            <button type="tag" label="Sombra" icon="infraestructura_vial_icons/sombra.png" />
+            <button type="tag" label="Luz" icon="infraestructura_vial_icons/luz.png" />
+        </row>
+    </layout>
+    <layout name="elementos_individuales">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Semáforo" icon="infraestructura_vial_icons/semáforo.png"/>
+            <button type="tag" label="Alto" icon="infraestructura_vial_icons/alto.png"/>
+            <button type="tag" label="Ceda" icon="infraestructura_vial_icons/ceda.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Rejilla" icon="infraestructura_vial_icons/rejilla.png"/>
+            <button type="tag" label="Bache" icon="infraestructura_vial_icons/bache.png"/>
+            <button type="tag" label="Tren" icon="infraestructura_vial_icons/tren.png"/>
+        </row>
+    </layout>
+    <layout name="materiales">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Asfalto" icon="infraestructura_vial_icons/asfalto.png"/>
+            <button type="tag" label="Concreto" icon="infraestructura_vial_icons/concreto.png"/>
+            <button type="tag" label="Lastre" icon="infraestructura_vial_icons/lastre.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Adoquines" icon="infraestructura_vial_icons/adoquines.png"/>
+            <button type="tag" label="Tierra" icon="infraestructura_vial_icons/tierra.png"/>
+        </row>
+    </layout>
+    <layout name="uniformidad">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Uniformidad Buena" icon="infraestructura_vial_icons/uniformidad-buena.png"/>
+            <button type="tag" label="Uniformidad Intermedia" icon="infraestructura_vial_icons/uniformidad-intermedia.png"/>
+            <button type="tag" label="Uniformidad Mala" icon="infraestructura_vial_icons/uniformidad-mala.png"/>
+        </row>
+    </layout>
+</layouts>

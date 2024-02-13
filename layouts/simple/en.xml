@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="voicerec" label="Voice" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="textnote" label="Text" icon="logo_textnote"/>
+			<button type="picture" label="Photo" icon="logo_camera"/>
+		</row>
+	</layout>
+</layouts>

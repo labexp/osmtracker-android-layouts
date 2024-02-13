@@ -1,0 +1,33 @@
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Tramo inicio" icon="obstáculos_para_ciclístas_icons/tramo-inicio.png" />
+            <button type="tag" label="Parqueo vía" icon="obstáculos_para_ciclístas_icons/parqueo-vía.png" />
+        </row>
+        <row>
+            <button type="tag" label="Tramo fin" icon="obstáculos_para_ciclístas_icons/tramo-fin.png" />
+            <button type="tag" label="Parada buses vía" icon="obstáculos_para_ciclístas_icons/parada-buses-vía.png"/>
+        </row>
+        <row>
+            <button type="page" label="Elementos individuales" targetlayout="elementos_individuales"/>
+            <button type="tag" label="Parada taxi vía" icon="obstáculos_para_ciclístas_icons/parada-taxis-vía.png" />
+        </row>
+    </layout>
+    <layout name="elementos_individuales">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Parada bus" icon="obstáculos_para_ciclístas_icons/parada-bus.png"/>
+            <button type="tag" label="Zona descarga" icon="obstáculos_para_ciclístas_icons/zona-descarga.png"/>
+            <button type="tag" label="Salida derecha" icon="obstáculos_para_ciclístas_icons/salida-derecha.png"/>
+        </row>
+    </layout>
+</layouts>

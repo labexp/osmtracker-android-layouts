@@ -1,0 +1,41 @@
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Ciclovía Inicio" icon="infraestructura_ciclista_icons/ciclovía-inicio.png" />
+            <button type="tag" label="Ciclo Carril Inicio" icon="infraestructura_ciclista_icons/ciclo-carril-inicio.png"/>
+            <button type="tag" label="Sharrow Inicio" icon="infraestructura_ciclista_icons/sharrow-inicio.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Ciclovía Fin" icon="infraestructura_ciclista_icons/ciclovía-fin.png" />
+            <button type="tag" label="Ciclo Carril Fin" icon="infraestructura_ciclista_icons/ciclo-carril-fin.png"/>
+            <button type="tag" label="Sharrow Fin" icon="infraestructura_ciclista_icons/sharrow-fin.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Barra Confinamiento Inicio" icon="infraestructura_ciclista_icons/barra-confinamiento-inicio.png" />
+            <button type="tag" label="Barra Confinamiento Fin" icon="infraestructura_ciclista_icons/barra-confinamiento-fin.png" />
+            <button type="page" label="Elementos Individuales" targetlayout="elementos_individuales"/>
+        </row>
+    </layout>
+    <layout name="elementos_individuales">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Bici Caja" icon="infraestructura_ciclista_icons/bici-caja.png"/>
+            <button type="tag" label="Bolardo" icon="infraestructura_ciclista_icons/bolardo.png"/>
+            <button type="tag" label="Trayectoria" icon="infraestructura_ciclista_icons/trayectoria.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Ceda Ciclista" icon="infraestructura_ciclista_icons/ceda-ciclista.png"/>
+            <button type="tag" label="Parqueo" icon="infraestructura_ciclista_icons/parqueo.png"/>
+        </row>
+    </layout>
+
+</layouts>
